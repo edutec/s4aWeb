@@ -7,12 +7,13 @@ button,
 input,
 select,
 textarea {
-    color: #222;
+    color: #4A4A4A;
 }
 
 body {
     font-size: 1em;
     line-height: 1.4;
+	background: #E0E0E0;
 }
 
 ::-moz-selection {
@@ -64,15 +65,14 @@ textarea {
 }
 
 #portamento_container #menu-container.fixed {
-	position:fixed;
-    background: #f16529;
+   	position:fixed;
 	width: 100%;
 }
 
 #menu-container.fixed a,
 #menu-container.fixed a:hover,
 #menu-container.fixed a:visited {
-    color: white;
+    color: #EEE;
 }
 
 
@@ -90,22 +90,24 @@ body {
 }
 
 /* ===================
-    ALL: Orange Theme
+    ALL: S4A Theme
    =================== */
 
-.footer-container,
-.main aside {
-    border-top: 20px solid #e44d26;
-}
-
 .header-container,
-.footer-container,
+.footer-container {
+    background: #254E69;
+}
 .main aside {
-    background: #f16529;
+	background: #ff980d;
 }
 
-.title {
-    color: white;
+.header-container, 
+#portamento_container #menu-container.fixed {
+    border-bottom: 8px solid #4088B6;
+}
+
+#portamento_container #menu-container.fixed {
+    background: #254E69;
 }
 
 /* ==============
@@ -125,12 +127,12 @@ nav a {
     text-decoration: none;
     font-weight: bold;
 
-    color: #e44d26;
+    color: #254E69;
 }
 
 nav a:hover,
 nav a:visited {
-    color: #e44d26;
+    color: #254E69;
 }
 
 nav a:hover {
@@ -150,13 +152,13 @@ nav a:hover {
 }
 
 .main aside {
-    margin: 36px 0;
-    color: white;
+    margin: 52px 0;
+    color: #EEE;
     padding: 0px 5% 10px;
 }
 
 .footer-container footer {
-    color: white;
+    color: #EEE;
     padding: 20px 0;
 }
 
@@ -172,7 +174,10 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
-
+.header-container {
+	height: 160px;
+	padding: 10px 0;
+}
 
 /* ==========================================================================
    Media Queries
