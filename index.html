@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="js/vendor/jquery-1.10.1.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -26,8 +27,8 @@
             </header>
         </div>
 
-		<div class="menu-container">
-            <nav class="wrapper clearfix">
+		<div id= "menu-container" class="">
+            <nav id="menu" class="wrapper clearfix">
                 <ul>
                     <li><a href="#about">About</a></li>
                     <li><a href="#docs">Docs</a></li>
@@ -129,11 +130,19 @@
 
         <script src="js/main.js"></script>
 
+        <script src="js/vendor/portamento.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('#menu-container').portamento({gap: 0});
+			});
+		</script>
+
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src='//www.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
         </script>
+
     </body>
 </html>

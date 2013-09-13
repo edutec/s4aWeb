@@ -55,6 +55,26 @@ textarea {
     padding: 0.2em 0;
 }
 
+/* ==========================================================================
+   PORTAMENTO Styles
+   ========================================================================== */
+
+#portamento_container {
+	width: 100%;
+}
+
+#portamento_container #menu-container.fixed {
+	position:fixed;
+    background: #f16529;
+	width: 100%;
+}
+
+#menu-container.fixed a,
+#menu-container.fixed a:hover,
+#menu-container.fixed a:visited {
+    color: white;
+}
+
 
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
@@ -72,10 +92,6 @@ body {
 /* ===================
     ALL: Orange Theme
    =================== */
-
-.header-container {
-    border-bottom: 20px solid #e44d26;
-}
 
 .footer-container,
 .main aside {
@@ -103,8 +119,7 @@ nav ul {
 
 nav a {
     display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
+    padding: 5px 0;
 
     text-align: center;
     text-decoration: none;
@@ -126,8 +141,8 @@ nav a:hover {
     MOBILE: Main
    ============== */
 
-.main {
-    padding: 30px 0;
+.main article {
+	padding-top: 36px;
 }
 
 .main article h1 {
@@ -135,6 +150,7 @@ nav a:hover {
 }
 
 .main aside {
+    margin: 36px 0;
     color: white;
     padding: 0px 5% 10px;
 }
@@ -158,18 +174,6 @@ nav a:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -182,7 +186,7 @@ nav a:hover {
 
     nav a {
         float: left;
-        margin: 1em 1%;
+        margin: 0 1%;
         padding: 5px 2% 5px 0;
         margin-bottom: 0;
     }
@@ -210,16 +214,6 @@ nav a:hover {
 
 @media only screen and (min-width: 768px) {
 
-/* ====================
-    WIDE: CSS3 Effects
-   ==================== */
-
-    .header-container,
-    .main aside {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
-    }
 
 /* ============
     WIDE: Menu
@@ -256,7 +250,7 @@ nav a:hover {
     Maximal Width
    =============== */
 
-    .wrapper {
+    .wrapper , #portamento_container nav.fixed {
         width: 1026px; /* 1140px - 10% for margins */
         margin: 0 auto;
     }
