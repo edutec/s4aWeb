@@ -59,10 +59,22 @@
 						<small><em>An S4A program to control a light-sensor Theremin, with record and playback capabilities</em></small>
 						<p>Arduino objects offer blocks for the basic microcontroller functionalities, analog and digital writes and reads, and also for higher level ones. You can find blocks to manage standard and continuous rotation servomotors:</p>
 						<p><img src="img/blocks.png"></p>
+                        <p>In S4A, an Arduino board is represented by a special kind of sprite. The Arduino sprite will automatically find the usb port where the board is connected.</p>
+						<p>It is possible to connect to multiple boards at the same time by just adding a new Arduino sprite.</p>
                     </section>
                     <section>
-                        <h2>Features</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
+						<h2>Technical details</h2>
+						<h3>Protocol</h3>
+						<p>S4A interacts with Arduino by sending the actuator states and receiving sensor states every 75 ms, therefore the pulse width needs to be greater than this time period. The data exchange follows the PicoBoard protocol and needs a specific program (firmware) to be installed in the board. Please refer to the <a href="#" onclick="slideTo('#downloads')">Downloads</a> section for further instructions on how to do so.</p>
+						<h3>Supported boards</h3>
+						<p>S4A works with Arduino Diecimila, Duemilanove and Uno. Other boards haven't been tested, but they may also work.</p> 
+						<h3>Connectivity</h3>
+						<p>Components have to be connected in a particular way. S4A allows for 6 analog inputs (analog pins), 2 digital inputs (digital pins 2 and 3), 3 analog outputs (digital pins 5, 6 and 9), 3 digital outputs (pins 10, 11 and 13) and 4 special outputs to connect Parallax continuous rotation servomotors (digital pins 4, 7, 8 and 12).</p>
+						<p>You can manage a board wirelessly by attaching an RF module to it, such as Xbee.</p>
+						<p>S4A allows you to control as many boards as USB ports you have.</p>
+						<h3>Compatibility</h3>
+						<p>S4A is backwards compatible with Scratch, so you can open Scratch projects in it. However, you won't be able to share your projects on the Scratch community website because doing so goes against the Scratch terms of use.</p>
+						<p>Using a PicoBoard along with an Arduino board is also supported.</p>
                     </section>
                 </article>
 
@@ -78,21 +90,21 @@
                 <article id="docs">
                     <header>
                         <h1>Documentation and Examples</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec.</p>
+                        <p></p>
                     </header>
                     <section>
                         <h2>article section h2</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
+                        <p></p>
                     </section>
                     <section>
                         <h2>article section h2</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
+                        <p></p>
                     </section>
                 </article>
 
                 <aside>
-                    <h3>Quick Links</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices.</p>
+                    <h3>External Documentation Links</h3>
+                    <p></p>
                 </aside>
 
 				<!-- DOWNLOADS -->
@@ -110,6 +122,34 @@
                     <section>
                         <h2>article section h2</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
+                    </section>
+                </article>
+
+				<!-- FAQ -->
+
+                <article id="faq">
+                    <header>
+                        <h1>Frequently Asked Questions</h1>
+                    </header>
+                    <section>
+                        <h2>Which boards does S4A support?</h2>
+						<p>S4A works with Arduino Diecimila, Duemilanove and Uno. Other boards haven't been tested, but they may also work.</p> 
+                    </section>
+                    <section>
+                        <h2>Will S4A work on my PC?</h2>
+                        <p>S4A works on the three major consumer operating systems: Microsoft Windows, GNU/Linux and MacOS. So yes, it will most probably work on your PC.</p>
+                    </section>
+                </article>
+
+				<!-- FAQ -->
+
+                <article id="community">
+                    <header>
+                        <h1>Community</h1>
+                    </header>
+                    <section>
+                        <h2>Mailing list</h2>
+						<p></p> 
                     </section>
                 </article>
 
@@ -165,7 +205,7 @@
                 <article id="contact">
                     <header>
                         <h1>Contact Us</h1>
-                        <p>You can reach us at <a mailto="scratch@citilab.eu">scratch@citilab.eu</a> for any suggestions or questions you may have.</p>
+                        <p>You can reach us at <a href="mailto:scratch@citilab.eu" target="_blank">scratch@citilab.eu</a> to report bugs or for any suggestions you may have.</p>
                     </header>
                 </article>
 
@@ -202,11 +242,9 @@
         </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
-
         <script src="js/main.js"></script>
-
         <script src="js/vendor/portamento.js"></script>
+
 		<script>
 			$(document).ready(function() {
 				$('#menu-container').portamento({gap: 0});

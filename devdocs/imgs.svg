@@ -124,9 +124,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="-1372.2311"
-     inkscape:cy="-1113.2706"
+     inkscape:zoom="0.7"
+     inkscape:cx="-1278.9921"
+     inkscape:cy="-854.29045"
      inkscape:document-units="px"
      inkscape:current-layer="capa1"
      showgrid="false"
@@ -155,7 +155,7 @@
      id="capa1">
     <g
        id="g6703"
-       transform="translate(63.571429,-50)">
+       transform="translate(22.86296,-1.2308844)">
       <path
          inkscape:export-ydpi="81.585045"
          inkscape:export-xdpi="81.585045"
@@ -3760,7 +3760,7 @@ rjRu+lyvXJ06wt2BvvIGcM3JQvDmAkBvjTsm9PMApzr0nwYjdL8AAAAASUVORK5CYII=
     </g>
     <g
        id="g6699"
-       transform="translate(233.57143,75)"
+       transform="translate(144.64288,131.78571)"
        inkscape:export-filename="/home/bromagosa/Scratch/s4a/web/img/victor.png"
        inkscape:export-xdpi="81.585045"
        inkscape:export-ydpi="81.585045">
@@ -5155,7 +5155,8 @@ AABJRU5ErkJggg==
        id="g6711"
        inkscape:export-filename="/home/bromagosa/Scratch/s4a/web/img/joan.png"
        inkscape:export-xdpi="81.585007"
-       inkscape:export-ydpi="81.585007">
+       inkscape:export-ydpi="81.585007"
+       transform="translate(673.21446,78.928566)">
       <path
          inkscape:export-ydpi="81.585045"
          inkscape:export-xdpi="81.585045"
@@ -5167,7 +5168,7 @@ AABJRU5ErkJggg==
          sodipodi:cy="1784.1479"
          sodipodi:rx="39.642857"
          sodipodi:ry="39.642857"
-         d="m -1130,1784.1479 a 39.642857,39.642857 0 1 1 -79.2857,0 39.642857,39.642857 0 1 1 79.2857,0 z"
+         d="m -1130,1784.1479 c 0,21.8942 -17.7487,39.6429 -39.6428,39.6429 -21.8942,0 -39.6429,-17.7487 -39.6429,-39.6429 0,-21.8941 17.7487,-39.6428 39.6429,-39.6428 21.8941,0 39.6428,17.7487 39.6428,39.6428 z"
          transform="matrix(1.2612613,0,0,1.2652544,-48.703347,-210.396)" />
       <image
          style="stroke:none"
@@ -9756,7 +9757,8 @@ TfO6jQAAAABJRU5ErkJggg==
        id="g6707"
        inkscape:export-filename="/home/bromagosa/Scratch/s4a/web/img/jose.png"
        inkscape:export-xdpi="81.585045"
-       inkscape:export-ydpi="81.585045">
+       inkscape:export-ydpi="81.585045"
+       transform="translate(375.35731,-144.28571)">
       <path
          inkscape:export-ydpi="81.585045"
          inkscape:export-xdpi="81.585045"
@@ -9768,7 +9770,7 @@ TfO6jQAAAABJRU5ErkJggg==
          sodipodi:cy="1784.1479"
          sodipodi:rx="39.642857"
          sodipodi:ry="39.642857"
-         d="m -1130,1784.1479 a 39.642857,39.642857 0 1 1 -79.2857,0 39.642857,39.642857 0 1 1 79.2857,0 z"
+         d="m -1130,1784.1479 c 0,21.8942 -17.7487,39.6429 -39.6428,39.6429 -21.8942,0 -39.6429,-17.7487 -39.6429,-39.6429 0,-21.8941 17.7487,-39.6428 39.6429,-39.6428 21.8941,0 39.6428,17.7487 39.6428,39.6428 z"
          transform="matrix(1.2612613,0,0,1.2652544,120.93951,12.818284)" />
       <image
          style="stroke:none"
@@ -11767,7 +11769,8 @@ yqgUd1dXl4zlptb/H4+tZLiGvCroAAAAAElFTkSuQmCC
        id="g6715"
        inkscape:export-filename="/home/bromagosa/Scratch/s4a/web/img/jordi.png"
        inkscape:export-xdpi="81.585007"
-       inkscape:export-ydpi="81.585007">
+       inkscape:export-ydpi="81.585007"
+       transform="translate(583.57153,8.9285656)">
       <path
          inkscape:export-ydpi="81.585045"
          inkscape:export-xdpi="81.585045"
@@ -11779,7 +11782,7 @@ yqgUd1dXl4zlptb/H4+tZLiGvCroAAAAAElFTkSuQmCC
          sodipodi:cy="1784.1479"
          sodipodi:rx="39.642857"
          sodipodi:ry="39.642857"
-         d="m -1130,1784.1479 a 39.642857,39.642857 0 1 1 -79.2857,0 39.642857,39.642857 0 1 1 79.2857,0 z"
+         d="m -1130,1784.1479 c 0,21.8942 -17.7487,39.6429 -39.6428,39.6429 -21.8942,0 -39.6429,-17.7487 -39.6429,-39.6429 0,-21.8941 17.7487,-39.6428 39.6429,-39.6428 21.8941,0 39.6428,17.7487 39.6428,39.6428 z"
          transform="matrix(1.2612613,0,0,1.2652544,-215.48906,-140.396)" />
       <image
          transform="translate(18.46382,-40.464023)"
