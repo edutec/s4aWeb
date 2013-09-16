@@ -179,6 +179,17 @@ nav a:hover {
 	padding: 10px 0;
 }
 
+.balloon {
+	float: right;
+	margin-top: -70px;
+	margin-right: -25px;
+}
+
+.avatar {
+	margin-right: 10px;
+	float: left;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
