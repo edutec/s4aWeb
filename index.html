@@ -32,9 +32,10 @@
                 <ul>
                     <li><a href="#" onclick="slideTo('#about')">About</a></li>
                     <li><a href="#" onclick="slideTo('#docs')">Docs</a></li>
+                    <li><a href="#" onclick="slideTo('#android')">Android</a></li>
+                    <li><a href="#" onclick="slideTo('#changelog')">Changelog</a></li>
                     <li><a href="#" onclick="slideTo('#downloads')">Downloads</a></li>
                     <li><a href="#" onclick="slideTo('#faq')">FAQ</a></li>
-                    <li><a href="#" onclick="slideTo('#community')">Community</a></li>
                     <li><a href="#" onclick="slideTo('#team')">Team</a></li>
                     <li><a href="#" onclick="slideTo('#contact')">Contact</a></li>
                 </ul>
@@ -54,9 +55,10 @@
                     </header>
                     <section>
                         <h2>The interface</h2>
-                        <img src="img/shot01.png"/>
-						<br/>
-						<small><em>An S4A program to control a light-sensor Theremin, with record and playback capabilities</em></small>
+                        <p>
+							<img src="img/shot01.png"/>
+							<small><em>An S4A program to control a light-sensor Theremin, with record and playback capabilities</em></small>
+						</p>
 						<p>Arduino objects offer blocks for the basic microcontroller functionalities, analog and digital writes and reads, and also for higher level ones. You can find blocks to manage standard and continuous rotation servomotors:</p>
 						<p><img src="img/blocks.png"></p>
                         <p>In S4A, an Arduino board is represented by a special kind of sprite. The Arduino sprite will automatically find the usb port where the board is connected.</p>
@@ -90,22 +92,152 @@
                 <article id="docs">
                     <header>
                         <h1>Documentation and Examples</h1>
-                        <p></p>
+                        <p>Here you'll find all the documentation, videos, examples and exercices we have created.</p>
                     </header>
+					<section>
+						<h2>Workshop</h2>
+						<p>A zip file with complete materials and exercices for a workshop can be downloaded here:</p>
+						<p><a href="downloads/s4a-workshop.zip">Elisava Workshop Materials 2011</a></p>
+						<p>These materials were created and used by our team in an actual S4A course at the Elisava School of Design (Barcelona) in 2011.</p>
+					</section>
+					<section>
+						<h2>Basic Examples</h2>
+						<p>Here you'll find basic S4A examples, complete with the Arduino schematics and an .sb Scratch project file for you to download.</p>
+						<h3>Button and LED</h3>
+						<p>A simple example showing how to trigger an LED by pushing a button.</p>
+						<p><img src="examples/button_led.png" width="580"/></p>
+						<p><a href="examples/button_led.sb">Code</a></p>
+						<h3>RGB LED</h3>
+						<p>Using an RGB LED from Scratch.</p>
+						<p><img src="examples/rgb_led.png"/></p>
+						<p><a href="examples/rgb_led.sb">Code</a></p>
+						<h3>Button, LED and keeping state</h3>
+						<p>An LED that switches state when we push a button.</p>
+						<p><img src="examples/switch_led.png" width="580"/></p>
+						<p><a href="examples/button_led_with_state.sb">Code</a></p>
+						<h3>Photoresistor and LED</h3>
+						<p>Using the input of a photoresistor sensor to trigger an LED.</p>
+						<p><img src="examples/photoresistor_led.png" width="580"/></p>
+						<p><a href="examples/photoresistor_led.sb">Code</a></p>
+					</section>
+
                     <section>
-                        <h2>article section h2</h2>
-                        <p></p>
+                        <h2>Videos</h2>
+						<p>Some of the following demos are in Catalan or Spanish, but the images pretty much speak for themselves. Some of the videos have English subtitles as well.</p>
+						
+						<h3>Full-featured Robot</h3>
+						<p>A robot with a rotative camera, distance sensors and a remote control. It uses two arduino boards (remote control + robot), an XBee wireless module, three IR sensors, a camera module and three servomotors.</p> 
+						<p><iframe width="580" height="327" src="http://www.youtube.com/embed/IzGGv9xkkRs?feature=player_embedded" frameborder="0" allowfullscreen></iframe></p>
+						
+						<h3>S4A Workshop Introduction</h3>
+						<p>This video serves as an introduction for the S4A workshops given at Citilab, but you'll find a couple of demos of what can be achieved with our software.</p>
+						<p><iframe width="580" height="327" src="http://www.youtube.com/embed/RJAgSUIf12U?feature=player_detailpage" frameborder="0" allowfullscreen></iframe></p>
                     </section>
                     <section>
-                        <h2>article section h2</h2>
-                        <p></p>
+                        <h2>Exercices</h2>
+						<p><a href="downloads/s4a-sample01.pdf" target="_blank">Music: A theremin-like instrument</a></p>
+						<p><a href="downloads/s4a-sample02.pdf" target="_blank">Domotics: A blind curtain controller</a></p>
+						<p><a href="downloads/s4a-sample03.pdf" target="_blank">Robotics: A keyboard-driven car</a></p>
+                    </section>
+                    <section>
+                        <h2>For Developers</h2>
+						<p><a href="downloads/s4a-protocol.pdf" target="_blank">S4A Protocol Specs</a></p>
                     </section>
                 </article>
 
                 <aside>
                     <h3>External Documentation Links</h3>
-                    <p></p>
+                    <p><a href="https://scratch-io.wikispaces.com/" target="_blank">Scratch IO Wiki - by José Javier Vitón</a></p>
+                    <p><a href="http://www.arduteka.com/tag/s4a/" target="_blank">Arduteka Blog: S4A</a></p>
+                    <p><a href="http://seaside.citilab.eu/scratch/arduino/" target="_blank">Old S4A website (outdated)</a></p>
                 </aside>
+
+				<!-- ANDROID -->
+
+                <article id="android">
+                    <header>
+                        <h1>Android</h1>
+                    </header>
+                    <section>
+                        <h2>Hi Scratch for Arduino!</h2>
+						<p>We have developed a simple Android application that can communicate with S4A through HTTP by means of the remote sensors protocol in Scratch. You can download it <a href="downloads/hi-s4a.apk">here</a> or by scanning the QR code below:</p>
+						<p><img src="img/hi-s4a-qr.png"/></p>
+						<p>To use it, follow the instructions below:</p>
+						<ul>
+							<li>In S4A, enable remote sensors (right click on any "Sensors" block)</li>
+							<li>In HiS4A (Android), type the local network IP of the PC where S4A is running (you can find that out thorugh Edit &gt; Show IP address), plus the prefix (only needed if you are connecting from more than one Android client)</li>
+							<li>The buttons correspond to messages and the touchpad and slider to remote sensors <br/><img src="img/shot02.jpg"/></li>
+						</ul>
+						<em><strong>IMPORTANT!</strong> Both S4A as HiS4A must be connected to the same local network!</em>
+                    </section>
+					<section>
+						<h2>HTTP API</h2>
+						<p>The Android application uses a very simple protocol we developed on top of the Scratch HTTP message protocol, so it is also possible to interact to S4A from a browser or any other network enabled application.</p>
+						<p>You will first need to enable the remote sensors option in S4A (right click on any "Sensors" block).</p>
+						<h3>Message Specification</h3>
+						<p>Broadcast a message:<br/>
+						<strong>http://[IP]:42001/broadcast=[message-name]</strong></p>
+						<p>Send the value of a remote sensor (for instance, the client's accelerometer, mouse position, etc):<br/>
+						<strong>http://[IP]:42001/sensor-update=[sensor-name]=[value]</strong></p>
+						<p>Update an S4A variable:<br/>
+						<strong>http://[IP]:42001/vars-update=[variable-name]=[value]</strong></p>
+					</section>
+       				<section>
+						<h2>Test web application</h2>
+						<p>If you want to see the HTTP API in action, you can do so from our test webapp:</p>
+						<p><a href="android/index.html" target="_blank">Hi S4A! from the Web</a></p>
+						<p>Using the example web application:</p>
+						<ul>
+							<li>S4A variables whose name starts with a plus sign (i.e. +playerName) are visible and modifiable from the web client</li>
+							<li>S4A variables whose name starts with a minus sign (i.e. -playerScore) are only visible (not modifiable) from the web client</li>
+							<li>S4A variables whose name doesn't start ether with a minus or plus sign are not visible from the web client</li>
+							<li>S4A messages whose name starts with a plus sign (i.e. +startGame) are visible from the web client</li>
+							<li>S4A messages whose name doesn't start plus sign are not visible from the web client</li>
+						</ul>
+					</section>
+				</article>
+				
+
+				
+				<!-- CHANGELOG -->
+                <article id="changelog">
+                    <header>
+                        <h1>Changelog</h1>
+                    </header>
+					<section>
+						<h2>Version 1.5</h2>
+						<ul>
+							<li>Fixed object collision bug (Arduino and non-Arduino)</li>
+							<li>Fixed bug related to persistent message error when stopping and resuming connection with the board</li>
+							<li>Changed indexed primitives to named ones for better compatibility with new Squeak VMs (thanks to Miriam Ruiz for the patch)</li>
+							<li>Changed pin 12 from standard servo to normal digital output</li>
+							<li>Changed default pin at digital on/off blocks from 13 to 10</li>
+							<li>Added reset actuators block</li>
+							<li>Improved Catalan and Spanish translations</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Version 1.4</h2>
+						<ul>
+							<li>Added full compatibility with HTTP protocol (POST AND GET), you can now send messages to S4A and watch/modify variable values from an Internet browser (among other things). See <a href="#" onclick="slideTo('#android')">Android</a> section.</li>
+							<li>Added a "check for updates" option in "Help" menu, from now on there is no need to visit website to check for new versions</li>
+							<li>Language is now detected upon first launch (when Scratch.ini file doesn't exist). Also saved in same file if changed from language menu</li>
+							<li>Serial port where a board is connected opens correctly when S4A is launched</li>
+							<li>Fixed bug in Windows version, in which title bar didn't show the name and version of S4A when launched</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Version 1.3</h2>
+						<ul>
+							<li>Fixed compatibility with Arduino UNO on Linux (thanks to Jorge Gómez). You will need to load the new firmware, besides updating the bootloader in some boards</li>
+							<li>Changed the sensor board names and their corresponding Arduino blocks to show real pin numbers</li>
+							<li>Added server commands to "Edit" menu to manage network communication over sockets</li>
+							<li>Added compatibility for Android apps (HiS4A)</li>
+							<li>Improved Catalan and Spanish translations</li>
+							<li>Lots of bugfixes</li>
+						</ul>
+					</section>
+                </article>
 
 				<!-- DOWNLOADS -->
 
@@ -141,18 +273,6 @@
                     </section>
                 </article>
 
-				<!-- FAQ -->
-
-                <article id="community">
-                    <header>
-                        <h1>Community</h1>
-                    </header>
-                    <section>
-                        <h2>Mailing list</h2>
-						<p></p> 
-                    </section>
-                </article>
-
 				<!-- TEAM -->
 
                 <article id="team">
@@ -182,9 +302,14 @@
 					<section>
 						<h2>Jose García</h2>
 						<img class="avatar" src="img/jose.png"/>
-						<p>Jose studied advanced telecommunications engineering, but started working at a publishing firm before completing his degree.</p>
-						<p>During his time at the company, he worked on programming a wide variety of applications.</p>
+						<p>Jose studied advanced telecommunications engineering, but started working at a publishing firm before completing his degree. During his time at the company, he worked on programming a wide variety of applications.</p>
 						<p>At Citilab, he discovered Scratch and Smalltalk, taking up part of his programming work again. Later on, he joined different projects that aim to establish closer contact between users and programming. He currently leads the Technological Education Research team Edutec.</p>
+					</section>
+					<section>
+						<h2>Bernat Romagosa</h2>
+						<img class="avatar" src="img/bernat.png"/>
+						<p>In 2009, Bernat graduated as a technical engineer in Computer Science at the Open University of Catalonia (UOC). He learned Smalltalk at a course given by Jordi Delgado at Citilab in 2008, where he was later hired to build an online programming school.</p>
+						<p>Since then, he's been involved in several programming projects in Citilab, including a social knowledge management system and different educational applications.</p>
 					</section>
 					<section>
 						<h2>Jordi Delgado</h2>
