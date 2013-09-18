@@ -193,6 +193,7 @@ nav a:hover {
 
 a {
 	color: inherit;
+	cursor: pointer;
 }
 
 a:hover {

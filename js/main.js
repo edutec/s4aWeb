@@ -1,5 +1,5 @@
 function slideTo(cssClass) {
-	$('html, body').animate({
+	$('body').animate({
     scrollTop: $(cssClass).offset().top
- }, 250);
+ }, 500);
 }
