@@ -50,7 +50,7 @@
                 <article id="about">
                     <header>
                         <h1>About S4A</h1>
-                        <p>S4A is a Scratch modification that supports simple programming of the Arduino open source hardware platform. It provides new blocks for managing sensors and actuators connected to Arduino. There is also a sensor report board similar to the PicoBoard one.</p>
+                        <p>S4A is a Scratch modification that supports simple programming of the Arduino open source hardware platform. It provides new blocks for managing sensors and actuators connected to Arduino. There is also a sensors report board similar to the PicoBoard one.</p>
 						<p>It has been created to attract people to the programming world. The goal is also to provide a high level interface to Arduino programmers with functionalities such as interacting with a set of boards through user events.</p>
                     </header>
                     <section>
@@ -66,8 +66,6 @@
                     </section>
                     <section>
 						<h2>Technical details</h2>
-						<h3>Protocol</h3>
-						<p>S4A interacts with Arduino by sending the actuator states and receiving sensor states every 75 ms, therefore the pulse width needs to be greater than this time period. The data exchange follows the PicoBoard protocol and needs a specific program (firmware) to be installed in the board. Please refer to the <a href="#" onclick="slideTo('#downloads')">Downloads</a> section for further instructions on how to do so.</p>
 						<h3>Supported boards</h3>
 						<p>S4A works with Arduino Diecimila, Duemilanove and Uno. Other boards haven't been tested, but they may also work.</p> 
 						<h3>Connectivity</h3>
@@ -76,14 +74,16 @@
 						<p>S4A allows you to control as many boards as USB ports you have.</p>
 						<h3>Compatibility</h3>
 						<p>S4A is backwards compatible with Scratch, so you can open Scratch projects in it. However, you won't be able to share your projects on the Scratch community website because doing so goes against the Scratch terms of use.</p>
+						<p>Take in account that this compatibility doesn't work both ways, so you won't be able to open an S4A project from within the original Scratch.</p>
 						<p>Using a PicoBoard along with an Arduino board is also supported.</p>
+						<h3>Protocol</h3>
+						<p>S4A interacts with Arduino by sending the actuator states and receiving sensor states every 75 ms, therefore the pulse width needs to be greater than this time period. The data exchange follows the PicoBoard protocol and needs a specific program (firmware) to be installed in the board. Please refer to the <a href="#" onclick="slideTo('#downloads')">Downloads</a> section for further instructions on how to do so.</p>
                     </section>
                 </article>
 
                 <aside>
                     <h3>Hardware? Child's Play!</h3>
                     <p>Scratch for Arduino (S4A) is a modified version of Scratch, ready to interact with Arduino boards. It was developed in 2010 by the Citilab Smalltalk Team and it has been used since by many people in a lot of differents projects around the world.</p>
-
 					<p>Our main purpose was to provide an easy way to interact with the real world by taking advantage of the ease of use of Scratch.</p>
                 </aside>
 
@@ -248,6 +248,15 @@
                         <p>Installing S4A requires you to install software both in your PC and your Arduino board. Here you'll find the detailed steps to get it up and running.</p>
                     </header>
                     <section>
+                        <h2>Installing S4A into your computer</h2>
+						<p>S4A works in the three major consumer operating systems. Download and install the one that fits your configuration:</p>
+						<ul>
+							<li><a href="downloads/S4A15.exe">Windows</a></li>
+							<li><a href="downloads/S4A15.dmg">Mac</a></li>
+							<li><a href="downloads/S4A15.deb">Linux (Debian)</a></li>
+						</ul>
+                    </section>
+                    <section>
                         <h2>Installing the Firmware into your Arduino</h2>
                         <p>This firmware is a piece of software you need to install into your Arduino board to be able to communicate with it from S4A.</p>
 						<ul>
@@ -256,13 +265,16 @@
 							<li>Connect your Arduino board to a USB port in your computer</li>
 							<li>Open the firmware file (S4AFirmware15.ino) from the Arduino environment</li>
 							<li>In the Tools menu, select the board version and the serial port where the board is connected</li>
-							<li>Go to Tools &gt; Upload to load the firmware into your board</li>
+							<li>Load the firmware into your board through Tools &gt; Upload</li>
 						</ul>
                     </section>
-                    <section>
-                        <h2>article section h2</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
-                    </section>
+					<section>
+						<h2>For Developers</h2>
+						<p>S4A is free software distributed under an <a href="http://opensource.org/licenses/MIT" target="_blank">MIT</a> license.</p>
+						<p>Since Scratch is actually a Squeak Smalltalk image, all of its code is actually shipped with the final user version itself. To access it, just shift + left click on the S4A "File" menu and select "Exit User Mode". You're now in front of a classic Squeak 2.8 image, and have access to a Browser, Workspace and all tools you're used to.</p>
+						<p>However, in the final user version some code has been compiled and you'll be missing several variable and message argument names, which is why we are also providing you with a clean source code image for developers, downloadable here:</p>
+						<p><a href="downloads/S4ADev.zip">S4A Developer Edition</a></p>
+					</section>
                 </article>
 
 				<!-- FAQ -->
@@ -291,9 +303,8 @@
 					<section>
 						<h2>Marina Conde</h2>
 						<img class="avatar" src="img/marina.png"/>
-						<p>Marina Conde is a Computer Engineer blahblah</p>
-						<p>Marina Conde is a Computer Engineer blahblah</p>
-						<p>Marina Conde is a Computer Engineer blahblah</p>
+						<p>Marina Conde got her bachelor degree in Computer Science in the Technical University of Catalonia (UPC) in 2009, and graduated as a Computer Engineer in 2012 in the same university.</p>
+						<p>Her first final thesis consisted in building a framework to work with Arduino boards from within the Pharo Smalltalk environment. Later on, she used this project as the basis on which S4A was written.</p>
 					</section>
 					<section>
 						<h2>Víctor Casado</h2>
@@ -370,7 +381,8 @@
 
         <div class="footer-container">
             <footer class="wrapper">
-                <h3>S4A &copy; Citilab 2013</h3>
+                <h3>Copyright &copy; 2013 Citilab</h3>
+				<p>S4A is free software distributed under an <a href="http://opensource.org/licenses/MIT" target="_blank"><strong>MIT</strong></a> license</p>
             </footer>
         </div>
 
