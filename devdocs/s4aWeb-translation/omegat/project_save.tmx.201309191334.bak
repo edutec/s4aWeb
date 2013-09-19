@@ -14,14 +14,6 @@
   <body>
     <tu>
       <tuv lang="EN-US">
-        <seg>&lt;a0&gt;CA&lt;/a0&gt; &lt;a1&gt;ES&lt;/a1&gt;</seg>
-      </tuv>
-      <tuv lang="CA" changedate="20130919T113445Z" changeid="bromagosa">
-        <seg>&lt;a0&gt;EN&lt;/a0&gt; &lt;a1&gt;ES&lt;/a1&gt;</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
         <seg>&lt;a0&gt;Scratch&lt;/a0&gt; was developed in &lt;a1&gt;Squeak&lt;/a1&gt; Smalltalk by the MIT.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T111444Z" changeid="bromagosa">
@@ -2002,14 +1994,6 @@
       </tuv>
       <tuv lang="CA" changedate="20130919T105409Z" changeid="bromagosa">
         <seg>img/victor.png</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
-        <seg>index_ca.html</seg>
-      </tuv>
-      <tuv lang="CA" changedate="20130919T113523Z" changeid="bromagosa">
-        <seg>index.html</seg>
       </tuv>
     </tu>
     <tu>

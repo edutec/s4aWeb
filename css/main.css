@@ -200,6 +200,15 @@ a:hover {
 	text-shadow: 0px 0px 6px rgba(0,0,0,0.4);
 }
 
+.language-selectors {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 10px;
+	font-weight: bold;
+	color: #E0E0E0;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */

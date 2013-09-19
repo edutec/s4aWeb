@@ -536,8 +536,8 @@
       <tuv lang="EN-US">
         <seg>S4A allows you to control as many boards as USB ports you have.</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T093106Z" changeid="bromagosa">
-        <seg>S4A permet controlar tantes plaques com ports USB tingui el teu PC.</seg>
+      <tuv lang="CA" changedate="20130919T112634Z" changeid="bromagosa">
+        <seg>S4A permet controlar tantes plaques com ports USB tingui el vostre PC.</seg>
       </tuv>
     </tu>
     <tu>
@@ -824,8 +824,8 @@
       <tuv lang="EN-US">
         <seg>S4A is backwards compatible with &lt;a0&gt;Scratch&lt;/a0&gt;, so you can open &lt;a1&gt;Scratch&lt;/a1&gt; projects in it.</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T093354Z" changeid="bromagosa">
-        <seg>S4A és compatible amb &lt;a0&gt;Scratch&lt;/a0&gt;, de manera que és possible obrir &lt;a1&gt;Scratch&lt;/a1&gt; projects des de S4A.</seg>
+      <tuv lang="CA" changedate="20130919T112641Z" changeid="bromagosa">
+        <seg>S4A és compatible amb &lt;a0&gt;Scratch&lt;/a0&gt;, de manera que és possible obrir projectes d'&lt;a1&gt;Scratch&lt;/a1&gt; des de S4A.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1034,6 +1034,14 @@
       </tuv>
       <tuv lang="CA" changedate="20130919T095558Z" changeid="bromagosa">
         <seg>Com utilitzar un LED RGB des d'Scratch.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>index_ca.html</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130919T113523Z" changeid="bromagosa">
+        <seg>index.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -1390,6 +1398,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;a0&gt;CA&lt;/a0&gt; &lt;a1&gt;ES&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130919T113445Z" changeid="bromagosa">
+        <seg>&lt;a0&gt;EN&lt;/a0&gt; &lt;a1&gt;ES&lt;/a1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>downloads/s4a-protocol.pdf</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T100456Z" changeid="bromagosa">
@@ -1528,8 +1544,8 @@
       <tuv lang="EN-US">
         <seg>S4A interacts with &lt;a0&gt;Arduino&lt;/a0&gt; by sending the actuator states and receiving sensor states every 75 ms, therefore the pulse width needs to be greater than this time period.</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T094106Z" changeid="bromagosa">
-        <seg>S4A interactúa amb &lt;a0&gt;Arduino&lt;/a0&gt; enviant l'estat dels actuadors i rebent l'estat dels sensors cada 75 ms, per tant l'amplada del pols ha de ser major que aquest període.</seg>
+      <tuv lang="CA" changedate="20130919T112711Z" changeid="bromagosa">
+        <seg>S4A interactua amb &lt;a0&gt;Arduino&lt;/a0&gt; enviant l'estat dels actuadors i rebent l'estat dels sensors cada 75 ms, per tant l'amplada del pols ha de ser major que aquest període.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1592,8 +1608,8 @@
       <tuv lang="EN-US">
         <seg>You can manage a board wirelessly by attaching an RF module to it, such as Xbee.</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T093037Z" changeid="bromagosa">
-        <seg>És possible comunicar-se sense fils amb una placa mitjançant un mòdul de RF, com ara Xbee.</seg>
+      <tuv lang="CA" changedate="20130919T112517Z" changeid="bromagosa">
+        <seg>És possible comunicar-se inalàmbricament amb una placa mitjançant un mòdul de RF, com ara Xbee.</seg>
       </tuv>
     </tu>
     <tu>
