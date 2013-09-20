@@ -38,6 +38,14 @@
     </tu>
     <tu>
       <tuv xml:lang="EN-US">
+        <seg>For any questions and answers, please use the community support mail list.</seg>
+      </tuv>
+      <tuv xml:lang="CA" changedate="20130920T094401Z" changeid="bromagosa">
+        <seg>Per formular preguntes i respostes, si us plau utilitzeu la llista de correu de la comunitat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
         <seg>img/joan.png</seg>
       </tuv>
       <tuv xml:lang="CA" changedate="20130919T105938Z" changeid="bromagosa">
@@ -542,6 +550,14 @@
     </tu>
     <tu>
       <tuv xml:lang="EN-US">
+        <seg>Mail List Web Site</seg>
+      </tuv>
+      <tuv xml:lang="CA" changedate="20130920T094707Z" changeid="bromagosa">
+        <seg>Pàgina web de la llista de correu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
         <seg>Using the input of a photoresistor sensor to trigger an LED.</seg>
       </tuv>
       <tuv xml:lang="CA" changedate="20130919T095735Z" changeid="bromagosa">
@@ -1006,6 +1022,14 @@
     </tu>
     <tu>
       <tuv xml:lang="EN-US">
+        <seg>You can subscribe by sending an email to:</seg>
+      </tuv>
+      <tuv xml:lang="CA" changedate="20130920T094416Z" changeid="bromagosa">
+        <seg>Per a subscriure-us-hi, envieu un correu a:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
         <seg>Documentation and Examples</seg>
       </tuv>
       <tuv xml:lang="CA" changedate="20130919T094839Z" changeid="bromagosa">
@@ -1126,6 +1150,14 @@
     </tu>
     <tu>
       <tuv xml:lang="EN-US">
+        <seg>mailto:s4a-community@googlegroups.com</seg>
+      </tuv>
+      <tuv xml:lang="CA" changedate="20130920T094542Z" changeid="bromagosa">
+        <seg>mailto:s4a-community@googlegroups.com</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
         <seg>Contact Us</seg>
       </tuv>
       <tuv xml:lang="CA" changedate="20130919T111528Z" changeid="bromagosa">
@@ -1222,6 +1254,14 @@
     </tu>
     <tu>
       <tuv xml:lang="EN-US">
+        <seg>Once subscribed, you can reach the list at:</seg>
+      </tuv>
+      <tuv xml:lang="CA" changedate="20130920T094444Z" changeid="bromagosa">
+        <seg>Una vegada us hi hagueu subscrit, podeu enviar els vostres missatges a:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
         <seg>S4A variables whose name starts with a plus sign (i.e. +playerName) are visible and modifiable from the web client</seg>
       </tuv>
       <tuv xml:lang="CA" changedate="20130919T102337Z" changeid="bromagosa">
@@ -1314,6 +1354,14 @@
       </tuv>
       <tuv xml:lang="CA" changedate="20130919T100208Z" changeid="bromagosa">
         <seg>downloads/s4a-sample02.pdf</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>http://groups.google.com/group/s4a-community</seg>
+      </tuv>
+      <tuv xml:lang="CA" changedate="20130920T094659Z" changeid="bromagosa">
+        <seg>http://groups.google.com/group/s4a-community</seg>
       </tuv>
     </tu>
     <tu>
@@ -1446,6 +1494,14 @@
     </tu>
     <tu>
       <tuv xml:lang="EN-US">
+        <seg>And you can subscribe, contribute and browse the mail list forum at:</seg>
+      </tuv>
+      <tuv xml:lang="CA" changedate="20130920T094659Z" changeid="bromagosa">
+        <seg>També podeu utilitzar la interfície web de la llista de correu per a subscriure-us, contribuir i consultar l'arxiu:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
         <seg>Being <bpt i='2' x='2'>&lt;a2&gt;</bpt>Smalltalk<ept i='2'>&lt;/a2&gt;</ept> programmers ourselves, we were able to modify its source code in order to achieve interaction with <bpt i='3' x='3'>&lt;a3&gt;</bpt>Arduino<ept i='3'>&lt;/a3&gt;</ept> boards.</seg>
       </tuv>
       <tuv xml:lang="CA" changedate="20130919T111522Z" changeid="bromagosa">
@@ -1462,10 +1518,26 @@
     </tu>
     <tu>
       <tuv xml:lang="EN-US">
+        <seg>s4a-community@googlegroups.com</seg>
+      </tuv>
+      <tuv xml:lang="CA" changedate="20130920T094542Z" changeid="bromagosa">
+        <seg>s4a-community@googlegroups.com</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
         <seg>Joan Güell</seg>
       </tuv>
       <tuv xml:lang="CA" changedate="20130919T105938Z" changeid="bromagosa">
         <seg>Joan Güell</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>s4a-community+subscribe@googlegroups.com</seg>
+      </tuv>
+      <tuv xml:lang="CA" changedate="20130920T094419Z" changeid="bromagosa">
+        <seg>s4a-community+subscribe@googlegroups.com</seg>
       </tuv>
     </tu>
     <tu>
@@ -1726,6 +1798,14 @@
     </tu>
     <tu>
       <tuv xml:lang="EN-US">
+        <seg>mailto:s4a-community+subscribe@googlegroups.com</seg>
+      </tuv>
+      <tuv xml:lang="CA" changedate="20130920T094418Z" changeid="bromagosa">
+        <seg>mailto:s4a-community+subscribe@googlegroups.com</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
         <seg>Elisava Workshop Materials 2011</seg>
       </tuv>
       <tuv xml:lang="CA" changedate="20130919T095213Z" changeid="bromagosa">
@@ -1914,6 +1994,14 @@
       </tuv>
       <tuv xml:lang="CA" changedate="20130919T100521Z" changeid="bromagosa">
         <seg>https://scratch-io.wikispaces.com/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Community</seg>
+      </tuv>
+      <tuv xml:lang="CA" changedate="20130920T094233Z" changeid="bromagosa">
+        <seg>Comunitat</seg>
       </tuv>
     </tu>
     <tu>

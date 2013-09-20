@@ -14,6 +14,14 @@
   <body>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;a0&gt;CA&lt;/a0&gt; &lt;a1&gt;ES&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130919T113445Z" changeid="bromagosa">
+        <seg>&lt;a0&gt;EN&lt;/a0&gt; &lt;a1&gt;ES&lt;/a1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a0&gt;Scratch&lt;/a0&gt; was developed in &lt;a1&gt;Squeak&lt;/a1&gt; Smalltalk by the MIT.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T111444Z" changeid="bromagosa">
@@ -120,8 +128,8 @@
       <tuv lang="EN-US">
         <seg>Added reset actuators block</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T103220Z" changeid="bromagosa">
-        <seg>Afegit block de reiniciar actuadors</seg>
+      <tuv lang="CA" changedate="20130920T105308Z" changeid="bromagosa">
+        <seg>Afegit bloc de reiniciar actuadors</seg>
       </tuv>
     </tu>
     <tu>
@@ -154,6 +162,14 @@
       </tuv>
       <tuv lang="CA" changedate="20130919T091612Z" changeid="bromagosa">
         <seg>Un programa de S4A per a controlar un Theremin de llum, amb capacitat de gravació i reproducció</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>And you can subscribe, contribute and browse the mail list forum at:</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094659Z" changeid="bromagosa">
+        <seg>També podeu utilitzar la interfície web de la llista de correu per a subscriure-us, contribuir i consultar l'arxiu:</seg>
       </tuv>
     </tu>
     <tu>
@@ -264,8 +280,8 @@
       <tuv lang="EN-US">
         <seg>Changed the sensor board names and their corresponding Arduino blocks to show real pin numbers</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T103832Z" changeid="bromagosa">
-        <seg>Canviats els noms del panell de sensos i els seus corresponents blocs d'Arduino per mostrar números de pin reals</seg>
+      <tuv lang="CA" changedate="20130920T105841Z" changeid="bromagosa">
+        <seg>Canviats els noms del panell de sensors i els seus corresponents blocs d'Arduino per mostrar números de pin reals</seg>
       </tuv>
     </tu>
     <tu>
@@ -290,6 +306,14 @@
       </tuv>
       <tuv lang="CA" changedate="20130919T095541Z" changeid="bromagosa">
         <seg>Codi</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Community</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094233Z" changeid="bromagosa">
+        <seg>Comunitat</seg>
       </tuv>
     </tu>
     <tu>
@@ -490,6 +514,14 @@
       </tuv>
       <tuv lang="CA" changedate="20130919T100456Z" changeid="bromagosa">
         <seg>Per a programadors</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For any questions and answers, please use the community support mail list.</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094401Z" changeid="bromagosa">
+        <seg>Per formular preguntes i respostes, si us plau utilitzeu la llista de correu de la comunitat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -870,6 +902,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Mail List Web Site</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094707Z" changeid="bromagosa">
+        <seg>Pàgina web de la llista de correu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Marina Conde</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T105100Z" changeid="bromagosa">
@@ -906,6 +946,14 @@
       </tuv>
       <tuv lang="CA" changedate="20130919T100844Z" changeid="bromagosa">
         <seg>Web antiga d'S4A (obsoleta)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once subscribed, you can reach the list at:</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094444Z" changeid="bromagosa">
+        <seg>Una vegada us hi hagueu subscrit, podeu enviar els vostres missatges a:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1024,8 +1072,8 @@
       <tuv lang="EN-US">
         <seg>S4A allows you to control as many boards as USB ports you have.</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T093106Z" changeid="bromagosa">
-        <seg>S4A permet controlar tantes plaques com ports USB tingui el teu PC.</seg>
+      <tuv lang="CA" changedate="20130919T112634Z" changeid="bromagosa">
+        <seg>S4A permet controlar tantes plaques com ports USB tingui el vostre PC.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1040,24 +1088,24 @@
       <tuv lang="EN-US">
         <seg>S4A interacts with &lt;a0&gt;Arduino&lt;/a0&gt; by sending the actuator states and receiving sensor states every 75 ms, therefore the pulse width needs to be greater than this time period.</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T094106Z" changeid="bromagosa">
-        <seg>S4A interactúa amb &lt;a0&gt;Arduino&lt;/a0&gt; enviant l'estat dels actuadors i rebent l'estat dels sensors cada 75 ms, per tant l'amplada del pols ha de ser major que aquest període.</seg>
+      <tuv lang="CA" changedate="20130919T112711Z" changeid="bromagosa">
+        <seg>S4A interactua amb &lt;a0&gt;Arduino&lt;/a0&gt; enviant l'estat dels actuadors i rebent l'estat dels sensors cada 75 ms, per tant l'amplada del pols ha de ser major que aquest període.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>S4A is a &lt;a0&gt;Scratch&lt;/a0&gt; modification that allows for simple programming of the &lt;a1&gt;Arduino&lt;/a1&gt; open source hardware platform.</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T084133Z" changeid="bromagosa">
-        <seg>S4A és una modificació d'&lt;a0&gt;Scratch&lt;/a0&gt; que permet programar la plataforma de programari oberta &lt;a1&gt;Arduino&lt;/a1&gt; d'una manera senzilla.</seg>
+      <tuv lang="CA" changedate="20130919T112018Z" changeid="bromagosa">
+        <seg>S4A és una modificació d'&lt;a0&gt;Scratch&lt;/a0&gt; que permet programar la plataforma de hardware lliure &lt;a1&gt;Arduino&lt;/a1&gt; d'una manera senzilla.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>S4A is backwards compatible with &lt;a0&gt;Scratch&lt;/a0&gt;, so you can open &lt;a1&gt;Scratch&lt;/a1&gt; projects in it.</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T093354Z" changeid="bromagosa">
-        <seg>S4A és compatible amb &lt;a0&gt;Scratch&lt;/a0&gt;, de manera que és possible obrir &lt;a1&gt;Scratch&lt;/a1&gt; projects des de S4A.</seg>
+      <tuv lang="CA" changedate="20130919T112641Z" changeid="bromagosa">
+        <seg>S4A és compatible amb &lt;a0&gt;Scratch&lt;/a0&gt;, de manera que és possible obrir projectes d'&lt;a1&gt;Scratch&lt;/a1&gt; des de S4A.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1104,8 +1152,8 @@
       <tuv lang="EN-US">
         <seg>S4A variables whose name doesn't start ether with a minus or plus sign are not visible from the web client</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T102517Z" changeid="bromagosa">
-        <seg>Les S4A variables amb noms que no comencin amb els signes més o menys no són visibles des del client web</seg>
+      <tuv lang="CA" changedate="20130920T104534Z" changeid="bromagosa">
+        <seg>Les variables d'S4A amb noms que no comencin amb els signes més o menys no són visibles des del client web</seg>
       </tuv>
     </tu>
     <tu>
@@ -1384,8 +1432,8 @@
       <tuv lang="EN-US">
         <seg>This video serves as an introduction for the S4A workshops given at &lt;a0&gt;Citilab&lt;/a0&gt;, but you'll find a couple of demos of what can be achieved with our software.</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T100147Z" changeid="bromagosa">
-        <seg>Aquest vídeo serveix com a introducció pels taller d'S4A que s'imparteixen al &lt;a0&gt;Citilab&lt;/a0&gt;. Hi trobareu uns quants exemples de casos d'ús del nostre software.</seg>
+      <tuv lang="CA" changedate="20130920T101934Z" changeid="bromagosa">
+        <seg>Aquest vídeo serveix com a introducció pels tallers d'S4A que s'imparteixen al &lt;a0&gt;Citilab&lt;/a0&gt;. Hi trobareu uns quants exemples de casos d'ús del nostre software.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1560,8 +1608,8 @@
       <tuv lang="EN-US">
         <seg>You can manage a board wirelessly by attaching an RF module to it, such as Xbee.</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T093037Z" changeid="bromagosa">
-        <seg>És possible comunicar-se sense fils amb una placa mitjançant un mòdul de RF, com ara Xbee.</seg>
+      <tuv lang="CA" changedate="20130919T112517Z" changeid="bromagosa">
+        <seg>És possible comunicar-se inalàmbricament amb una placa mitjançant un mòdul de RF, com ara Xbee.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1570,6 +1618,14 @@
       </tuv>
       <tuv lang="CA" changedate="20130919T111557Z" changeid="bromagosa">
         <seg>Pots contactar amb nosaltres a &lt;a0&gt;scratch@citilab.eu&lt;/a0&gt; per informar-nos de bugs o per a qualsevol suggerència.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can subscribe by sending an email to:</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094416Z" changeid="bromagosa">
+        <seg>Per a subscriure-us-hi, envieu un correu a:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1822,6 +1878,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://groups.google.com/group/s4a-community</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094659Z" changeid="bromagosa">
+        <seg>http://groups.google.com/group/s4a-community</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://opensource.org/licenses/MIT</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T104441Z" changeid="bromagosa">
@@ -1998,10 +2062,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>index_ca.html</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130919T113523Z" changeid="bromagosa">
+        <seg>index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>mailto:s4a-community+subscribe@googlegroups.com</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094418Z" changeid="bromagosa">
+        <seg>mailto:s4a-community+subscribe@googlegroups.com</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>mailto:s4a-community@googlegroups.com</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094542Z" changeid="bromagosa">
+        <seg>mailto:s4a-community@googlegroups.com</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>mailto:scratch@citilab.eu</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T111529Z" changeid="bromagosa">
         <seg>mailto:scratch@citilab.eu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>s4a-community+subscribe@googlegroups.com</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094419Z" changeid="bromagosa">
+        <seg>s4a-community+subscribe@googlegroups.com</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>s4a-community@googlegroups.com</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094542Z" changeid="bromagosa">
+        <seg>s4a-community@googlegroups.com</seg>
       </tuv>
     </tu>
     <tu>

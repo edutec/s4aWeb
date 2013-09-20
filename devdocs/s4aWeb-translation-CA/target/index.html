@@ -42,6 +42,7 @@
                     <li><a onclick="slideTo('#downloads')">Descàrregues</a></li>
                     <li><a onclick="slideTo('#faq')">FAQ</a></li>
                     <li><a onclick="slideTo('#team')">Equip</a></li>
+                    <li><a onclick="slideTo('#community')">Comunitat</a></li>
                     <li><a onclick="slideTo('#contact')">Contacte</a></li>
                 </ul>
             </nav>
@@ -135,7 +136,7 @@
 						<p><iframe width="580" height="327" src="http://www.youtube.com/embed/IzGGv9xkkRs?feature=player_embedded" frameborder="0" allowfullscreen></iframe></p>
 						
 						<h3>Introducció al taller d'S4A</h3>
-						<p>Aquest vídeo serveix com a introducció pels taller d'S4A que s'imparteixen al <a target="_blank" href="http://citilab.eu">Citilab</a>. Hi trobareu uns quants exemples de casos d'ús del nostre software.</p>
+						<p>Aquest vídeo serveix com a introducció pels tallers d'S4A que s'imparteixen al <a target="_blank" href="http://citilab.eu">Citilab</a>. Hi trobareu uns quants exemples de casos d'ús del nostre software.</p>
 						<p><iframe width="580" height="327" src="http://www.youtube.com/embed/RJAgSUIf12U?feature=player_detailpage" frameborder="0" allowfullscreen></iframe></p>
                     </section>
                     <section>
@@ -153,8 +154,7 @@
                 <aside>
                     <h3>Ençallos externs de documentació</h3>
                     <p><a href="https://scratch-io.wikispaces.com/" target="_blank">Scratch IO Wiki - per José Javier Vitón</a></p>
-                    <p><a href="http://www.arduteka.com/tag/s4a/" target="_blank">Blog Arduteka: S4A</a></p>
-                    <p><a href="http://seaside.citilab.eu/scratch/arduino/" target="_blank">Web antiga d'S4A (obsoleta)</a></p><!-- ANDROID -->
+                    <p><a href="http://www.arduteka.com/tag/s4a/" target="_blank">Blog Arduteka: S4A</a></p><!-- ANDROID -->
                 </aside>
 
 				
@@ -192,7 +192,7 @@
 						<ul>
 							<li>Les variables d'S4A amb noms que comencin amb un signe més (ex. +nomJugador) són visibles i modificables des del client web</li>
 							<li>Les variables S4A amb noms que comencin amb un signe menys (ex. -puntuacioJugador) només són visibles (no modificables) des del client web</li>
-							<li>Les S4A variables amb noms que no comencin amb els signes més o menys no són visibles des del client web</li>
+							<li>Les variables d'S4A amb noms que no comencin amb els signes més o menys no són visibles des del client web</li>
 							<li>Els missatges S4A amb noms que comencin amb un signe més (ex. +iniciarJoc) són visibles des del client web</li>
 							<li>Els missatges S4A amb noms que no comencin amb un signe més no són visibles des del client web</li>
 						</ul><!-- CHANGELOG -->
@@ -212,7 +212,7 @@
 							<li>Primitives indexades canviades a primitives amb nom per a una millor compatibilitat amb les noves màquines virtuals d'Squeak (gràcies a Miriam Ruiz pel pedàs)</li>
 							<li>Canviat el pin 12 de servo estàndard a sortida digital normal</li>
 							<li>Canviat el pin per defecte dels blocs digital on/off de 13 a 10</li>
-							<li>Afegit block de reiniciar actuadors</li>
+							<li>Afegit bloc de reiniciar actuadors</li>
 							<li>Traduccions al català i castellà millorades</li>
 						</ul>
 					</section>
@@ -230,7 +230,7 @@
 						<h2>Versió 1.3</h2>
 						<ul>
 							<li>Arreglada la compatibilitat amb Arduino UNO a Linux (gràcies a Jorge Gómez). És imprescindible carregar el nou firmware, així com actualitzar el bootloader en determinades plaques</li>
-							<li>Canviats els noms del panell de sensos i els seus corresponents blocs d'Arduino per mostrar números de pin reals</li>
+							<li>Canviats els noms del panell de sensors i els seus corresponents blocs d'Arduino per mostrar números de pin reals</li>
 							<li>Afegides comandes de servidor al menú "Edita" per a treballar amb comunicació en xarxa sobre sockets</li>
 							<li>Afegida compatibilitat per a aplicacions Android (HiS4A)</li>
 							<li>Traduccions al català i castellà millorades</li>
@@ -258,9 +258,9 @@
                     </section>
                     <section>
                         <h2>Instal·lar el firmware a Arduino</h2>
-                        <p>Aquest firmware és un programa que cal instal·lar a la vostra placa <a target="_blank" href="http://arduino.cc">Arduino</a> board per tal de poder-vos-hi comunicar des d'S4A.</p>
+                        <p>Aquest firmware és un programa que cal instal·lar a la vostra placa <a target="_blank" href="http://arduino.cc">Arduino</a> per tal de poder-vos-hi comunicar des d'S4A.</p>
 						<ul>
-							<li>Descarregueu i instal·leu l'entor Arduino seguint les instruccions de  <a href="http://arduino.cc/en/Main/Software" target="_blank">http://arduino.cc/en/Main/Software</a>. Tingueu en compte que, per a treballar amb Arduino One, us caldrà la versió 0022 o superior.</li>
+							<li>Descarregueu i instal·leu l'entorn Arduino seguint les instruccions de  <a href="http://arduino.cc/en/Main/Software" target="_blank">http://arduino.cc/en/Main/Software</a>. Tingueu en compte que, per a treballar amb Arduino One, us caldrà la versió 0022 o superior.</li>
 							<li>Descarregueu el nostre firmware <a href="downloads/S4AFirmware15.ino" target="_blank">aquí</a></li>
 							<li>Connecteu la placa Arduino a un port USB del vostre ordinador</li>
 							<li>Obriu l'arxiu de firmware (S4AFirmware15.ino) des de l'entorn Arduino</li>
@@ -334,7 +334,7 @@
 						<h2>Jordi Delgado</h2>
 						<img class="avatar" src="img/jordi.png"/>
 <p>En Jordi és professor adjunt al departament de software de la Universitat Politècnica de Catalunya (UPC). Pertany al grup de recerca LARCA i imparteix classes a la Facultat d'Informàtica de Barcelona.</p>
-<p>Inverteix la major part del seu temps en divulgar, difondre la idea i programar en <a target="_blank" href="http://world.st">Smalltalk</a>, un llenguatge de programació apassionant que considera que tothom hauria d'utilitzar. És membre de la mesa de la <a target="_blank" href="http://esug.org">European Smalltalk Users Group</a> (ESUG) i president de l'associació<a target="_blank" href="http://smalltalk.cat">Smalltalk.cat</a>.</p>
+<p>Inverteix la major part del seu temps en divulgar, difondre la idea i programar en <a target="_blank" href="http://world.st">Smalltalk</a>, un llenguatge de programació apassionant que considera que tothom hauria d'utilitzar. És membre de la mesa de la <a target="_blank" href="http://esug.org">European Smalltalk Users Group</a> (ESUG) i president de l'associació <a target="_blank" href="http://smalltalk.cat">Smalltalk.cat</a>.</p>
 					</section>
 
                 </article>
@@ -342,10 +342,25 @@
                 <aside>
                     <h3>Smalltalk</h3>
 					<img class="balloon" src="img/balloon.png"/>
-                    <p><a target="_blank" href="http://scratch.mit.edu">Scratch</a> es va desenvolupar en <a target="_blank" href="http://squeak.org">Squeak</a> Smalltalk per l'Institut Tecnològic de Massachussets (MIT). Essent programadors d'<a target="_blank" href="http://world.st">Smalltalk</a>, vam poder modificar el seu codi font per aconseguir que interactués amb plaques <a target="_blank" href="http://arduino.cc">Arduino</a>.</p><!-- CONTACT -->
+                    <p><a target="_blank" href="http://scratch.mit.edu">Scratch</a> es va desenvolupar en <a target="_blank" href="http://squeak.org">Squeak</a> Smalltalk per l'Institut Tecnològic de Massachussets (MIT). Essent programadors d'<a target="_blank" href="http://world.st">Smalltalk</a>, vam poder modificar el seu codi font per aconseguir que interactués amb plaques <a target="_blank" href="http://arduino.cc">Arduino</a>.</p><!-- COMMUNITY -->
                 </aside>
 
 				
+
+                <article id="community">
+                    <header>
+                        <h1>Comunitat</h1>
+						<p>Per formular preguntes i respostes, si us plau utilitzeu la llista de correu de la comunitat. Per a subscriure-us-hi, envieu un correu a:</p>
+						<p><a target="_blank" href="mailto:s4a-community+subscribe@googlegroups.com">s4a-community+subscribe@googlegroups.com</a></p>
+						<p>Una vegada us hi hagueu subscrit, podeu enviar els vostres missatges a:</p>
+						<p><a target="_blank" href="mailto:s4a-community@googlegroups.com">s4a-community@googlegroups.com</a></p>
+						<p>També podeu utilitzar la interfície web de la llista de correu per a subscriure-us, contribuir i consultar l'arxiu:</p>
+						<p><a target="_blank" href="http://groups.google.com/group/s4a-community">Pàgina web de la llista de correu</a></p><!-- CONTACT -->
+                    </header>
+                </article>
+
+				
+
                 <article id="contact">
                     <header>
                         <h1>Contacte</h1>
@@ -386,7 +401,6 @@
             </footer>
         </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script src="js/main.js"></script>
         <script src="js/vendor/portamento.js"></script>
 

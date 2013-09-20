@@ -38,6 +38,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For any questions and answers, please use the community support mail list.</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094401Z" changeid="bromagosa">
+        <seg>Per formular preguntes i respostes, si us plau utilitzeu la llista de correu de la comunitat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>img/joan.png</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T105938Z" changeid="bromagosa">
@@ -78,10 +86,10 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>Here you'll find basic S4A examples, complete with the Arduino schematics and an .sb Scratch project file for you to download.</seg>
+        <seg>Here you'll find basic S4A examples, complete with the &lt;a0&gt;Arduino&lt;/a0&gt; schematics and an .sb &lt;a1&gt;Scratch&lt;/a1&gt; project file for you to download.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T095502Z" changeid="bromagosa">
-        <seg>Aquí trobareu exemples bàsics d'S4A, amb els esquemes d'Arduino i un arxiu .sb amb el projecte Scratch per a descarregar.</seg>
+        <seg>Aquí trobareu exemples bàsics d'S4A, amb els esquemes d'&lt;a0&gt;Arduino&lt;/a0&gt; i un arxiu .sb amb el projecte &lt;a1&gt;Scratch&lt;/a1&gt; per a descarregar.</seg>
       </tuv>
     </tu>
     <tu>
@@ -94,10 +102,10 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>Since then, he's been involved in several programming projects in Citilab, including a social knowledge management system and different educational applications.</seg>
+        <seg>Since then, he's been involved in several programming projects in &lt;a0&gt;Citilab&lt;/a0&gt;, including a social knowledge management system and different educational applications.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T111015Z" changeid="bromagosa">
-        <seg>Des d'aleshores, ha estat involucrat en diversos projectes de programació al Citilab. Entre d'altres, un sistema de gestió del coneixement i diverses aplicacions educatives.</seg>
+        <seg>Des d'aleshores, ha estat involucrat en diversos projectes de programació al &lt;a0&gt;Citilab&lt;/a0&gt;. Entre d'altres, un sistema de gestió del coneixement i diverses aplicacions educatives.</seg>
       </tuv>
     </tu>
     <tu>
@@ -118,10 +126,10 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>http://[IP]:42001/sensor-update=[sensor-name]=[value]</seg>
+        <seg>&lt;s1&gt;http://[IP]:42001/sensor-update=[sensor-name]=[value]&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T102105Z" changeid="bromagosa">
-        <seg>http://[IP]:42001/sensor-update=[nom-del-sensor]=[valor]</seg>
+        <seg>&lt;s1&gt;http://[IP]:42001/sensor-update=[nom-del-sensor]=[valor]&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -198,18 +206,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>Send the value of a remote sensor (for instance, the client's accelerometer, mouse position, etc):</seg>
+        <seg>Send the value of a remote sensor (for instance, the client's accelerometer, mouse position, etc):&lt;br0/&gt;</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T102054Z" changeid="bromagosa">
-        <seg>Enviar el valor d'un sensor remot (per exemple, l'acceleròmetre del client, la posició del punter del ratolí, etc):</seg>
+        <seg>Enviar el valor d'un sensor remot (per exemple, l'acceleròmetre del client, la posició del punter del ratolí, etc):&lt;br0/&gt;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>The goal is also to provide a high level interface to Arduino programmers with functionalities such as interacting with a set of boards through user events.</seg>
+        <seg>The goal is also to provide a high level interface to &lt;a0&gt;Arduino&lt;/a0&gt; programmers with functionalities such as interacting with a set of boards through user events.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T090342Z" changeid="bromagosa">
-        <seg>Un altre objectiu és proporcionar una interfície d'alt nivell per a programadors d'Arduino amb funcionalitats tals com la interacció amb un conjunt de plaques mitjançant esdeveniments d'usuari.</seg>
+        <seg>Un altre objectiu és proporcionar una interfície d'alt nivell per a programadors d'&lt;a0&gt;Arduino&lt;/a0&gt; amb funcionalitats tals com la interacció amb un conjunt de plaques mitjançant esdeveniments d'usuari.</seg>
       </tuv>
     </tu>
     <tu>
@@ -318,10 +326,10 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>In S4A, an Arduino board is represented by a special kind of sprite.</seg>
+        <seg>In S4A, an &lt;a0&gt;Arduino&lt;/a0&gt; board is represented by a special kind of sprite.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T091910Z" changeid="bromagosa">
-        <seg>En S4A, una placa Arduino es representa amb un tipus especial d'sprite.</seg>
+        <seg>En S4A, una placa &lt;a0&gt;Arduino&lt;/a0&gt; es representa amb un tipus especial d'sprite.</seg>
       </tuv>
     </tu>
     <tu>
@@ -358,10 +366,10 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>At Citilab, he discovered Scratch and Smalltalk, taking up part of his programming work again.</seg>
+        <seg>At &lt;a0&gt;Citilab&lt;/a0&gt;, he discovered &lt;a1&gt;Scratch&lt;/a1&gt; and &lt;a2&gt;Smalltalk&lt;/a2&gt;, taking up part of his programming work again.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T110424Z" changeid="bromagosa">
-        <seg>Al Citilab, va descobrir Scratch i Smalltalk, reemprenent part de la seva feina com a programador.</seg>
+        <seg>Al &lt;a0&gt;Citilab&lt;/a0&gt;, va descobrir &lt;a1&gt;Scratch&lt;/a1&gt; i &lt;a2&gt;Smalltalk&lt;/a2&gt;, reemprenent part de la seva feina com a programador.</seg>
       </tuv>
     </tu>
     <tu>
@@ -370,14 +378,6 @@
       </tuv>
       <tuv lang="CA" changedate="20130919T095541Z" changeid="bromagosa">
         <seg>Codi</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
-        <seg>Old S4A website (outdated)</seg>
-      </tuv>
-      <tuv lang="CA" changedate="20130919T100844Z" changeid="bromagosa">
-        <seg>Web antiga d'S4A (obsoleta)</seg>
       </tuv>
     </tu>
     <tu>
@@ -446,10 +446,10 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>He is a member of the board of the European Smalltalk Users Group (ESUG) and he leads the Smalltalk.cat local group.</seg>
+        <seg>He is a member of the board of the &lt;a1&gt;European Smalltalk Users Group&lt;/a1&gt; (ESUG) and he leads the &lt;a2&gt;Smalltalk.cat&lt;/a2&gt; local group.</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T111415Z" changeid="bromagosa">
-        <seg>És membre de la mesa de la European Smalltalk Users Group (ESUG) i president de l'associacióSmalltalk.cat.</seg>
+      <tuv lang="CA" changedate="20130920T112820Z" changeid="bromagosa">
+        <seg>És membre de la mesa de la &lt;a1&gt;European Smalltalk Users Group&lt;/a1&gt; (ESUG) i president de l'associació &lt;a2&gt;Smalltalk.cat&lt;/a2&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -462,10 +462,10 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>You're now in front of a classic Squeak 2.8 image, and have access to a Browser, Workspace and all tools you're used to.</seg>
+        <seg>You're now in front of a classic &lt;a2&gt;Squeak&lt;/a2&gt; 2.8 image, and have access to a Browser, Workspace and all tools you're used to.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T104712Z" changeid="bromagosa">
-        <seg>Us trobareu davant de l'entorn clàssic d'una imatge d'Squeak 2.8, i tindreu accés a un Browser, Workspace i totes les eines a què esteu acostumats.</seg>
+        <seg>Us trobareu davant de l'entorn clàssic d'una imatge d'&lt;a2&gt;Squeak&lt;/a2&gt; 2.8, i tindreu accés a un Browser, Workspace i totes les eines a què esteu acostumats.</seg>
       </tuv>
     </tu>
     <tu>
@@ -502,18 +502,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>You can reach us at scratch@citilab.eu to report bugs or for any suggestions you may have.</seg>
+        <seg>You can reach us at &lt;a0&gt;scratch@citilab.eu&lt;/a0&gt; to report bugs or for any suggestions you may have.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T111557Z" changeid="bromagosa">
-        <seg>Pots contactar amb nosaltres a scratch@citilab.eu per informar-nos de bugs o per a qualsevol suggerència.</seg>
+        <seg>Pots contactar amb nosaltres a &lt;a0&gt;scratch@citilab.eu&lt;/a0&gt; per informar-nos de bugs o per a qualsevol suggerència.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>Please refer to the Downloads section for further instructions on how to do so.</seg>
+        <seg>Please refer to the &lt;a1&gt;Downloads&lt;/a1&gt; section for further instructions on how to do so.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T094219Z" changeid="bromagosa">
-        <seg>Si us plau, consulteu la secció de Descàrregues per a més instruccions sobre l'instal·lació.</seg>
+        <seg>Si us plau, consulteu la secció de &lt;a1&gt;Descàrregues&lt;/a1&gt; per a més instruccions sobre l'instal·lació.</seg>
       </tuv>
     </tu>
     <tu>
@@ -542,6 +542,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Mail List Web Site</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094707Z" changeid="bromagosa">
+        <seg>Pàgina web de la llista de correu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Using the input of a photoresistor sensor to trigger an LED.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T095735Z" changeid="bromagosa">
@@ -558,10 +566,10 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>Scratch was developed in Squeak Smalltalk by the MIT.</seg>
+        <seg>&lt;a0&gt;Scratch&lt;/a0&gt; was developed in &lt;a1&gt;Squeak&lt;/a1&gt; Smalltalk by the MIT.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T111444Z" changeid="bromagosa">
-        <seg>Scratch es va desenvolupar en Squeak Smalltalk per l'Institut Tecnològic de Massachussets (MIT).</seg>
+        <seg>&lt;a0&gt;Scratch&lt;/a0&gt; es va desenvolupar en &lt;a1&gt;Squeak&lt;/a1&gt; Smalltalk per l'Institut Tecnològic de Massachussets (MIT).</seg>
       </tuv>
     </tu>
     <tu>
@@ -600,16 +608,8 @@
       <tuv lang="EN-US">
         <seg>Added reset actuators block</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T103220Z" changeid="bromagosa">
-        <seg>Afegit block de reiniciar actuadors</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
-        <seg>It was developed in 2010 by the Citilab Smalltalk Team and it has been used since by many people in a lot of differents projects around the world.</seg>
-      </tuv>
-      <tuv lang="CA" changedate="20130919T094533Z" changeid="bromagosa">
-        <seg>El seu desenvolupament el va a dur a terme l'equip d'Smalltalk del Citilab l'any 2010, i des d'aleshores s'ha utilitzat a tot el món per a una gran varietat de projectes.</seg>
+      <tuv lang="CA" changedate="20130920T105308Z" changeid="bromagosa">
+        <seg>Afegit bloc de reiniciar actuadors</seg>
       </tuv>
     </tu>
     <tu>
@@ -622,18 +622,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>S4A variables whose name doesn't start ether with a minus or plus sign are not visible from the web client</seg>
+        <seg>It was developed in 2010 by the &lt;a2&gt;Citilab&lt;/a2&gt; &lt;a3&gt;Smalltalk&lt;/a3&gt; Team and it has been used since by many people in a lot of differents projects around the world.</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T102517Z" changeid="bromagosa">
-        <seg>Les S4A variables amb noms que no comencin amb els signes més o menys no són visibles des del client web</seg>
+      <tuv lang="CA" changedate="20130919T094533Z" changeid="bromagosa">
+        <seg>El seu desenvolupament el va a dur a terme l'equip d'&lt;a3&gt;Smalltalk&lt;/a3&gt; del &lt;a2&gt;Citilab&lt;/a2&gt; l'any 2010, i des d'aleshores s'ha utilitzat a tot el món per a una gran varietat de projectes.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>S4A is free software distributed under an MIT license.</seg>
+        <seg>S4A variables whose name doesn't start ether with a minus or plus sign are not visible from the web client</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T104534Z" changeid="bromagosa">
+        <seg>Les variables d'S4A amb noms que no comencin amb els signes més o menys no són visibles des del client web</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>S4A is free software distributed under an &lt;a0&gt;MIT&lt;/a0&gt; license.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T104512Z" changeid="bromagosa">
-        <seg>S4A és programari lliure subjecte a una llicència MIT.</seg>
+        <seg>S4A és programari lliure subjecte a una llicència &lt;a0&gt;MIT&lt;/a0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -702,10 +710,10 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>Download and install the Arduino environment by following the instructions on http://arduino.cc/en/Main/Software.</seg>
+        <seg>Download and install the Arduino environment by following the instructions on &lt;a0&gt;http://arduino.cc/en/Main/Software&lt;/a0&gt;.</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T104234Z" changeid="bromagosa">
-        <seg>Descarregueu i instal·leu l'entor Arduino seguint les instruccions de  http://arduino.cc/en/Main/Software.</seg>
+      <tuv lang="CA" changedate="20130920T110437Z" changeid="bromagosa">
+        <seg>Descarregueu i instal·leu l'entorn Arduino seguint les instruccions de  &lt;a0&gt;http://arduino.cc/en/Main/Software&lt;/a0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -766,10 +774,10 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>http://[IP]:42001/vars-update=[variable-name]=[value]</seg>
+        <seg>&lt;s1&gt;http://[IP]:42001/vars-update=[variable-name]=[value]&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T102127Z" changeid="bromagosa">
-        <seg>http://[IP]:42001/vars-update=[nom-de-la-variable]=[valor]</seg>
+        <seg>&lt;s1&gt;http://[IP]:42001/vars-update=[nom-de-la-variable]=[valor]&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -798,18 +806,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>Download our firmware from here</seg>
+        <seg>Download our firmware from &lt;a0&gt;here&lt;/a0&gt;</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T104322Z" changeid="bromagosa">
-        <seg>Descarregueu el nostre firmware aquí</seg>
+        <seg>Descarregueu el nostre firmware &lt;a0&gt;aquí&lt;/a0&gt;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>We have developed a simple Android application that can communicate with S4A through HTTP by means of the remote sensors protocol in Scratch.</seg>
+        <seg>We have developed a simple Android application that can communicate with S4A through HTTP by means of the remote sensors protocol in &lt;a0&gt;Scratch&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T100932Z" changeid="bromagosa">
-        <seg>Hem desenvolupat una aplicació simple d'Android que pot comunicar-se amb S4A via HTTP mitjançant el protocol de sensors remots d'Scratch.</seg>
+        <seg>Hem desenvolupat una aplicació simple d'Android que pot comunicar-se amb S4A via HTTP mitjançant el protocol de sensors remots d'&lt;a0&gt;Scratch&lt;/a0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -822,18 +830,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>S4A is backwards compatible with Scratch, so you can open Scratch projects in it.</seg>
+        <seg>S4A is backwards compatible with &lt;a0&gt;Scratch&lt;/a0&gt;, so you can open &lt;a1&gt;Scratch&lt;/a1&gt; projects in it.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T112641Z" changeid="bromagosa">
-        <seg>S4A és compatible amb Scratch, de manera que és possible obrir projectes d'Scratch des de S4A.</seg>
+        <seg>S4A és compatible amb &lt;a0&gt;Scratch&lt;/a0&gt;, de manera que és possible obrir projectes d'&lt;a1&gt;Scratch&lt;/a1&gt; des de S4A.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>Her first final thesis consisted in building a framework to work with Arduino boards from within the Pharo Smalltalk environment.</seg>
+        <seg>Her first final thesis consisted in building a framework to work with &lt;a0&gt;Arduino&lt;/a0&gt; boards from within the &lt;a1&gt;Pharo&lt;/a1&gt; Smalltalk environment.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T105344Z" changeid="bromagosa">
-        <seg>El seu primer projecte final va consistir en desenvolupar un entorn per a treballar amb plaques Arduino des de l'entorn d'Smalltalk Pharo.</seg>
+        <seg>El seu primer projecte final va consistir en desenvolupar un entorn per a treballar amb plaques &lt;a0&gt;Arduino&lt;/a0&gt; des de l'entorn d'Smalltalk &lt;a1&gt;Pharo&lt;/a1&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -902,18 +910,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>Our main purpose was to provide an easy way to interact with the real world by taking advantage of the ease of use of Scratch.</seg>
+        <seg>Our main purpose was to provide an easy way to interact with the real world by taking advantage of the ease of use of &lt;a0&gt;Scratch&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T094832Z" changeid="bromagosa">
-        <seg>La nostra motivació principal va ser proporcionar una manera senzilla per a interactuar amb el món real, aprofitant-nos de la facilitat d'ús d'Scratch.</seg>
+        <seg>La nostra motivació principal va ser proporcionar una manera senzilla per a interactuar amb el món real, aprofitant-nos de la facilitat d'ús d'&lt;a0&gt;Scratch&lt;/a0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>Installing S4A requires you to install software both in your PC and your Arduino board.</seg>
+        <seg>Installing S4A requires you to install software both in your PC and your &lt;a0&gt;Arduino&lt;/a0&gt; board.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T104012Z" changeid="bromagosa">
-        <seg>Per a instal·lar S4A, cal instal·lar software tan al PC com a la placa Arduino.</seg>
+        <seg>Per a instal·lar S4A, cal instal·lar software tan al PC com a la placa &lt;a0&gt;Arduino&lt;/a0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1006,6 +1014,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can subscribe by sending an email to:</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094416Z" changeid="bromagosa">
+        <seg>Per a subscriure-us-hi, envieu un correu a:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Documentation and Examples</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T094839Z" changeid="bromagosa">
@@ -1046,18 +1062,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>It provides new blocks for managing sensors and actuators connected to Arduino.</seg>
+        <seg>It provides new blocks for managing sensors and actuators connected to &lt;a2&gt;Arduino&lt;/a2&gt;.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T084320Z" changeid="bromagosa">
-        <seg>Proporciona blocs nous per tractar amb sensors i actuadors connectats a una placa Arduino.</seg>
+        <seg>Proporciona blocs nous per tractar amb sensors i actuadors connectats a una placa &lt;a2&gt;Arduino&lt;/a2&gt;.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>S4A is a Scratch modification that allows for simple programming of the Arduino open source hardware platform.</seg>
+        <seg>S4A is a &lt;a0&gt;Scratch&lt;/a0&gt; modification that allows for simple programming of the &lt;a1&gt;Arduino&lt;/a1&gt; open source hardware platform.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T112018Z" changeid="bromagosa">
-        <seg>S4A és una modificació d'Scratch que permet programar la plataforma de hardware lliure Arduino d'una manera senzilla.</seg>
+        <seg>S4A és una modificació d'&lt;a0&gt;Scratch&lt;/a0&gt; que permet programar la plataforma de hardware lliure &lt;a1&gt;Arduino&lt;/a1&gt; d'una manera senzilla.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1118,10 +1134,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>See Android section.</seg>
+        <seg>See &lt;a0&gt;Android&lt;/a0&gt; section.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T103329Z" changeid="bromagosa">
-        <seg>Vegeu la secció d'Android.</seg>
+        <seg>Vegeu la secció d'&lt;a0&gt;Android&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>mailto:s4a-community@googlegroups.com</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094542Z" changeid="bromagosa">
+        <seg>mailto:s4a-community@googlegroups.com</seg>
       </tuv>
     </tu>
     <tu>
@@ -1174,10 +1198,10 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>Update an S4A variable:</seg>
+        <seg>Update an S4A variable:&lt;br0/&gt;</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T102112Z" changeid="bromagosa">
-        <seg>Actualitzar una variable de S4A:</seg>
+        <seg>Actualitzar una variable de S4A:&lt;br0/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1222,6 +1246,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Once subscribed, you can reach the list at:</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094444Z" changeid="bromagosa">
+        <seg>Una vegada us hi hagueu subscrit, podeu enviar els vostres missatges a:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>S4A variables whose name starts with a plus sign (i.e. +playerName) are visible and modifiable from the web client</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T102337Z" changeid="bromagosa">
@@ -1238,10 +1270,10 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>He spends most of his time divulging, spreading the word of and programming in Smalltalk, an amazing programming language that, you know, everyone should be using.</seg>
+        <seg>He spends most of his time divulging, spreading the word of and programming in &lt;a0&gt;Smalltalk&lt;/a0&gt;, an amazing programming language that, you know, everyone should be using.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T111350Z" changeid="bromagosa">
-        <seg>Inverteix la major part del seu temps en divulgar, difondre la idea i programar en Smalltalk, un llenguatge de programació apassionant que considera que tothom hauria d'utilitzar.</seg>
+        <seg>Inverteix la major part del seu temps en divulgar, difondre la idea i programar en &lt;a0&gt;Smalltalk&lt;/a0&gt;, un llenguatge de programació apassionant que considera que tothom hauria d'utilitzar.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1262,10 +1294,10 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>He learned Smalltalk at a course given by Jordi Delgado at Citilab in 2008, where he was later hired to build an online programming school.</seg>
+        <seg>He learned &lt;a0&gt;Smalltalk&lt;/a0&gt; at a course given by Jordi Delgado at &lt;a1&gt;Citilab&lt;/a1&gt; in 2008, where he was later hired to build an online programming school.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T110630Z" changeid="bromagosa">
-        <seg>Va aprendre Smalltalk en un curs impartit per Jordi Delgado al Citilab durant l'any 2008, on més endavant va entrar a treballar amb l'objectiu de desenvolupar una escola virtual de programació.</seg>
+        <seg>Va aprendre &lt;a0&gt;Smalltalk&lt;/a0&gt; en un curs impartit per Jordi Delgado al &lt;a1&gt;Citilab&lt;/a1&gt; durant l'any 2008, on més endavant va entrar a treballar amb l'objectiu de desenvolupar una escola virtual de programació.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1294,10 +1326,10 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>Since Scratch is actually a Squeak Smalltalk image, all of its code is actually shipped with the final user version itself.</seg>
+        <seg>Since &lt;a0&gt;Scratch&lt;/a0&gt; is actually a &lt;a1&gt;Squeak&lt;/a1&gt; Smalltalk image, all of its code is actually shipped with the final user version itself.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T104554Z" changeid="bromagosa">
-        <seg>Com que Scratch és, en realitat, una imatge d'Squeak Smalltalk, tot el seu codi ve inclòs en la versió final.</seg>
+        <seg>Com que &lt;a0&gt;Scratch&lt;/a0&gt; és, en realitat, una imatge d'&lt;a1&gt;Squeak&lt;/a1&gt; Smalltalk, tot el seu codi ve inclòs en la versió final.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1318,10 +1350,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>His main work in Citilab has been related to the field of training in two areas: teaching programming with Scratch, especially to children, and teaching computer skills to early adult citizens.</seg>
+        <seg>http://groups.google.com/group/s4a-community</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094659Z" changeid="bromagosa">
+        <seg>http://groups.google.com/group/s4a-community</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>His main work in &lt;a0&gt;Citilab&lt;/a0&gt; has been related to the field of training in two areas: teaching programming with &lt;a1&gt;Scratch&lt;/a1&gt;, especially to children, and teaching computer skills to early adult citizens.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T110229Z" changeid="bromagosa">
-        <seg>La seva tasca principal al Citilab ha estat relacionada amb el camp de la formació en dues àrees: l'ensenyament de la programació mitjançant Scratch, especialment per a nens, i la formació en coneixements d'informàtica a ciutadans adults.</seg>
+        <seg>La seva tasca principal al &lt;a0&gt;Citilab&lt;/a0&gt; ha estat relacionada amb el camp de la formació en dues àrees: l'ensenyament de la programació mitjançant &lt;a1&gt;Scratch&lt;/a1&gt;, especialment per a nens, i la formació en coneixements d'informàtica a ciutadans adults.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1390,18 +1430,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>You can download it here or by scanning the QR code below:</seg>
+        <seg>You can download it &lt;a1&gt;here&lt;/a1&gt; or by scanning the QR code below:</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T101011Z" changeid="bromagosa">
-        <seg>Podeu decarregar-vos-el des d'aquí, o escanejant aquest codi QR:</seg>
+        <seg>Podeu decarregar-vos-el des d'&lt;a1&gt;aquí&lt;/a1&gt;, o escanejant aquest codi QR:</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>CA ES</seg>
+        <seg>&lt;a0&gt;CA&lt;/a0&gt; &lt;a1&gt;ES&lt;/a1&gt;</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T113445Z" changeid="bromagosa">
-        <seg>EN ES</seg>
+        <seg>&lt;a0&gt;EN&lt;/a0&gt; &lt;a1&gt;ES&lt;/a1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1430,10 +1470,10 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>S4A is free software distributed under an MIT license</seg>
+        <seg>S4A is free software distributed under an &lt;a0&gt;&lt;s1&gt;MIT&lt;/s1&gt;&lt;/a0&gt; license</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T111609Z" changeid="bromagosa">
-        <seg>S4A és programari lliure subjecte a una llicència MIT.</seg>
+        <seg>S4A és programari lliure subjecte a una llicència &lt;a0&gt;MIT&lt;/a0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1446,18 +1486,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>Being Smalltalk programmers ourselves, we were able to modify its source code in order to achieve interaction with Arduino boards.</seg>
+        <seg>And you can subscribe, contribute and browse the mail list forum at:</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T111522Z" changeid="bromagosa">
-        <seg>Essent programadors d'Smalltalk, vam poder modificar el seu codi font per aconseguir que interactués amb plaques Arduino.</seg>
+      <tuv lang="CA" changedate="20130920T094659Z" changeid="bromagosa">
+        <seg>També podeu utilitzar la interfície web de la llista de correu per a subscriure-us, contribuir i consultar l'arxiu:</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>Broadcast a message:</seg>
+        <seg>Being &lt;a2&gt;Smalltalk&lt;/a2&gt; programmers ourselves, we were able to modify its source code in order to achieve interaction with &lt;a3&gt;Arduino&lt;/a3&gt; boards.</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130919T111522Z" changeid="bromagosa">
+        <seg>Essent programadors d'&lt;a2&gt;Smalltalk&lt;/a2&gt;, vam poder modificar el seu codi font per aconseguir que interactués amb plaques &lt;a3&gt;Arduino&lt;/a3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Broadcast a message:&lt;br0/&gt;</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T102008Z" changeid="bromagosa">
-        <seg>Enviar un missatge:</seg>
+        <seg>Enviar un missatge:&lt;br0/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>s4a-community@googlegroups.com</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094542Z" changeid="bromagosa">
+        <seg>s4a-community@googlegroups.com</seg>
       </tuv>
     </tu>
     <tu>
@@ -1470,18 +1526,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>downloads/s4a-workshop.zip</seg>
+        <seg>s4a-community+subscribe@googlegroups.com</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T095205Z" changeid="bromagosa">
-        <seg>downloads/s4a-workshop.zip</seg>
+      <tuv lang="CA" changedate="20130920T094419Z" changeid="bromagosa">
+        <seg>s4a-community+subscribe@googlegroups.com</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>http://seaside.citilab.eu/scratch/arduino/</seg>
+        <seg>downloads/s4a-workshop.zip</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T100536Z" changeid="bromagosa">
-        <seg>http://seaside.citilab.eu/scratch/arduino/</seg>
+      <tuv lang="CA" changedate="20130919T095205Z" changeid="bromagosa">
+        <seg>downloads/s4a-workshop.zip</seg>
       </tuv>
     </tu>
     <tu>
@@ -1502,10 +1558,10 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>Using a PicoBoard along with an Arduino board is also supported.</seg>
+        <seg>Using a PicoBoard along with an &lt;a0&gt;Arduino&lt;/a0&gt; board is also supported.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T093755Z" changeid="bromagosa">
-        <seg>S4A permet utilitzar una PicoBoard conjuntament amb un Arduino.</seg>
+        <seg>S4A permet utilitzar una PicoBoard conjuntament amb un &lt;a0&gt;Arduino&lt;/a0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1542,10 +1598,10 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>S4A interacts with Arduino by sending the actuator states and receiving sensor states every 75 ms, therefore the pulse width needs to be greater than this time period.</seg>
+        <seg>S4A interacts with &lt;a0&gt;Arduino&lt;/a0&gt; by sending the actuator states and receiving sensor states every 75 ms, therefore the pulse width needs to be greater than this time period.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T112711Z" changeid="bromagosa">
-        <seg>S4A interactua amb Arduino enviant l'estat dels actuadors i rebent l'estat dels sensors cada 75 ms, per tant l'amplada del pols ha de ser major que aquest període.</seg>
+        <seg>S4A interactua amb &lt;a0&gt;Arduino&lt;/a0&gt; enviant l'estat dels actuadors i rebent l'estat dels sensors cada 75 ms, per tant l'amplada del pols ha de ser major que aquest període.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1566,10 +1622,10 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>However, you won't be able to share your projects on the Scratch community website because doing so goes against the Scratch terms of use.</seg>
+        <seg>However, you won't be able to share your projects on the &lt;a2&gt;Scratch&lt;/a2&gt; community website because doing so goes against the &lt;a3&gt;Scratch&lt;/a3&gt; terms of use.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T093451Z" changeid="bromagosa">
-        <seg>En qualsevol cas, no és possible compartir projectes de S4A a la web de la comunitat Scratch, ja que això aniria en contra del termes i condicions d'ús d'Scratch.</seg>
+        <seg>En qualsevol cas, no és possible compartir projectes de S4A a la web de la comunitat &lt;a2&gt;Scratch&lt;/a2&gt;, ja que això aniria en contra del termes i condicions d'ús d'&lt;a3&gt;Scratch&lt;/a3&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1598,10 +1654,10 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>The Android application uses a very simple protocol we developed on top of the Scratch HTTP message protocol, so it is also possible to interact to S4A from a browser or any other network enabled application.</seg>
+        <seg>The Android application uses a very simple protocol we developed on top of the &lt;a0&gt;Scratch&lt;/a0&gt; HTTP message protocol, so it is also possible to interact to S4A from a browser or any other network enabled application.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T101641Z" changeid="bromagosa">
-        <seg>L'aplicació Android utilitza un protocol molt senzill que hem desenvolupat sobre el protocol de missatges HTTP d'Scratch, la qual cosa permet interactuar amb S4A des d'un navegador o qualsevol altra aplicació amb accés a la xarxa.</seg>
+        <seg>L'aplicació Android utilitza un protocol molt senzill que hem desenvolupat sobre el protocol de missatges HTTP d'&lt;a0&gt;Scratch&lt;/a0&gt;, la qual cosa permet interactuar amb S4A des d'un navegador o qualsevol altra aplicació amb accés a la xarxa.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1622,10 +1678,10 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>S4A has been developed at Citilab by the Edutech Research Group, with the help of the Smalltalk.cat programming group and of collaborators like Jorge Gómez, instructor at Training Center Padre Piquer from Madrid.</seg>
+        <seg>S4A has been developed at &lt;a0&gt;Citilab&lt;/a0&gt; by the Edutech Research Group, with the help of the &lt;a1&gt;Smalltalk.cat&lt;/a1&gt; programming group and of collaborators like Jorge Gómez, instructor at Training Center Padre Piquer from Madrid.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T105059Z" changeid="bromagosa">
-        <seg>S4A ha estat desenvolupat al Citilab per l'equip de recerca Edutech, amb l'ajuda del grup de programació Smalltalk.cat i de col·laboradors com Jorge Gómez, instructor al centre de formació Padre Piquer de Madrid.</seg>
+        <seg>S4A ha estat desenvolupat al &lt;a0&gt;Citilab&lt;/a0&gt; per l'equip de recerca Edutech, amb l'ajuda del grup de programació &lt;a1&gt;Smalltalk.cat&lt;/a1&gt; i de col·laboradors com Jorge Gómez, instructor al centre de formació Padre Piquer de Madrid.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1640,8 +1696,8 @@
       <tuv lang="EN-US">
         <seg>Changed the sensor board names and their corresponding Arduino blocks to show real pin numbers</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T103832Z" changeid="bromagosa">
-        <seg>Canviats els noms del panell de sensos i els seus corresponents blocs d'Arduino per mostrar números de pin reals</seg>
+      <tuv lang="CA" changedate="20130920T105841Z" changeid="bromagosa">
+        <seg>Canviats els noms del panell de sensors i els seus corresponents blocs d'Arduino per mostrar números de pin reals</seg>
       </tuv>
     </tu>
     <tu>
@@ -1718,10 +1774,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>Take in account that this compatibility doesn't work both ways, so you won't be able to open an S4A project from within the original Scratch.</seg>
+        <seg>Take in account that this compatibility doesn't work both ways, so you won't be able to open an S4A project from within the original &lt;a0&gt;Scratch&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T093538Z" changeid="bromagosa">
-        <seg>Cal tenir en compte que aquesta compatibilitat no és bidireccional. No és possible obrir projectes de S4A des de l'Scratch original.</seg>
+        <seg>Cal tenir en compte que aquesta compatibilitat no és bidireccional. No és possible obrir projectes de S4A des de l'&lt;a0&gt;Scratch&lt;/a0&gt; original.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>mailto:s4a-community+subscribe@googlegroups.com</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094418Z" changeid="bromagosa">
+        <seg>mailto:s4a-community+subscribe@googlegroups.com</seg>
       </tuv>
     </tu>
     <tu>
@@ -1758,18 +1822,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>IMPORTANT! Both S4A as HiS4A must be connected to the same local network!</seg>
+        <seg>&lt;s0&gt;IMPORTANT!&lt;/s0&gt; Both S4A as HiS4A must be connected to the same local network!</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T101541Z" changeid="bromagosa">
-        <seg>IMPORTANT! Tant S4A com HiS4A han d'estar connectats a la mateixa xarxa local!</seg>
+        <seg>&lt;s0&gt;IMPORTANT!&lt;/s0&gt; Tant S4A com HiS4A han d'estar connectats a la mateixa xarxa local!</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>This firmware is a piece of software you need to install into your Arduino board to be able to communicate with it from S4A.</seg>
+        <seg>This firmware is a piece of software you need to install into your &lt;a0&gt;Arduino&lt;/a0&gt; board to be able to communicate with it from S4A.</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T104211Z" changeid="bromagosa">
-        <seg>Aquest firmware és un programa que cal instal·lar a la vostra placa Arduino board per tal de poder-vos-hi comunicar des d'S4A.</seg>
+      <tuv lang="CA" changedate="20130920T110316Z" changeid="bromagosa">
+        <seg>Aquest firmware és un programa que cal instal·lar a la vostra placa &lt;a0&gt;Arduino&lt;/a0&gt; per tal de poder-vos-hi comunicar des d'S4A.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1838,10 +1902,10 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>Scratch for Arduino (S4A) is a modified version of Scratch, ready to interact with Arduino boards.</seg>
+        <seg>Scratch for Arduino (S4A) is a modified version of &lt;a0&gt;Scratch&lt;/a0&gt;, ready to interact with &lt;a1&gt;Arduino&lt;/a1&gt; boards.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T094256Z" changeid="bromagosa">
-        <seg>Scratch for Arduino (S4A) és una versió modificada d'Scratch, preparada per a interactuar amb plaques Arduino.</seg>
+        <seg>Scratch for Arduino (S4A) és una versió modificada d'&lt;a0&gt;Scratch&lt;/a0&gt;, preparada per a interactuar amb plaques &lt;a1&gt;Arduino&lt;/a1&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1854,10 +1918,10 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>While there, he had the opportunity to enter Citilab through an internship, where he later developed S4A, his final thesis.</seg>
+        <seg>While there, he had the opportunity to enter &lt;a0&gt;Citilab&lt;/a0&gt; through an internship, where he later developed S4A, his final thesis.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T105937Z" changeid="bromagosa">
-        <seg>Durant aquest temps, va sorgir-li l'oportunitat d'entrar al Citilab a través d'una beca, on va desenvolupar S4A, el seu projecte final.</seg>
+        <seg>Durant aquest temps, va sorgir-li l'oportunitat d'entrar al &lt;a0&gt;Citilab&lt;/a0&gt; a través d'una beca, on va desenvolupar S4A, el seu projecte final.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1870,10 +1934,10 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>http://[IP]:42001/broadcast=[message-name]</seg>
+        <seg>&lt;s1&gt;http://[IP]:42001/broadcast=[message-name]&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T102014Z" changeid="bromagosa">
-        <seg>http://[IP]:42001/broadcast=[nom-del-missatge]</seg>
+        <seg>&lt;s1&gt;http://[IP]:42001/broadcast=[nom-del-missatge]&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1886,10 +1950,10 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>This video serves as an introduction for the S4A workshops given at Citilab, but you'll find a couple of demos of what can be achieved with our software.</seg>
+        <seg>This video serves as an introduction for the S4A workshops given at &lt;a0&gt;Citilab&lt;/a0&gt;, but you'll find a couple of demos of what can be achieved with our software.</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T100147Z" changeid="bromagosa">
-        <seg>Aquest vídeo serveix com a introducció pels taller d'S4A que s'imparteixen al Citilab. Hi trobareu uns quants exemples de casos d'ús del nostre software.</seg>
+      <tuv lang="CA" changedate="20130920T101934Z" changeid="bromagosa">
+        <seg>Aquest vídeo serveix com a introducció pels tallers d'S4A que s'imparteixen al &lt;a0&gt;Citilab&lt;/a0&gt;. Hi trobareu uns quants exemples de casos d'ús del nostre software.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1914,6 +1978,14 @@
       </tuv>
       <tuv lang="CA" changedate="20130919T100521Z" changeid="bromagosa">
         <seg>https://scratch-io.wikispaces.com/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Community</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094233Z" changeid="bromagosa">
+        <seg>Comunitat</seg>
       </tuv>
     </tu>
     <tu>

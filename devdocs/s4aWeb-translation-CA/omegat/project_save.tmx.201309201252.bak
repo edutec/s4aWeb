@@ -166,6 +166,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>And you can subscribe, contribute and browse the mail list forum at:</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094659Z" changeid="bromagosa">
+        <seg>També podeu utilitzar la interfície web de la llista de correu per a subscriure-us, contribuir i consultar l'arxiu:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Android</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T084018Z" changeid="bromagosa">
@@ -298,6 +306,14 @@
       </tuv>
       <tuv lang="CA" changedate="20130919T095541Z" changeid="bromagosa">
         <seg>Codi</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Community</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094233Z" changeid="bromagosa">
+        <seg>Comunitat</seg>
       </tuv>
     </tu>
     <tu>
@@ -498,6 +514,14 @@
       </tuv>
       <tuv lang="CA" changedate="20130919T100456Z" changeid="bromagosa">
         <seg>Per a programadors</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For any questions and answers, please use the community support mail list.</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094401Z" changeid="bromagosa">
+        <seg>Per formular preguntes i respostes, si us plau utilitzeu la llista de correu de la comunitat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -878,6 +902,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Mail List Web Site</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094707Z" changeid="bromagosa">
+        <seg>Pàgina web de la llista de correu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Marina Conde</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T105100Z" changeid="bromagosa">
@@ -914,6 +946,14 @@
       </tuv>
       <tuv lang="CA" changedate="20130919T100844Z" changeid="bromagosa">
         <seg>Web antiga d'S4A (obsoleta)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once subscribed, you can reach the list at:</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094444Z" changeid="bromagosa">
+        <seg>Una vegada us hi hagueu subscrit, podeu enviar els vostres missatges a:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1112,8 +1152,8 @@
       <tuv lang="EN-US">
         <seg>S4A variables whose name doesn't start ether with a minus or plus sign are not visible from the web client</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T102517Z" changeid="bromagosa">
-        <seg>Les S4A variables amb noms que no comencin amb els signes més o menys no són visibles des del client web</seg>
+      <tuv lang="CA" changedate="20130920T104534Z" changeid="bromagosa">
+        <seg>Les variables d'S4A amb noms que no comencin amb els signes més o menys no són visibles des del client web</seg>
       </tuv>
     </tu>
     <tu>
@@ -1392,8 +1432,8 @@
       <tuv lang="EN-US">
         <seg>This video serves as an introduction for the S4A workshops given at &lt;a0&gt;Citilab&lt;/a0&gt;, but you'll find a couple of demos of what can be achieved with our software.</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T100147Z" changeid="bromagosa">
-        <seg>Aquest vídeo serveix com a introducció pels taller d'S4A que s'imparteixen al &lt;a0&gt;Citilab&lt;/a0&gt;. Hi trobareu uns quants exemples de casos d'ús del nostre software.</seg>
+      <tuv lang="CA" changedate="20130920T101934Z" changeid="bromagosa">
+        <seg>Aquest vídeo serveix com a introducció pels tallers d'S4A que s'imparteixen al &lt;a0&gt;Citilab&lt;/a0&gt;. Hi trobareu uns quants exemples de casos d'ús del nostre software.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1578,6 +1618,14 @@
       </tuv>
       <tuv lang="CA" changedate="20130919T111557Z" changeid="bromagosa">
         <seg>Pots contactar amb nosaltres a &lt;a0&gt;scratch@citilab.eu&lt;/a0&gt; per informar-nos de bugs o per a qualsevol suggerència.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can subscribe by sending an email to:</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094416Z" changeid="bromagosa">
+        <seg>Per a subscriure-us-hi, envieu un correu a:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1830,6 +1878,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://groups.google.com/group/s4a-community</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094659Z" changeid="bromagosa">
+        <seg>http://groups.google.com/group/s4a-community</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://opensource.org/licenses/MIT</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T104441Z" changeid="bromagosa">
@@ -2008,8 +2064,24 @@
       <tuv lang="EN-US">
         <seg>index_ca.html</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T113441Z" changeid="bromagosa">
-        <seg>index_en.html</seg>
+      <tuv lang="CA" changedate="20130919T113523Z" changeid="bromagosa">
+        <seg>index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>mailto:s4a-community+subscribe@googlegroups.com</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094418Z" changeid="bromagosa">
+        <seg>mailto:s4a-community+subscribe@googlegroups.com</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>mailto:s4a-community@googlegroups.com</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094542Z" changeid="bromagosa">
+        <seg>mailto:s4a-community@googlegroups.com</seg>
       </tuv>
     </tu>
     <tu>
@@ -2018,6 +2090,22 @@
       </tuv>
       <tuv lang="CA" changedate="20130919T111529Z" changeid="bromagosa">
         <seg>mailto:scratch@citilab.eu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>s4a-community+subscribe@googlegroups.com</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094419Z" changeid="bromagosa">
+        <seg>s4a-community+subscribe@googlegroups.com</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>s4a-community@googlegroups.com</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130920T094542Z" changeid="bromagosa">
+        <seg>s4a-community@googlegroups.com</seg>
       </tuv>
     </tu>
     <tu>
