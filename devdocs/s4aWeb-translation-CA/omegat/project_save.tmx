@@ -366,6 +366,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Copyright © 2013 &lt;a0&gt;Citilab&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130923T075157Z" changeid="bromagosa">
+        <seg>Copyright © 2013 &lt;a0&gt;Citilab&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Copyright © 2013 Citilab</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T111558Z" changeid="bromagosa">

@@ -1174,14 +1174,6 @@
     </tu>
     <tu>
       <tuv lang="CA">
-        <seg>Copyright © 2013 Citilab</seg>
-      </tuv>
-      <tuv lang="ES" changedate="20130920T113132Z" changeid="bromagosa">
-        <seg>Copyright © 2013 Citilab</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="CA">
         <seg>http://citilab.eu</seg>
       </tuv>
       <tuv lang="ES" changedate="20130920T101043Z" changeid="bromagosa">
@@ -1646,18 +1638,18 @@
     </tu>
     <tu>
       <tuv lang="CA">
-        <seg>Un exemple simple mostrant com activar un LED mitjançant un polsador.</seg>
-      </tuv>
-      <tuv lang="ES" changedate="20130920T104409Z" changeid="bromagosa">
-        <seg>Un ejemplo simple mostrando como activar un LED mediante un pulsador.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="CA">
         <seg>Essent programadors d'Smalltalk, vam poder modificar el seu codi font per aconseguir que interactués amb plaques Arduino.</seg>
       </tuv>
       <tuv lang="ES" changedate="20130920T112931Z" changeid="bromagosa">
         <seg>Al ser programadores de Smalltalk, pudimos modificar su código fuente para conseguir que interactuara con placas Arduino.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un exemple simple mostrant com activar un LED mitjançant un polsador.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T104409Z" changeid="bromagosa">
+        <seg>Un ejemplo simple mostrando como activar un LED mediante un pulsador.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2002,6 +1994,14 @@
       </tuv>
       <tuv lang="ES" changedate="20130920T104831Z" changeid="bromagosa">
         <seg>+iniciarJuego) son visibles desde cliente web</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Copyright © 2013 Citilab</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130923T075234Z" changeid="bromagosa">
+        <seg>Copyright © 2013 Citilab</seg>
       </tuv>
     </tu>
     <tu>

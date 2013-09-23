@@ -1174,14 +1174,6 @@
     </tu>
     <tu>
       <tuv xml:lang="CA">
-        <seg>Copyright © 2013 Citilab</seg>
-      </tuv>
-      <tuv xml:lang="ES" changedate="20130920T113132Z" changeid="bromagosa">
-        <seg>Copyright © 2013 Citilab</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="CA">
         <seg>http://citilab.eu</seg>
       </tuv>
       <tuv xml:lang="ES" changedate="20130920T101043Z" changeid="bromagosa">
@@ -1646,18 +1638,18 @@
     </tu>
     <tu>
       <tuv xml:lang="CA">
-        <seg>Un exemple simple mostrant com activar un LED mitjançant un polsador.</seg>
-      </tuv>
-      <tuv xml:lang="ES" changedate="20130920T104409Z" changeid="bromagosa">
-        <seg>Un ejemplo simple mostrando como activar un LED mediante un pulsador.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="CA">
         <seg>Essent programadors d'<bpt i='2' x='2'>&lt;a2&gt;</bpt>Smalltalk<ept i='2'>&lt;/a2&gt;</ept>, vam poder modificar el seu codi font per aconseguir que interactués amb plaques <bpt i='3' x='3'>&lt;a3&gt;</bpt>Arduino<ept i='3'>&lt;/a3&gt;</ept>.</seg>
       </tuv>
       <tuv xml:lang="ES" changedate="20130920T112931Z" changeid="bromagosa">
         <seg>Al ser programadores de <bpt i='2' x='2'>&lt;a2&gt;</bpt>Smalltalk<ept i='2'>&lt;/a2&gt;</ept>, pudimos modificar su código fuente para conseguir que interactuara con placas <bpt i='3' x='3'>&lt;a3&gt;</bpt>Arduino<ept i='3'>&lt;/a3&gt;</ept>.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Un exemple simple mostrant com activar un LED mitjançant un polsador.</seg>
+      </tuv>
+      <tuv xml:lang="ES" changedate="20130920T104409Z" changeid="bromagosa">
+        <seg>Un ejemplo simple mostrando como activar un LED mediante un pulsador.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2002,6 +1994,14 @@
       </tuv>
       <tuv xml:lang="ES" changedate="20130920T104831Z" changeid="bromagosa">
         <seg>+iniciarJuego) son visibles desde cliente web</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Copyright © 2013 <bpt i='0' x='0'>&lt;a0&gt;</bpt>Citilab<ept i='0'>&lt;/a0&gt;</ept></seg>
+      </tuv>
+      <tuv xml:lang="ES" changedate="20130923T075234Z" changeid="bromagosa">
+        <seg>Copyright © 2013 <bpt i='0' x='0'>&lt;a0&gt;</bpt>Citilab<ept i='0'>&lt;/a0&gt;</ept></seg>
       </tuv>
     </tu>
     <tu>

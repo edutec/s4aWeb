@@ -614,18 +614,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>In the Tools menu, select the board version and the serial port where the board is connected</seg>
-      </tuv>
-      <tuv lang="CA" changedate="20130919T104434Z" changeid="bromagosa">
-        <seg>Al menú Tools, seleccioneu la versió de la placa i el port sèrie en què heu connectat la placa</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
         <seg>It was developed in 2010 by the Citilab Smalltalk Team and it has been used since by many people in a lot of differents projects around the world.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T094533Z" changeid="bromagosa">
         <seg>El seu desenvolupament el va a dur a terme l'equip d'Smalltalk del Citilab l'any 2010, i des d'aleshores s'ha utilitzat a tot el món per a una gran varietat de projectes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the Tools menu, select the board version and the serial port where the board is connected</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130919T104434Z" changeid="bromagosa">
+        <seg>Al menú Tools, seleccioneu la versió de la placa i el port sèrie en què heu connectat la placa</seg>
       </tuv>
     </tu>
     <tu>
@@ -1202,14 +1202,6 @@
       </tuv>
       <tuv lang="CA" changedate="20130919T102112Z" changeid="bromagosa">
         <seg>Actualitzar una variable de S4A:</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
-        <seg>Copyright © 2013 Citilab</seg>
-      </tuv>
-      <tuv lang="CA" changedate="20130919T111558Z" changeid="bromagosa">
-        <seg>Copyright © 2013 Citilab</seg>
       </tuv>
     </tu>
     <tu>
@@ -1850,6 +1842,14 @@
       </tuv>
       <tuv lang="CA" changedate="20130919T110328Z" changeid="bromagosa">
         <seg>En Jose va estudiar Enginyeria Superior en Telecomunicacions, però va començar a treballar a una editorial abans d'acabar els estudis.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Copyright © 2013 Citilab</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130923T075157Z" changeid="bromagosa">
+        <seg>Copyright © 2013 Citilab</seg>
       </tuv>
     </tu>
     <tu>
