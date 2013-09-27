@@ -726,6 +726,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In HiS4A (Android), type the local network IP of the PC where S4A is running (you can find that out through Edit &gt; Show IP address), plus the prefix (only needed if you are connecting from more than one Android client)</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130927T090623Z" changeid="bromagosa">
+        <seg>A HiS4A (Android), introduïu la IP local del PC on tingueu S4A funcionant (podeu trobar-la des del menú Edita &gt; Host de xarxa), més el prefix (només necessari si us esteu connectant des de més d'un client d'Android)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In S4A, an &lt;a0&gt;Arduino&lt;/a0&gt; board is represented by a special kind of sprite.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T091910Z" changeid="bromagosa">
@@ -832,8 +840,8 @@
       <tuv lang="EN-US">
         <seg>Jordi is an associate professor at the Software Departament of the Technical University of Catalonia (Universitat Politècnica de Catalunya).</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T111119Z" changeid="bromagosa">
-        <seg>En Jordi és professor adjunt al departament de software de la Universitat Politècnica de Catalunya (UPC).</seg>
+      <tuv lang="CA" changedate="20130927T090724Z" changeid="bromagosa">
+        <seg>En Jordi és professor titular al departament de Llenguatges i Sistemes Informàtics de la Universitat Politècnica de Catalunya (UPC).</seg>
       </tuv>
     </tu>
     <tu>
@@ -1090,6 +1098,14 @@
       </tuv>
       <tuv lang="CA" changedate="20130919T105059Z" changeid="bromagosa">
         <seg>S4A ha estat desenvolupat al &lt;a0&gt;Citilab&lt;/a0&gt; per l'equip de recerca Edutech, amb l'ajuda del grup de programació &lt;a1&gt;Smalltalk.cat&lt;/a1&gt; i de col·laboradors com Jorge Gómez, instructor al centre de formació Padre Piquer de Madrid.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>S4A has been developed at &lt;a0&gt;Citilab&lt;/a0&gt; by the Edutech Research Group, with the help of the &lt;a1&gt;Smalltalk.cat&lt;/a1&gt; programming group and of collaborators like Jorge Gómez, who leads the hardware and software educational project at &lt;a2&gt;Miscela&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130927T090702Z" changeid="bromagosa">
+        <seg>S4A ha estat desenvolupat al &lt;a0&gt;Citilab&lt;/a0&gt; per l'equip de recerca Edutech, amb l'ajuda del grup de programació &lt;a1&gt;Smalltalk.cat&lt;/a1&gt; i de col·laboradors com Jorge Gómez, cap del projecte d'educació en software i hardware a &lt;a2&gt;Miscela&lt;/a2&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1894,6 +1910,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://miscela.es</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130927T090626Z" changeid="bromagosa">
+        <seg>http://miscela.es</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://opensource.org/licenses/MIT</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T104441Z" changeid="bromagosa">
@@ -2074,6 +2098,14 @@
       </tuv>
       <tuv lang="CA" changedate="20130919T113523Z" changeid="bromagosa">
         <seg>index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>index_es.html</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130927T090549Z" changeid="bromagosa">
+        <seg>index_es.html</seg>
       </tuv>
     </tu>
     <tu>

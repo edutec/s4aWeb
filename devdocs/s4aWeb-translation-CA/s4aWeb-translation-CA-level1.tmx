@@ -118,6 +118,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>S4A has been developed at Citilab by the Edutech Research Group, with the help of the Smalltalk.cat programming group and of collaborators like Jorge Gómez, who leads the hardware and software educational project at Miscela.</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130927T090702Z" changeid="bromagosa">
+        <seg>S4A ha estat desenvolupat al Citilab per l'equip de recerca Edutech, amb l'ajuda del grup de programació Smalltalk.cat i de col·laboradors com Jorge Gómez, cap del projecte d'educació en software i hardware a Miscela.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>During his time at the company, he worked on programming a wide variety of applications.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T110359Z" changeid="bromagosa">
@@ -726,6 +734,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>index_es.html</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130927T090549Z" changeid="bromagosa">
+        <seg>index_es.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Scratch IO Wiki - by José Javier Vitón</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T100528Z" changeid="bromagosa">
@@ -1104,8 +1120,8 @@
       <tuv lang="EN-US">
         <seg>Jordi is an associate professor at the Software Departament of the Technical University of Catalonia (Universitat Politècnica de Catalunya).</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T111119Z" changeid="bromagosa">
-        <seg>En Jordi és professor adjunt al departament de software de la Universitat Politècnica de Catalunya (UPC).</seg>
+      <tuv lang="CA" changedate="20130927T090724Z" changeid="bromagosa">
+        <seg>En Jordi és professor titular al departament de Llenguatges i Sistemes Informàtics de la Universitat Politècnica de Catalunya (UPC).</seg>
       </tuv>
     </tu>
     <tu>
@@ -1122,14 +1138,6 @@
       </tuv>
       <tuv lang="CA" changedate="20130919T095559Z" changeid="bromagosa">
         <seg>examples/rgb_led.sb</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
-        <seg>In HiS4A (Android), type the local network IP of the PC where S4A is running (you can find that out thorugh Edit &gt; Show IP address), plus the prefix (only needed if you are connecting from more than one Android client)</seg>
-      </tuv>
-      <tuv lang="CA" changedate="20130919T101451Z" changeid="bromagosa">
-        <seg>A HiS4A (Android), introduïu la IP local del PC on tingueu S4A funcionant (podeu trobar-la des del menú Edita &gt; Host de xarxa), més el prefix (només necessari si us esteu connectant des de més d'un client d'Android)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1234,6 +1242,14 @@
       </tuv>
       <tuv lang="CA" changedate="20130919T101521Z" changeid="bromagosa">
         <seg>Els botons corresponen a missatges, i el touchpad i lliscador a sensors remots</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://miscela.es</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130927T090626Z" changeid="bromagosa">
+        <seg>http://miscela.es</seg>
       </tuv>
     </tu>
     <tu>
@@ -1470,6 +1486,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In HiS4A (Android), type the local network IP of the PC where S4A is running (you can find that out through Edit &gt; Show IP address), plus the prefix (only needed if you are connecting from more than one Android client)</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130927T090623Z" changeid="bromagosa">
+        <seg>A HiS4A (Android), introduïu la IP local del PC on tingueu S4A funcionant (podeu trobar-la des del menú Edita &gt; Host de xarxa), més el prefix (només necessari si us esteu connectant des de més d'un client d'Android)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>img/logo.png</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T083902Z" changeid="bromagosa">
@@ -1666,14 +1690,6 @@
       </tuv>
       <tuv lang="CA" changedate="20130919T083901Z" changeid="bromagosa">
         <seg>css/main.css</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
-        <seg>S4A has been developed at Citilab by the Edutech Research Group, with the help of the Smalltalk.cat programming group and of collaborators like Jorge Gómez, instructor at Training Center Padre Piquer from Madrid.</seg>
-      </tuv>
-      <tuv lang="CA" changedate="20130919T105059Z" changeid="bromagosa">
-        <seg>S4A ha estat desenvolupat al Citilab per l'equip de recerca Edutech, amb l'ajuda del grup de programació Smalltalk.cat i de col·laboradors com Jorge Gómez, instructor al centre de formació Padre Piquer de Madrid.</seg>
       </tuv>
     </tu>
     <tu>

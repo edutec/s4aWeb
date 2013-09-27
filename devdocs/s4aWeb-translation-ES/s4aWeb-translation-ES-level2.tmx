@@ -390,6 +390,14 @@
     </tu>
     <tu>
       <tuv xml:lang="CA">
+        <seg>S4A ha estat desenvolupat al <bpt i='0' x='0'>&lt;a0&gt;</bpt>Citilab<ept i='0'>&lt;/a0&gt;</ept> per l'equip de recerca Edutech, amb l'ajuda del grup de programació <bpt i='1' x='1'>&lt;a1&gt;</bpt>Smalltalk.cat<ept i='1'>&lt;/a1&gt;</ept> i de col·laboradors com Jorge Gómez, cap del projecte d'educació en software i hardware a <bpt i='2' x='2'>&lt;a2&gt;</bpt>Miscela<ept i='2'>&lt;/a2&gt;</ept>.</seg>
+      </tuv>
+      <tuv xml:lang="ES" changedate="20130927T090821Z" changeid="bromagosa">
+        <seg>S4A ha sido desarrollado en el <bpt i='0' x='0'>&lt;a0&gt;</bpt>Citilab<ept i='0'>&lt;/a0&gt;</ept> por el equivo de investigación Edutech, con la ayuda del grupo de programación <bpt i='1' x='1'>&lt;a1&gt;</bpt>Smalltalk.cat<ept i='1'>&lt;/a1&gt;</ept> y de colaboradores como Jorge Gómez, jefe del proyecto de educación en software y hardware a <bpt i='2' x='2'>&lt;a2&gt;</bpt>Miscela<ept i='2'>&lt;/a2&gt;</ept></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
         <seg>img/shot01.png</seg>
       </tuv>
       <tuv xml:lang="ES" changedate="20130920T095838Z" changeid="bromagosa">
@@ -434,6 +442,14 @@
       </tuv>
       <tuv xml:lang="ES" changedate="20130920T101601Z" changeid="bromagosa">
         <seg>Vídeos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>En Jordi és professor titular al departament de Llenguatges i Sistemes Informàtics de la Universitat Politècnica de Catalunya (UPC).</seg>
+      </tuv>
+      <tuv xml:lang="ES" changedate="20130927T090842Z" changeid="bromagosa">
+        <seg>Jordi es profesor titular en el departamento de Lenguajes y Sistemas Informáticos de la Universitat Politècnica de Catalunya (UPC).</seg>
       </tuv>
     </tu>
     <tu>
@@ -1062,14 +1078,6 @@
     </tu>
     <tu>
       <tuv xml:lang="CA">
-        <seg>En Jordi és professor adjunt al departament de software de la Universitat Politècnica de Catalunya (UPC).</seg>
-      </tuv>
-      <tuv xml:lang="ES" changedate="20130920T112651Z" changeid="bromagosa">
-        <seg>Jordi es profesor adjunto en el departamento de software de la Universitat Politècnica de Catalunya (UPC).</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="CA">
         <seg>Una vegada us hi hagueu subscrit, podeu enviar els vostres missatges a:</seg>
       </tuv>
       <tuv xml:lang="ES" changedate="20130920T113029Z" changeid="bromagosa">
@@ -1194,6 +1202,14 @@
       </tuv>
       <tuv xml:lang="ES" changedate="20130920T112638Z" changeid="bromagosa">
         <seg>img/jordi.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>http://miscela.es</seg>
+      </tuv>
+      <tuv xml:lang="ES" changedate="20130927T090747Z" changeid="bromagosa">
+        <seg>http://miscela.es</seg>
       </tuv>
     </tu>
     <tu>
@@ -2098,14 +2114,6 @@
       </tuv>
       <tuv xml:lang="ES" changedate="20130920T105946Z" changeid="bromagosa">
         <seg>Añadidos comandos de servidor en el menú &quot;Editar&quot; para trabajar con comunicación en red sobre sockets</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="CA">
-        <seg>S4A ha estat desenvolupat al <bpt i='0' x='0'>&lt;a0&gt;</bpt>Citilab<ept i='0'>&lt;/a0&gt;</ept> per l'equip de recerca Edutech, amb l'ajuda del grup de programació <bpt i='1' x='1'>&lt;a1&gt;</bpt>Smalltalk.cat<ept i='1'>&lt;/a1&gt;</ept> i de col·laboradors com Jorge Gómez, instructor al centre de formació Padre Piquer de Madrid.</seg>
-      </tuv>
-      <tuv xml:lang="ES" changedate="20130920T111242Z" changeid="bromagosa">
-        <seg>S4A ha sido desarrollado en el <bpt i='0' x='0'>&lt;a0&gt;</bpt>Citilab<ept i='0'>&lt;/a0&gt;</ept> por el equivo de investigación Edutech, con la ayuda del grupo de programación <bpt i='1' x='1'>&lt;a1&gt;</bpt>Smalltalk.cat<ept i='1'>&lt;/a1&gt;</ept> y de colaboradores como Jorge Gómez, instructor del centro de formación Padre Piquer de Madrid.</seg>
       </tuv>
     </tu>
     <tu>

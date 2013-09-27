@@ -702,14 +702,6 @@
     </tu>
     <tu>
       <tuv lang="CA">
-        <seg>En Jordi és professor titular al departament de Llenguatges i Sistemes Informàtics de la Universitat Politècnica de Catalunya (UPC).</seg>
-      </tuv>
-      <tuv lang="ES" changedate="20130927T090842Z" changeid="bromagosa">
-        <seg>Jordi es profesor titular en el departamento de Lenguajes y Sistemas Informáticos de la Universitat Politècnica de Catalunya (UPC).</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="CA">
         <seg>En Jose va estudiar Enginyeria Superior en Telecomunicacions, però va començar a treballar a una editorial abans d'acabar els estudis.</seg>
       </tuv>
       <tuv lang="ES" changedate="20130920T112213Z" changeid="bromagosa">
@@ -1446,14 +1438,6 @@
     </tu>
     <tu>
       <tuv lang="CA">
-        <seg>S4A ha estat desenvolupat al &lt;a0&gt;Citilab&lt;/a0&gt; per l'equip de recerca Edutech, amb l'ajuda del grup de programació &lt;a1&gt;Smalltalk.cat&lt;/a1&gt; i de col·laboradors com Jorge Gómez, cap del projecte d'educació en software i hardware a &lt;a2&gt;Miscela&lt;/a2&gt;.</seg>
-      </tuv>
-      <tuv lang="ES" changedate="20130927T090821Z" changeid="bromagosa">
-        <seg>S4A ha sido desarrollado en el &lt;a0&gt;Citilab&lt;/a0&gt; por el equivo de investigación Edutech, con la ayuda del grupo de programación &lt;a1&gt;Smalltalk.cat&lt;/a1&gt; y de colaboradores como Jorge Gómez, jefe del proyecto de educación en software y hardware a &lt;a2&gt;Miscela&lt;/a2&gt;</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="CA">
         <seg>S4A ha estat desenvolupat al &lt;a0&gt;Citilab&lt;/a0&gt; per l'equip de recerca Edutech, amb l'ajuda del grup de programació &lt;a1&gt;Smalltalk.cat&lt;/a1&gt; i de col·laboradors com Jorge Gómez, instructor al centre de formació Padre Piquer de Madrid.</seg>
       </tuv>
       <tuv lang="ES" changedate="20130920T111242Z" changeid="bromagosa">
@@ -1970,14 +1954,6 @@
       </tuv>
       <tuv lang="ES" changedate="20130920T113056Z" changeid="bromagosa">
         <seg>http://groups.google.com/group/s4a-community</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="CA">
-        <seg>http://miscela.es</seg>
-      </tuv>
-      <tuv lang="ES" changedate="20130927T090747Z" changeid="bromagosa">
-        <seg>http://miscela.es</seg>
       </tuv>
     </tu>
     <tu>

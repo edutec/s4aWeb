@@ -1,14 +1,14 @@
-23/09/13 09:51
+27/09/13 11:07
 Estadístiques del projecte
 
                	Segments	Paraules	Caràcters (sense espais)	Caràcters (amb espais)	
-Total:         	     312	    2518	                   13710	                 15777	
-Restants:      	       1	       1	                      13	                    13	
-Únics:         	     261	    2403	                   12749	                 14795	
-Únics restants:	       1	       1	                      13	                    13	
+Total:         	     313	    2522	                   13737	                 15806	
+Restants:      	       0	       0	                       0	                     0	
+Únics:         	     262	    2407	                   12776	                 14824	
+Únics restants:	       0	       0	                       0	                     0	
 
 
 Estadístiques per fitxer:
 
 Nom de fitxer	Segments totals	Segments restants	Segments únics	Segments únics restants	Paraules totals	Paraules restants	Paraules úniques	Paraules úniques restants	Caràcters totals (sense espais)	Caràcters restants (sense espais)	Caràcters únics (sense espais)	Caràcters únics restants (sense espais)	Caràcters totals (amb espais)	Caràcters restants (amb espais)	Caràcters únics (amb espais)	Caràcters únics restants (amb espais)	
-index.html   	            312	                1	           261	                      1	           2518	                1	            2403	                        1	                          13710	                               13	                         12749	                                     13	                        15777	                             13	                       14795	                                   13	
+index.html   	            313	                0	           262	                      0	           2522	                0	            2407	                        0	                          13737	                                0	                         12776	                                      0	                        15806	                              0	                       14824	                                    0	
