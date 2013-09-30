@@ -209,6 +209,16 @@ a:hover {
 	color: #E0E0E0;
 }
 
+.footer-container .wrapper {
+	position: relative;
+}
+
+.footer-container .logo {
+	position: absolute;
+	right: 0;
+	top: 38px;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */

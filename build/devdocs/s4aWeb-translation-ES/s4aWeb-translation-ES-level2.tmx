@@ -94,6 +94,14 @@
     </tu>
     <tu>
       <tuv xml:lang="CA">
+        <seg>Tingueu en compte que, per a treballar amb Arduino Uno, us caldrà la versió 0022 o superior.</seg>
+      </tuv>
+      <tuv xml:lang="ES" changedate="20130930T085119Z" changeid="bromagosa">
+        <seg>Hay que tener en cuenta que, para trabajar con Arduino Uno, se necesita la versión 0022 o superior.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
         <seg>FAQ</seg>
       </tuv>
       <tuv xml:lang="ES" changedate="20130920T095611Z" changeid="bromagosa">
@@ -154,14 +162,6 @@
       </tuv>
       <tuv xml:lang="ES" changedate="20130920T110004Z" changeid="bromagosa">
         <seg>Muchos bug arreglados</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="CA">
-        <seg>Tingueu en compte que, per a treballar amb Arduino One, us caldrà la versió 0022 o superior.</seg>
-      </tuv>
-      <tuv xml:lang="ES" changedate="20130920T110527Z" changeid="bromagosa">
-        <seg>Hay que tener en cuenta que, para trabajar con Arduino One, se necesita la versión 0022 o superior.</seg>
       </tuv>
     </tu>
     <tu>
@@ -258,14 +258,6 @@
       </tuv>
       <tuv xml:lang="ES" changedate="20130920T110721Z" changeid="bromagosa">
         <seg>Como <bpt i='0' x='0'>&lt;a0&gt;</bpt>Scratch<ept i='0'>&lt;/a0&gt;</ept> es, en realidad, una imagen de <bpt i='1' x='1'>&lt;a1&gt;</bpt>Squeak<ept i='1'>&lt;/a1&gt;</ept> Smalltalk, todo su código viene incluido en la versión final.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="CA">
-        <seg><bpt i='0' x='0'>&lt;a0&gt;</bpt>EN<ept i='0'>&lt;/a0&gt;</ept> <bpt i='1' x='1'>&lt;a1&gt;</bpt>ES<ept i='1'>&lt;/a1&gt;</ept></seg>
-      </tuv>
-      <tuv xml:lang="ES" changedate="20130920T095551Z" changeid="bromagosa">
-        <seg><bpt i='0' x='0'>&lt;a0&gt;</bpt>EN<ept i='0'>&lt;/a0&gt;</ept> <bpt i='1' x='1'>&lt;a1&gt;</bpt>CA<ept i='1'>&lt;/a1&gt;</ept></seg>
       </tuv>
     </tu>
     <tu>
@@ -666,6 +658,14 @@
       </tuv>
       <tuv xml:lang="ES" changedate="20130920T104320Z" changeid="bromagosa">
         <seg>Otro de sus objetivos es proporcionar una interfaz de alto nivel para programadores de <bpt i='0' x='0'>&lt;a0&gt;</bpt>Arduino<ept i='0'>&lt;/a0&gt;</ept> con funcionalidades tales como la interacción con un conjunto de placas mediante eventos de usuario.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>img/citilab.png</seg>
+      </tuv>
+      <tuv xml:lang="ES" changedate="20130930T085030Z" changeid="bromagosa">
+        <seg>img/citilab.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -1414,6 +1414,14 @@
     </tu>
     <tu>
       <tuv xml:lang="CA">
+        <seg><bpt i='0' x='0'>&lt;a0&gt;</bpt>CA<ept i='0'>&lt;/a0&gt;</ept> <bpt i='1' x='1'>&lt;a1&gt;</bpt>ES<ept i='1'>&lt;/a1&gt;</ept> <bpt i='2' x='2'>&lt;a2&gt;</bpt>PT<ept i='2'>&lt;/a2&gt;</ept></seg>
+      </tuv>
+      <tuv xml:lang="ES" changedate="20130930T084943Z" changeid="bromagosa">
+        <seg><bpt i='0' x='0'>&lt;a0&gt;</bpt>CA<ept i='0'>&lt;/a0&gt;</ept> <bpt i='1' x='1'>&lt;a1&gt;</bpt>EN<ept i='1'>&lt;/a1&gt;</ept> <bpt i='2' x='2'>&lt;a2&gt;</bpt>PT<ept i='2'>&lt;/a2&gt;</ept></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
         <seg>Al <bpt i='0' x='0'>&lt;a0&gt;</bpt>Citilab<ept i='0'>&lt;/a0&gt;</ept>, va descobrir <bpt i='1' x='1'>&lt;a1&gt;</bpt>Scratch<ept i='1'>&lt;/a1&gt;</ept> i <bpt i='2' x='2'>&lt;a2&gt;</bpt>Smalltalk<ept i='2'>&lt;/a2&gt;</ept>, reemprenent part de la seva feina com a programador.</seg>
       </tuv>
       <tuv xml:lang="ES" changedate="20130920T112307Z" changeid="bromagosa">
@@ -1562,6 +1570,14 @@
       </tuv>
       <tuv xml:lang="ES" changedate="20130920T100332Z" changeid="bromagosa">
         <seg>S4A funciona correctamente con Arduino Diecimila, Duemilanove y Uno.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>index_pt.html</seg>
+      </tuv>
+      <tuv xml:lang="ES" changedate="20130930T084940Z" changeid="bromagosa">
+        <seg>index_pt.html</seg>
       </tuv>
     </tu>
     <tu>

@@ -22,6 +22,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;a0&gt;CA&lt;/a0&gt; &lt;a1&gt;ES&lt;/a1&gt; &lt;a2&gt;PT&lt;/a2&gt;</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130930T084906Z" changeid="bromagosa">
+        <seg>&lt;a0&gt;CA&lt;/a0&gt; &lt;a1&gt;ES&lt;/a1&gt; &lt;a2&gt;PT&lt;/a2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a0&gt;Scratch&lt;/a0&gt; was developed in &lt;a1&gt;Squeak&lt;/a1&gt; Smalltalk by the MIT.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T111444Z" changeid="bromagosa">
@@ -128,8 +136,8 @@
       <tuv lang="EN-US">
         <seg>Added reset actuators block</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T103220Z" changeid="bromagosa">
-        <seg>Afegit block de reiniciar actuadors</seg>
+      <tuv lang="CA" changedate="20130920T105308Z" changeid="bromagosa">
+        <seg>Afegit bloc de reiniciar actuadors</seg>
       </tuv>
     </tu>
     <tu>
@@ -280,8 +288,8 @@
       <tuv lang="EN-US">
         <seg>Changed the sensor board names and their corresponding Arduino blocks to show real pin numbers</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T103832Z" changeid="bromagosa">
-        <seg>Canviats els noms del panell de sensos i els seus corresponents blocs d'Arduino per mostrar números de pin reals</seg>
+      <tuv lang="CA" changedate="20130920T105841Z" changeid="bromagosa">
+        <seg>Canviats els noms del panell de sensors i els seus corresponents blocs d'Arduino per mostrar números de pin reals</seg>
       </tuv>
     </tu>
     <tu>
@@ -366,6 +374,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Copyright © 2013 &lt;a0&gt;Citilab&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130923T075157Z" changeid="bromagosa">
+        <seg>Copyright © 2013 &lt;a0&gt;Citilab&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Copyright © 2013 Citilab</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T111558Z" changeid="bromagosa">
@@ -408,8 +424,8 @@
       <tuv lang="EN-US">
         <seg>Download and install the Arduino environment by following the instructions on &lt;a0&gt;http://arduino.cc/en/Main/Software&lt;/a0&gt;.</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T104234Z" changeid="bromagosa">
-        <seg>Descarregueu i instal·leu l'entor Arduino seguint les instruccions de  &lt;a0&gt;http://arduino.cc/en/Main/Software&lt;/a0&gt;.</seg>
+      <tuv lang="CA" changedate="20130920T110437Z" changeid="bromagosa">
+        <seg>Descarregueu i instal·leu l'entorn Arduino seguint les instruccions de  &lt;a0&gt;http://arduino.cc/en/Main/Software&lt;/a0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -584,8 +600,8 @@
       <tuv lang="EN-US">
         <seg>He is a member of the board of the &lt;a1&gt;European Smalltalk Users Group&lt;/a1&gt; (ESUG) and he leads the &lt;a2&gt;Smalltalk.cat&lt;/a2&gt; local group.</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T111415Z" changeid="bromagosa">
-        <seg>És membre de la mesa de la &lt;a1&gt;European Smalltalk Users Group&lt;/a1&gt; (ESUG) i president de l'associació&lt;a2&gt;Smalltalk.cat&lt;/a2&gt;.</seg>
+      <tuv lang="CA" changedate="20130920T112820Z" changeid="bromagosa">
+        <seg>És membre de la mesa de la &lt;a1&gt;European Smalltalk Users Group&lt;/a1&gt; (ESUG) i president de l'associació &lt;a2&gt;Smalltalk.cat&lt;/a2&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -718,6 +734,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In HiS4A (Android), type the local network IP of the PC where S4A is running (you can find that out through Edit &gt; Show IP address), plus the prefix (only needed if you are connecting from more than one Android client)</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130927T090623Z" changeid="bromagosa">
+        <seg>A HiS4A (Android), introduïu la IP local del PC on tingueu S4A funcionant (podeu trobar-la des del menú Edita &gt; Host de xarxa), més el prefix (només necessari si us esteu connectant des de més d'un client d'Android)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In S4A, an &lt;a0&gt;Arduino&lt;/a0&gt; board is represented by a special kind of sprite.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T091910Z" changeid="bromagosa">
@@ -824,8 +848,8 @@
       <tuv lang="EN-US">
         <seg>Jordi is an associate professor at the Software Departament of the Technical University of Catalonia (Universitat Politècnica de Catalunya).</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T111119Z" changeid="bromagosa">
-        <seg>En Jordi és professor adjunt al departament de software de la Universitat Politècnica de Catalunya (UPC).</seg>
+      <tuv lang="CA" changedate="20130927T090724Z" changeid="bromagosa">
+        <seg>En Jordi és professor titular al departament de Llenguatges i Sistemes Informàtics de la Universitat Politècnica de Catalunya (UPC).</seg>
       </tuv>
     </tu>
     <tu>
@@ -1082,6 +1106,14 @@
       </tuv>
       <tuv lang="CA" changedate="20130919T105059Z" changeid="bromagosa">
         <seg>S4A ha estat desenvolupat al &lt;a0&gt;Citilab&lt;/a0&gt; per l'equip de recerca Edutech, amb l'ajuda del grup de programació &lt;a1&gt;Smalltalk.cat&lt;/a1&gt; i de col·laboradors com Jorge Gómez, instructor al centre de formació Padre Piquer de Madrid.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>S4A has been developed at &lt;a0&gt;Citilab&lt;/a0&gt; by the Edutech Research Group, with the help of the &lt;a1&gt;Smalltalk.cat&lt;/a1&gt; programming group and of collaborators like Jorge Gómez, who leads the hardware and software educational project at &lt;a2&gt;Miscela&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130927T090702Z" changeid="bromagosa">
+        <seg>S4A ha estat desenvolupat al &lt;a0&gt;Citilab&lt;/a0&gt; per l'equip de recerca Edutech, amb l'ajuda del grup de programació &lt;a1&gt;Smalltalk.cat&lt;/a1&gt; i de col·laboradors com Jorge Gómez, cap del projecte d'educació en software i hardware a &lt;a2&gt;Miscela&lt;/a2&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1424,8 +1456,8 @@
       <tuv lang="EN-US">
         <seg>This firmware is a piece of software you need to install into your &lt;a0&gt;Arduino&lt;/a0&gt; board to be able to communicate with it from S4A.</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T104211Z" changeid="bromagosa">
-        <seg>Aquest firmware és un programa que cal instal·lar a la vostra placa &lt;a0&gt;Arduino&lt;/a0&gt; board per tal de poder-vos-hi comunicar des d'S4A.</seg>
+      <tuv lang="CA" changedate="20130920T110316Z" changeid="bromagosa">
+        <seg>Aquest firmware és un programa que cal instal·lar a la vostra placa &lt;a0&gt;Arduino&lt;/a0&gt; per tal de poder-vos-hi comunicar des d'S4A.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1886,6 +1918,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://miscela.es</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130927T090626Z" changeid="bromagosa">
+        <seg>http://miscela.es</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://opensource.org/licenses/MIT</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T104441Z" changeid="bromagosa">
@@ -1990,6 +2030,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>img/citilab.png</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130930T084913Z" changeid="bromagosa">
+        <seg>img/citilab.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>img/hi-s4a-qr.png</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T101012Z" changeid="bromagosa">
@@ -2066,6 +2114,22 @@
       </tuv>
       <tuv lang="CA" changedate="20130919T113523Z" changeid="bromagosa">
         <seg>index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>index_es.html</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130927T090549Z" changeid="bromagosa">
+        <seg>index_es.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>index_pt.html</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130930T084902Z" changeid="bromagosa">
+        <seg>index_pt.html</seg>
       </tuv>
     </tu>
     <tu>

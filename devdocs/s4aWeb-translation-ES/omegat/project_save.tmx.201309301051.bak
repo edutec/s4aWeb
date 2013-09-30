@@ -1622,14 +1622,6 @@
     </tu>
     <tu>
       <tuv lang="CA">
-        <seg>Tingueu en compte que, per a treballar amb Arduino Uno, us caldrà la versió 0022 o superior.</seg>
-      </tuv>
-      <tuv lang="ES" changedate="20130930T085119Z" changeid="bromagosa">
-        <seg>Hay que tener en cuenta que, para trabajar con Arduino Uno, se necesita la versión 0022 o superior.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="CA">
         <seg>Traduccions al català i castellà millorades</seg>
       </tuv>
       <tuv lang="ES" changedate="20130920T105400Z" changeid="bromagosa">

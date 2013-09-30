@@ -94,6 +94,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Tingueu en compte que, per a treballar amb Arduino Uno, us caldrà la versió 0022 o superior.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130930T085119Z" changeid="bromagosa">
+        <seg>Hay que tener en cuenta que, para trabajar con Arduino Uno, se necesita la versión 0022 o superior.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>FAQ</seg>
       </tuv>
       <tuv lang="ES" changedate="20130920T095611Z" changeid="bromagosa">
@@ -154,14 +162,6 @@
       </tuv>
       <tuv lang="ES" changedate="20130920T110004Z" changeid="bromagosa">
         <seg>Muchos bug arreglados</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="CA">
-        <seg>Tingueu en compte que, per a treballar amb Arduino One, us caldrà la versió 0022 o superior.</seg>
-      </tuv>
-      <tuv lang="ES" changedate="20130920T110527Z" changeid="bromagosa">
-        <seg>Hay que tener en cuenta que, para trabajar con Arduino One, se necesita la versión 0022 o superior.</seg>
       </tuv>
     </tu>
     <tu>
@@ -258,14 +258,6 @@
       </tuv>
       <tuv lang="ES" changedate="20130920T110721Z" changeid="bromagosa">
         <seg>Como &lt;a0&gt;Scratch&lt;/a0&gt; es, en realidad, una imagen de &lt;a1&gt;Squeak&lt;/a1&gt; Smalltalk, todo su código viene incluido en la versión final.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="CA">
-        <seg>&lt;a0&gt;EN&lt;/a0&gt; &lt;a1&gt;ES&lt;/a1&gt;</seg>
-      </tuv>
-      <tuv lang="ES" changedate="20130920T095551Z" changeid="bromagosa">
-        <seg>&lt;a0&gt;EN&lt;/a0&gt; &lt;a1&gt;CA&lt;/a1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -666,6 +658,14 @@
       </tuv>
       <tuv lang="ES" changedate="20130920T104320Z" changeid="bromagosa">
         <seg>Otro de sus objetivos es proporcionar una interfaz de alto nivel para programadores de &lt;a0&gt;Arduino&lt;/a0&gt; con funcionalidades tales como la interacción con un conjunto de placas mediante eventos de usuario.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>img/citilab.png</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130930T085030Z" changeid="bromagosa">
+        <seg>img/citilab.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -1414,6 +1414,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;a0&gt;CA&lt;/a0&gt; &lt;a1&gt;ES&lt;/a1&gt; &lt;a2&gt;PT&lt;/a2&gt;</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130930T084943Z" changeid="bromagosa">
+        <seg>&lt;a0&gt;CA&lt;/a0&gt; &lt;a1&gt;EN&lt;/a1&gt; &lt;a2&gt;PT&lt;/a2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Al &lt;a0&gt;Citilab&lt;/a0&gt;, va descobrir &lt;a1&gt;Scratch&lt;/a1&gt; i &lt;a2&gt;Smalltalk&lt;/a2&gt;, reemprenent part de la seva feina com a programador.</seg>
       </tuv>
       <tuv lang="ES" changedate="20130920T112307Z" changeid="bromagosa">
@@ -1562,6 +1570,14 @@
       </tuv>
       <tuv lang="ES" changedate="20130920T100332Z" changeid="bromagosa">
         <seg>S4A funciona correctamente con Arduino Diecimila, Duemilanove y Uno.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>index_pt.html</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130930T084940Z" changeid="bromagosa">
+        <seg>index_pt.html</seg>
       </tuv>
     </tu>
     <tu>

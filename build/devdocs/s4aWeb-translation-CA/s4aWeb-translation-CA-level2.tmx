@@ -406,14 +406,6 @@
     </tu>
     <tu>
       <tuv xml:lang="EN-US">
-        <seg>Take in account Arduino One requires at least version 0022.</seg>
-      </tuv>
-      <tuv xml:lang="CA" changedate="20130919T104306Z" changeid="bromagosa">
-        <seg>Tingueu en compte que, per a treballar amb Arduino One, us caldrà la versió 0022 o superior.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
         <seg>Download and Install</seg>
       </tuv>
       <tuv xml:lang="CA" changedate="20130919T103947Z" changeid="bromagosa">
@@ -622,18 +614,18 @@
     </tu>
     <tu>
       <tuv xml:lang="EN-US">
-        <seg>It was developed in 2010 by the <bpt i='2' x='2'>&lt;a2&gt;</bpt>Citilab<ept i='2'>&lt;/a2&gt;</ept> <bpt i='3' x='3'>&lt;a3&gt;</bpt>Smalltalk<ept i='3'>&lt;/a3&gt;</ept> Team and it has been used since by many people in a lot of differents projects around the world.</seg>
-      </tuv>
-      <tuv xml:lang="CA" changedate="20130919T094533Z" changeid="bromagosa">
-        <seg>El seu desenvolupament el va a dur a terme l'equip d'<bpt i='3' x='3'>&lt;a3&gt;</bpt>Smalltalk<ept i='3'>&lt;/a3&gt;</ept> del <bpt i='2' x='2'>&lt;a2&gt;</bpt>Citilab<ept i='2'>&lt;/a2&gt;</ept> l'any 2010, i des d'aleshores s'ha utilitzat a tot el món per a una gran varietat de projectes.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
         <seg>In the Tools menu, select the board version and the serial port where the board is connected</seg>
       </tuv>
       <tuv xml:lang="CA" changedate="20130919T104434Z" changeid="bromagosa">
         <seg>Al menú Tools, seleccioneu la versió de la placa i el port sèrie en què heu connectat la placa</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>It was developed in 2010 by the <bpt i='2' x='2'>&lt;a2&gt;</bpt>Citilab<ept i='2'>&lt;/a2&gt;</ept> <bpt i='3' x='3'>&lt;a3&gt;</bpt>Smalltalk<ept i='3'>&lt;/a3&gt;</ept> Team and it has been used since by many people in a lot of differents projects around the world.</seg>
+      </tuv>
+      <tuv xml:lang="CA" changedate="20130919T094533Z" changeid="bromagosa">
+        <seg>El seu desenvolupament el va a dur a terme l'equip d'<bpt i='3' x='3'>&lt;a3&gt;</bpt>Smalltalk<ept i='3'>&lt;/a3&gt;</ept> del <bpt i='2' x='2'>&lt;a2&gt;</bpt>Citilab<ept i='2'>&lt;/a2&gt;</ept> l'any 2010, i des d'aleshores s'ha utilitzat a tot el món per a una gran varietat de projectes.</seg>
       </tuv>
     </tu>
     <tu>
@@ -722,6 +714,14 @@
       </tuv>
       <tuv xml:lang="CA" changedate="20130920T110437Z" changeid="bromagosa">
         <seg>Descarregueu i instal·leu l'entorn Arduino seguint les instruccions de  <bpt i='0' x='0'>&lt;a0&gt;</bpt>http://arduino.cc/en/Main/Software<ept i='0'>&lt;/a0&gt;</ept>.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>img/citilab.png</seg>
+      </tuv>
+      <tuv xml:lang="CA" changedate="20130930T084913Z" changeid="bromagosa">
+        <seg>img/citilab.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -1374,6 +1374,14 @@
     </tu>
     <tu>
       <tuv xml:lang="EN-US">
+        <seg><bpt i='0' x='0'>&lt;a0&gt;</bpt>CA<ept i='0'>&lt;/a0&gt;</ept> <bpt i='1' x='1'>&lt;a1&gt;</bpt>ES<ept i='1'>&lt;/a1&gt;</ept> <bpt i='2' x='2'>&lt;a2&gt;</bpt>PT<ept i='2'>&lt;/a2&gt;</ept></seg>
+      </tuv>
+      <tuv xml:lang="CA" changedate="20130930T084906Z" changeid="bromagosa">
+        <seg><bpt i='0' x='0'>&lt;a0&gt;</bpt>CA<ept i='0'>&lt;/a0&gt;</ept> <bpt i='1' x='1'>&lt;a1&gt;</bpt>ES<ept i='1'>&lt;/a1&gt;</ept> <bpt i='2' x='2'>&lt;a2&gt;</bpt>PT<ept i='2'>&lt;/a2&gt;</ept></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
         <seg>Fixed object collision bug (Arduino and non-Arduino)</seg>
       </tuv>
       <tuv xml:lang="CA" changedate="20130919T102939Z" changeid="bromagosa">
@@ -1446,10 +1454,10 @@
     </tu>
     <tu>
       <tuv xml:lang="EN-US">
-        <seg><bpt i='0' x='0'>&lt;a0&gt;</bpt>CA<ept i='0'>&lt;/a0&gt;</ept> <bpt i='1' x='1'>&lt;a1&gt;</bpt>ES<ept i='1'>&lt;/a1&gt;</ept></seg>
+        <seg>index_pt.html</seg>
       </tuv>
-      <tuv xml:lang="CA" changedate="20130919T113445Z" changeid="bromagosa">
-        <seg><bpt i='0' x='0'>&lt;a0&gt;</bpt>EN<ept i='0'>&lt;/a0&gt;</ept> <bpt i='1' x='1'>&lt;a1&gt;</bpt>ES<ept i='1'>&lt;/a1&gt;</ept></seg>
+      <tuv xml:lang="CA" changedate="20130930T084902Z" changeid="bromagosa">
+        <seg>index_pt.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -1522,6 +1530,14 @@
       </tuv>
       <tuv xml:lang="CA" changedate="20130919T102008Z" changeid="bromagosa">
         <seg>Enviar un missatge:<ph x='0'>&lt;br0/&gt;</ph></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Take in account Arduino Uno requires at least version 0022.</seg>
+      </tuv>
+      <tuv xml:lang="CA" changedate="20130930T085053Z" changeid="bromagosa">
+        <seg>Tingueu en compte que, per a treballar amb Arduino Uno, us caldrà la versió 0022 o superior.</seg>
       </tuv>
     </tu>
     <tu>

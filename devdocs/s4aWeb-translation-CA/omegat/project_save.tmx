@@ -22,6 +22,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;a0&gt;CA&lt;/a0&gt; &lt;a1&gt;ES&lt;/a1&gt; &lt;a2&gt;PT&lt;/a2&gt;</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130930T084906Z" changeid="bromagosa">
+        <seg>&lt;a0&gt;CA&lt;/a0&gt; &lt;a1&gt;ES&lt;/a1&gt; &lt;a2&gt;PT&lt;/a2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a0&gt;Scratch&lt;/a0&gt; was developed in &lt;a1&gt;Squeak&lt;/a1&gt; Smalltalk by the MIT.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T111444Z" changeid="bromagosa">
@@ -1326,6 +1334,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Take in account Arduino Uno requires at least version 0022.</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130930T085053Z" changeid="bromagosa">
+        <seg>Tingueu en compte que, per a treballar amb Arduino Uno, us caldrà la versió 0022 o superior.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Take in account that this compatibility doesn't work both ways, so you won't be able to open an S4A project from within the original &lt;a0&gt;Scratch&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T093538Z" changeid="bromagosa">
@@ -2022,6 +2038,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>img/citilab.png</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130930T084913Z" changeid="bromagosa">
+        <seg>img/citilab.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>img/hi-s4a-qr.png</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T101012Z" changeid="bromagosa">
@@ -2106,6 +2130,14 @@
       </tuv>
       <tuv lang="CA" changedate="20130927T090549Z" changeid="bromagosa">
         <seg>index_es.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>index_pt.html</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130930T084902Z" changeid="bromagosa">
+        <seg>index_pt.html</seg>
       </tuv>
     </tu>
     <tu>

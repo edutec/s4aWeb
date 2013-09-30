@@ -406,14 +406,6 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>Take in account Arduino One requires at least version 0022.</seg>
-      </tuv>
-      <tuv lang="CA" changedate="20130919T104306Z" changeid="bromagosa">
-        <seg>Tingueu en compte que, per a treballar amb Arduino One, us caldrà la versió 0022 o superior.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
         <seg>Download and Install</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T103947Z" changeid="bromagosa">
@@ -622,18 +614,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>It was developed in 2010 by the Citilab Smalltalk Team and it has been used since by many people in a lot of differents projects around the world.</seg>
-      </tuv>
-      <tuv lang="CA" changedate="20130919T094533Z" changeid="bromagosa">
-        <seg>El seu desenvolupament el va a dur a terme l'equip d'Smalltalk del Citilab l'any 2010, i des d'aleshores s'ha utilitzat a tot el món per a una gran varietat de projectes.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
         <seg>In the Tools menu, select the board version and the serial port where the board is connected</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T104434Z" changeid="bromagosa">
         <seg>Al menú Tools, seleccioneu la versió de la placa i el port sèrie en què heu connectat la placa</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It was developed in 2010 by the Citilab Smalltalk Team and it has been used since by many people in a lot of differents projects around the world.</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130919T094533Z" changeid="bromagosa">
+        <seg>El seu desenvolupament el va a dur a terme l'equip d'Smalltalk del Citilab l'any 2010, i des d'aleshores s'ha utilitzat a tot el món per a una gran varietat de projectes.</seg>
       </tuv>
     </tu>
     <tu>
@@ -722,6 +714,14 @@
       </tuv>
       <tuv lang="CA" changedate="20130920T110437Z" changeid="bromagosa">
         <seg>Descarregueu i instal·leu l'entorn Arduino seguint les instruccions de  http://arduino.cc/en/Main/Software.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>img/citilab.png</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130930T084913Z" changeid="bromagosa">
+        <seg>img/citilab.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -1374,6 +1374,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>CA ES PT</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130930T084906Z" changeid="bromagosa">
+        <seg>CA ES PT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fixed object collision bug (Arduino and non-Arduino)</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T102939Z" changeid="bromagosa">
@@ -1446,10 +1454,10 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>CA ES</seg>
+        <seg>index_pt.html</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130919T113445Z" changeid="bromagosa">
-        <seg>EN ES</seg>
+      <tuv lang="CA" changedate="20130930T084902Z" changeid="bromagosa">
+        <seg>index_pt.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -1522,6 +1530,14 @@
       </tuv>
       <tuv lang="CA" changedate="20130919T102008Z" changeid="bromagosa">
         <seg>Enviar un missatge:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Take in account Arduino Uno requires at least version 0022.</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130930T085053Z" changeid="bromagosa">
+        <seg>Tingueu en compte que, per a treballar amb Arduino Uno, us caldrà la versió 0022 o superior.</seg>
       </tuv>
     </tu>
     <tu>

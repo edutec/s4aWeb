@@ -38,14 +38,6 @@
     </tu>
     <tu>
       <tuv lang="CA">
-        <seg>&lt;a0&gt;CA&lt;/a0&gt; &lt;a1&gt;ES&lt;/a1&gt; &lt;a2&gt;PT&lt;/a2&gt;</seg>
-      </tuv>
-      <tuv lang="ES" changedate="20130930T084943Z" changeid="bromagosa">
-        <seg>&lt;a0&gt;CA&lt;/a0&gt; &lt;a1&gt;EN&lt;/a1&gt; &lt;a2&gt;PT&lt;/a2&gt;</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="CA">
         <seg>&lt;a0&gt;EN&lt;/a0&gt; &lt;a1&gt;ES&lt;/a1&gt;</seg>
       </tuv>
       <tuv lang="ES" changedate="20130920T095551Z" changeid="bromagosa">
@@ -1566,14 +1558,6 @@
     </tu>
     <tu>
       <tuv lang="CA">
-        <seg>Take in account Arduino Uno requires at least version 0022.</seg>
-      </tuv>
-      <tuv lang="ES" changedate="20130930T085028Z" changeid="bromagosa">
-        <seg>Tened en cuenta que para usar Arduino Uno necesitaréis la versión 0022 o superior.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="CA">
         <seg>Taller</seg>
       </tuv>
       <tuv lang="ES" changedate="20130920T101252Z" changeid="bromagosa">
@@ -1618,14 +1602,6 @@
       </tuv>
       <tuv lang="ES" changedate="20130920T110527Z" changeid="bromagosa">
         <seg>Hay que tener en cuenta que, para trabajar con Arduino One, se necesita la versión 0022 o superior.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="CA">
-        <seg>Tingueu en compte que, per a treballar amb Arduino Uno, us caldrà la versió 0022 o superior.</seg>
-      </tuv>
-      <tuv lang="ES" changedate="20130930T085119Z" changeid="bromagosa">
-        <seg>Hay que tener en cuenta que, para trabajar con Arduino Uno, se necesita la versión 0022 o superior.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2102,14 +2078,6 @@
     </tu>
     <tu>
       <tuv lang="CA">
-        <seg>img/citilab.png</seg>
-      </tuv>
-      <tuv lang="ES" changedate="20130930T085030Z" changeid="bromagosa">
-        <seg>img/citilab.png</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="CA">
         <seg>img/hi-s4a-qr.png</seg>
       </tuv>
       <tuv lang="ES" changedate="20130920T102326Z" changeid="bromagosa">
@@ -2194,14 +2162,6 @@
       </tuv>
       <tuv lang="ES" changedate="20130920T095548Z" changeid="bromagosa">
         <seg>index_ca.html</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="CA">
-        <seg>index_pt.html</seg>
-      </tuv>
-      <tuv lang="ES" changedate="20130930T084940Z" changeid="bromagosa">
-        <seg>index_pt.html</seg>
       </tuv>
     </tu>
     <tu>
