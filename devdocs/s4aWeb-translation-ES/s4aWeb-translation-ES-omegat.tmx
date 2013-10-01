@@ -94,18 +94,18 @@
     </tu>
     <tu>
       <tuv lang="CA">
-        <seg>Tingueu en compte que, per a treballar amb Arduino Uno, us caldrà la versió 0022 o superior.</seg>
-      </tuv>
-      <tuv lang="ES" changedate="20130930T085119Z" changeid="bromagosa">
-        <seg>Hay que tener en cuenta que, para trabajar con Arduino Uno, se necesita la versión 0022 o superior.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="CA">
         <seg>FAQ</seg>
       </tuv>
       <tuv lang="ES" changedate="20130920T095611Z" changeid="bromagosa">
         <seg>FAQ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Tingueu en compte que, per a treballar amb Arduino Uno, us caldrà la versió 0022 o superior.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130930T085119Z" changeid="bromagosa">
+        <seg>Hay que tener en cuenta que, para trabajar con Arduino Uno, se necesita la versión 0022 o superior.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1430,14 +1430,6 @@
     </tu>
     <tu>
       <tuv lang="CA">
-        <seg>El seu primer projecte final va consistir en desenvolupar un entorn per a treballar amb plaques &lt;a0&gt;Arduino&lt;/a0&gt; des de l'entorn d'Smalltalk &lt;a1&gt;Pharo&lt;/a1&gt;.</seg>
-      </tuv>
-      <tuv lang="ES" changedate="20130920T111704Z" changeid="bromagosa">
-        <seg>Su primer proyecto final consistió en desarrollar un entorno para trabajar con placas &lt;a0&gt;Arduino&lt;/a0&gt; desde el entorno de Smalltalk &lt;a1&gt;Pharo&lt;/a1&gt;.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="CA">
         <seg>Què és S4A</seg>
       </tuv>
       <tuv lang="ES" changedate="20130920T113305Z" changeid="bromagosa">
@@ -1522,6 +1514,14 @@
       </tuv>
       <tuv lang="ES" changedate="20130920T105413Z" changeid="bromagosa">
         <seg>Añadida compatibilidad completa con el protocolo HTTP (POST y GET).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Mentre treballava al &lt;a0&gt;Citilab&lt;/a0&gt; va desenvolupar el seu primer projecte final, consistent en crear un entorn per a treballar amb plaques &lt;a1&gt;Arduino&lt;/a1&gt; des de l'entorn d'Smalltalk &lt;a2&gt;Pharo&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20131001T103256Z" changeid="bromagosa">
+        <seg>Mientras trabajaba en &lt;a0&gt;Citilab&lt;/a0&gt;, desarrolló su primer proyecto final, que consistió en crear un entorno para trabajar con placas &lt;a1&gt;Arduino&lt;/a1&gt; desde el entorno de Smalltalk &lt;a2&gt;Pharo&lt;/a2&gt;.</seg>
       </tuv>
     </tu>
     <tu>

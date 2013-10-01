@@ -1158,6 +1158,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Mentre treballava al &lt;a0&gt;Citilab&lt;/a0&gt; va desenvolupar el seu primer projecte final, consistent en crear un entorn per a treballar amb plaques &lt;a1&gt;Arduino&lt;/a1&gt; des de l'entorn d'Smalltalk &lt;a2&gt;Pharo&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20131001T103256Z" changeid="bromagosa">
+        <seg>Mientras trabajaba en &lt;a0&gt;Citilab&lt;/a0&gt;, desarrolló su primer proyecto final, que consistió en crear un entorno para trabajar con placas &lt;a1&gt;Arduino&lt;/a1&gt; desde el entorno de Smalltalk &lt;a2&gt;Pharo&lt;/a2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Molts bug arreglats</seg>
       </tuv>
       <tuv lang="ES" changedate="20130920T110004Z" changeid="bromagosa">

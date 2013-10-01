@@ -180,6 +180,11 @@ nav a:hover {
 	padding: 10px 0;
 }
 
+.header-container .citilab {
+	float: right;
+	margin-top: 42px;
+}
+
 .balloon {
 	float: right;
 	margin-top: -70px;

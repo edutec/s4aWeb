@@ -1606,6 +1606,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>While working at &lt;a0&gt;Citilab&lt;/a0&gt;, she developed her first final thesis, which consisted in building a framework to work with &lt;a1&gt;Arduino&lt;/a1&gt; boards from within the &lt;a2&gt;Pharo&lt;/a2&gt; Smalltalk environment.</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20131001T103144Z" changeid="bromagosa">
+        <seg>Mentre treballava al &lt;a0&gt;Citilab&lt;/a0&gt; va desenvolupar el seu primer projecte final, consistent en crear un entorn per a treballar amb plaques &lt;a1&gt;Arduino&lt;/a1&gt; des de l'entorn d'Smalltalk &lt;a2&gt;Pharo&lt;/a2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Will S4A work on my PC?</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T104930Z" changeid="bromagosa">

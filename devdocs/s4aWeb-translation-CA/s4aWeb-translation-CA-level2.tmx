@@ -230,6 +230,14 @@
     </tu>
     <tu>
       <tuv xml:lang="EN-US">
+        <seg>While working at <bpt i='0' x='0'>&lt;a0&gt;</bpt>Citilab<ept i='0'>&lt;/a0&gt;</ept>, she developed her first final thesis, which consisted in building a framework to work with <bpt i='1' x='1'>&lt;a1&gt;</bpt>Arduino<ept i='1'>&lt;/a1&gt;</ept> boards from within the <bpt i='2' x='2'>&lt;a2&gt;</bpt>Pharo<ept i='2'>&lt;/a2&gt;</ept> Smalltalk environment.</seg>
+      </tuv>
+      <tuv xml:lang="CA" changedate="20131001T103144Z" changeid="bromagosa">
+        <seg>Mentre treballava al <bpt i='0' x='0'>&lt;a0&gt;</bpt>Citilab<ept i='0'>&lt;/a0&gt;</ept> va desenvolupar el seu primer projecte final, consistent en crear un entorn per a treballar amb plaques <bpt i='1' x='1'>&lt;a1&gt;</bpt>Arduino<ept i='1'>&lt;/a1&gt;</ept> des de l'entorn d'Smalltalk <bpt i='2' x='2'>&lt;a2&gt;</bpt>Pharo<ept i='2'>&lt;/a2&gt;</ept>.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
         <seg>downloads/s4a-sample01.pdf</seg>
       </tuv>
       <tuv xml:lang="CA" changedate="20130919T100153Z" changeid="bromagosa">
@@ -614,18 +622,18 @@
     </tu>
     <tu>
       <tuv xml:lang="EN-US">
-        <seg>In the Tools menu, select the board version and the serial port where the board is connected</seg>
-      </tuv>
-      <tuv xml:lang="CA" changedate="20130919T104434Z" changeid="bromagosa">
-        <seg>Al menú Tools, seleccioneu la versió de la placa i el port sèrie en què heu connectat la placa</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
         <seg>It was developed in 2010 by the <bpt i='2' x='2'>&lt;a2&gt;</bpt>Citilab<ept i='2'>&lt;/a2&gt;</ept> <bpt i='3' x='3'>&lt;a3&gt;</bpt>Smalltalk<ept i='3'>&lt;/a3&gt;</ept> Team and it has been used since by many people in a lot of differents projects around the world.</seg>
       </tuv>
       <tuv xml:lang="CA" changedate="20130919T094533Z" changeid="bromagosa">
         <seg>El seu desenvolupament el va a dur a terme l'equip d'<bpt i='3' x='3'>&lt;a3&gt;</bpt>Smalltalk<ept i='3'>&lt;/a3&gt;</ept> del <bpt i='2' x='2'>&lt;a2&gt;</bpt>Citilab<ept i='2'>&lt;/a2&gt;</ept> l'any 2010, i des d'aleshores s'ha utilitzat a tot el món per a una gran varietat de projectes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>In the Tools menu, select the board version and the serial port where the board is connected</seg>
+      </tuv>
+      <tuv xml:lang="CA" changedate="20130919T104434Z" changeid="bromagosa">
+        <seg>Al menú Tools, seleccioneu la versió de la placa i el port sèrie en què heu connectat la placa</seg>
       </tuv>
     </tu>
     <tu>
@@ -850,14 +858,6 @@
       </tuv>
       <tuv xml:lang="CA" changedate="20130919T112641Z" changeid="bromagosa">
         <seg>S4A és compatible amb <bpt i='0' x='0'>&lt;a0&gt;</bpt>Scratch<ept i='0'>&lt;/a0&gt;</ept>, de manera que és possible obrir projectes d'<bpt i='1' x='1'>&lt;a1&gt;</bpt>Scratch<ept i='1'>&lt;/a1&gt;</ept> des de S4A.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Her first final thesis consisted in building a framework to work with <bpt i='0' x='0'>&lt;a0&gt;</bpt>Arduino<ept i='0'>&lt;/a0&gt;</ept> boards from within the <bpt i='1' x='1'>&lt;a1&gt;</bpt>Pharo<ept i='1'>&lt;/a1&gt;</ept> Smalltalk environment.</seg>
-      </tuv>
-      <tuv xml:lang="CA" changedate="20130919T105344Z" changeid="bromagosa">
-        <seg>El seu primer projecte final va consistir en desenvolupar un entorn per a treballar amb plaques <bpt i='0' x='0'>&lt;a0&gt;</bpt>Arduino<ept i='0'>&lt;/a0&gt;</ept> des de l'entorn d'Smalltalk <bpt i='1' x='1'>&lt;a1&gt;</bpt>Pharo<ept i='1'>&lt;/a1&gt;</ept>.</seg>
       </tuv>
     </tu>
     <tu>

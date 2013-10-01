@@ -94,18 +94,18 @@
     </tu>
     <tu>
       <tuv xml:lang="CA">
-        <seg>Tingueu en compte que, per a treballar amb Arduino Uno, us caldrà la versió 0022 o superior.</seg>
-      </tuv>
-      <tuv xml:lang="ES" changedate="20130930T085119Z" changeid="bromagosa">
-        <seg>Hay que tener en cuenta que, para trabajar con Arduino Uno, se necesita la versión 0022 o superior.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="CA">
         <seg>FAQ</seg>
       </tuv>
       <tuv xml:lang="ES" changedate="20130920T095611Z" changeid="bromagosa">
         <seg>FAQ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Tingueu en compte que, per a treballar amb Arduino Uno, us caldrà la versió 0022 o superior.</seg>
+      </tuv>
+      <tuv xml:lang="ES" changedate="20130930T085119Z" changeid="bromagosa">
+        <seg>Hay que tener en cuenta que, para trabajar con Arduino Uno, se necesita la versión 0022 o superior.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1430,14 +1430,6 @@
     </tu>
     <tu>
       <tuv xml:lang="CA">
-        <seg>El seu primer projecte final va consistir en desenvolupar un entorn per a treballar amb plaques <bpt i='0' x='0'>&lt;a0&gt;</bpt>Arduino<ept i='0'>&lt;/a0&gt;</ept> des de l'entorn d'Smalltalk <bpt i='1' x='1'>&lt;a1&gt;</bpt>Pharo<ept i='1'>&lt;/a1&gt;</ept>.</seg>
-      </tuv>
-      <tuv xml:lang="ES" changedate="20130920T111704Z" changeid="bromagosa">
-        <seg>Su primer proyecto final consistió en desarrollar un entorno para trabajar con placas <bpt i='0' x='0'>&lt;a0&gt;</bpt>Arduino<ept i='0'>&lt;/a0&gt;</ept> desde el entorno de Smalltalk <bpt i='1' x='1'>&lt;a1&gt;</bpt>Pharo<ept i='1'>&lt;/a1&gt;</ept>.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="CA">
         <seg>Què és S4A</seg>
       </tuv>
       <tuv xml:lang="ES" changedate="20130920T113305Z" changeid="bromagosa">
@@ -1522,6 +1514,14 @@
       </tuv>
       <tuv xml:lang="ES" changedate="20130920T105413Z" changeid="bromagosa">
         <seg>Añadida compatibilidad completa con el protocolo HTTP (POST y GET).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Mentre treballava al <bpt i='0' x='0'>&lt;a0&gt;</bpt>Citilab<ept i='0'>&lt;/a0&gt;</ept> va desenvolupar el seu primer projecte final, consistent en crear un entorn per a treballar amb plaques <bpt i='1' x='1'>&lt;a1&gt;</bpt>Arduino<ept i='1'>&lt;/a1&gt;</ept> des de l'entorn d'Smalltalk <bpt i='2' x='2'>&lt;a2&gt;</bpt>Pharo<ept i='2'>&lt;/a2&gt;</ept>.</seg>
+      </tuv>
+      <tuv xml:lang="ES" changedate="20131001T103256Z" changeid="bromagosa">
+        <seg>Mientras trabajaba en <bpt i='0' x='0'>&lt;a0&gt;</bpt>Citilab<ept i='0'>&lt;/a0&gt;</ept>, desarrolló su primer proyecto final, que consistió en crear un entorno para trabajar con placas <bpt i='1' x='1'>&lt;a1&gt;</bpt>Arduino<ept i='1'>&lt;/a1&gt;</ept> desde el entorno de Smalltalk <bpt i='2' x='2'>&lt;a2&gt;</bpt>Pharo<ept i='2'>&lt;/a2&gt;</ept>.</seg>
       </tuv>
     </tu>
     <tu>
