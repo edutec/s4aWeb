@@ -510,6 +510,14 @@
     </tu>
     <tu>
       <tuv xml:lang="EN-US">
+        <seg>downloads/S4A15_RP.deb</seg>
+      </tuv>
+      <tuv xml:lang="CA" changedate="20131030T103933Z" changeid="bromagosa">
+        <seg>downloads/S4A15_RP.deb</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
         <seg>You can reach us at <bpt i='0' x='0'>&lt;a0&gt;</bpt>scratch@citilab.eu<ept i='0'>&lt;/a0&gt;</ept> to report bugs or for any suggestions you may have.</seg>
       </tuv>
       <tuv xml:lang="CA" changedate="20130919T111557Z" changeid="bromagosa">
@@ -1376,8 +1384,8 @@
       <tuv xml:lang="EN-US">
         <seg><bpt i='0' x='0'>&lt;a0&gt;</bpt>CA<ept i='0'>&lt;/a0&gt;</ept> <bpt i='1' x='1'>&lt;a1&gt;</bpt>ES<ept i='1'>&lt;/a1&gt;</ept> <bpt i='2' x='2'>&lt;a2&gt;</bpt>PT<ept i='2'>&lt;/a2&gt;</ept></seg>
       </tuv>
-      <tuv xml:lang="CA" changedate="20130930T084906Z" changeid="bromagosa">
-        <seg><bpt i='0' x='0'>&lt;a0&gt;</bpt>CA<ept i='0'>&lt;/a0&gt;</ept> <bpt i='1' x='1'>&lt;a1&gt;</bpt>ES<ept i='1'>&lt;/a1&gt;</ept> <bpt i='2' x='2'>&lt;a2&gt;</bpt>PT<ept i='2'>&lt;/a2&gt;</ept></seg>
+      <tuv xml:lang="CA" changedate="20131030T104019Z" changeid="bromagosa">
+        <seg><bpt i='0' x='0'>&lt;a0&gt;</bpt>EN<ept i='0'>&lt;/a0&gt;</ept> <bpt i='1' x='1'>&lt;a1&gt;</bpt>ES<ept i='1'>&lt;/a1&gt;</ept> <bpt i='2' x='2'>&lt;a2&gt;</bpt>PT<ept i='2'>&lt;/a2&gt;</ept></seg>
       </tuv>
     </tu>
     <tu>
@@ -1770,6 +1778,14 @@
       </tuv>
       <tuv xml:lang="CA" changedate="20130919T100528Z" changeid="bromagosa">
         <seg>http://www.arduteka.com/tag/s4a/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Raspbian (Debian for RaspberriPi)</seg>
+      </tuv>
+      <tuv xml:lang="CA" changedate="20131030T103950Z" changeid="bromagosa">
+        <seg>Raspbian (Debian per a RaspberriPi)</seg>
       </tuv>
     </tu>
     <tu>

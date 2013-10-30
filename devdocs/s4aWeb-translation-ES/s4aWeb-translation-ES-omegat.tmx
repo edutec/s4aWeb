@@ -286,6 +286,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;a0&gt;EN&lt;/a0&gt; &lt;a1&gt;ES&lt;/a1&gt; &lt;a2&gt;PT&lt;/a2&gt;</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20131030T104054Z" changeid="bromagosa">
+        <seg>&lt;a0&gt;EN&lt;/a0&gt; &lt;a1&gt;CA&lt;/a1&gt; &lt;a2&gt;PT&lt;/a2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Jordi Delgado</seg>
       </tuv>
       <tuv lang="ES" changedate="20130920T112637Z" changeid="bromagosa">
@@ -486,6 +494,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>downloads/S4A15_RP.deb</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20131030T104100Z" changeid="bromagosa">
+        <seg>downloads/S4A15_RP.deb</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Un joc de nens!</seg>
       </tuv>
       <tuv lang="ES" changedate="20130920T101041Z" changeid="bromagosa">
@@ -554,6 +570,14 @@
       </tuv>
       <tuv lang="ES" changedate="20130920T110621Z" changeid="bromagosa">
         <seg>En el menú Tools, seleccionad la versión de la placa y el puero serie en qué esté conectada la placa</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Raspbian (Debian per a RaspberriPi)</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20131030T104105Z" changeid="bromagosa">
+        <seg>Raspbian (Debian paraa RaspberriPi)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1414,14 +1438,6 @@
     </tu>
     <tu>
       <tuv lang="CA">
-        <seg>&lt;a0&gt;CA&lt;/a0&gt; &lt;a1&gt;ES&lt;/a1&gt; &lt;a2&gt;PT&lt;/a2&gt;</seg>
-      </tuv>
-      <tuv lang="ES" changedate="20130930T084943Z" changeid="bromagosa">
-        <seg>&lt;a0&gt;CA&lt;/a0&gt; &lt;a1&gt;EN&lt;/a1&gt; &lt;a2&gt;PT&lt;/a2&gt;</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="CA">
         <seg>Al &lt;a0&gt;Citilab&lt;/a0&gt;, va descobrir &lt;a1&gt;Scratch&lt;/a1&gt; i &lt;a2&gt;Smalltalk&lt;/a2&gt;, reemprenent part de la seva feina com a programador.</seg>
       </tuv>
       <tuv lang="ES" changedate="20130920T112307Z" changeid="bromagosa">
@@ -1518,18 +1534,18 @@
     </tu>
     <tu>
       <tuv lang="CA">
-        <seg>Mentre treballava al &lt;a0&gt;Citilab&lt;/a0&gt; va desenvolupar el seu primer projecte final, consistent en crear un entorn per a treballar amb plaques &lt;a1&gt;Arduino&lt;/a1&gt; des de l'entorn d'Smalltalk &lt;a2&gt;Pharo&lt;/a2&gt;.</seg>
-      </tuv>
-      <tuv lang="ES" changedate="20131001T103256Z" changeid="bromagosa">
-        <seg>Mientras trabajaba en &lt;a0&gt;Citilab&lt;/a0&gt;, desarrolló su primer proyecto final, que consistió en crear un entorno para trabajar con placas &lt;a1&gt;Arduino&lt;/a1&gt; desde el entorno de Smalltalk &lt;a2&gt;Pharo&lt;/a2&gt;.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="CA">
         <seg>Alguns d'aquests vídeos també han estat subtitulats a l'anglès.</seg>
       </tuv>
       <tuv lang="ES" changedate="20130920T101631Z" changeid="bromagosa">
         <seg>Algunos de estos vídeos también han sido subtitulados al inglés.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Mentre treballava al &lt;a0&gt;Citilab&lt;/a0&gt; va desenvolupar el seu primer projecte final, consistent en crear un entorn per a treballar amb plaques &lt;a1&gt;Arduino&lt;/a1&gt; des de l'entorn d'Smalltalk &lt;a2&gt;Pharo&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20131001T103256Z" changeid="bromagosa">
+        <seg>Mientras trabajaba en &lt;a0&gt;Citilab&lt;/a0&gt;, desarrolló su primer proyecto final, que consistió en crear un entorno para trabajar con placas &lt;a1&gt;Arduino&lt;/a1&gt; desde el entorno de Smalltalk &lt;a2&gt;Pharo&lt;/a2&gt;.</seg>
       </tuv>
     </tu>
     <tu>

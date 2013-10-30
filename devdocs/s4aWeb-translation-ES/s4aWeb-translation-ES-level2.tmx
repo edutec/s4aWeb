@@ -286,6 +286,14 @@
     </tu>
     <tu>
       <tuv xml:lang="CA">
+        <seg><bpt i='0' x='0'>&lt;a0&gt;</bpt>EN<ept i='0'>&lt;/a0&gt;</ept> <bpt i='1' x='1'>&lt;a1&gt;</bpt>ES<ept i='1'>&lt;/a1&gt;</ept> <bpt i='2' x='2'>&lt;a2&gt;</bpt>PT<ept i='2'>&lt;/a2&gt;</ept></seg>
+      </tuv>
+      <tuv xml:lang="ES" changedate="20131030T104054Z" changeid="bromagosa">
+        <seg><bpt i='0' x='0'>&lt;a0&gt;</bpt>EN<ept i='0'>&lt;/a0&gt;</ept> <bpt i='1' x='1'>&lt;a1&gt;</bpt>CA<ept i='1'>&lt;/a1&gt;</ept> <bpt i='2' x='2'>&lt;a2&gt;</bpt>PT<ept i='2'>&lt;/a2&gt;</ept></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
         <seg>Jordi Delgado</seg>
       </tuv>
       <tuv xml:lang="ES" changedate="20130920T112637Z" changeid="bromagosa">
@@ -486,6 +494,14 @@
     </tu>
     <tu>
       <tuv xml:lang="CA">
+        <seg>downloads/S4A15_RP.deb</seg>
+      </tuv>
+      <tuv xml:lang="ES" changedate="20131030T104100Z" changeid="bromagosa">
+        <seg>downloads/S4A15_RP.deb</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
         <seg>Un joc de nens!</seg>
       </tuv>
       <tuv xml:lang="ES" changedate="20130920T101041Z" changeid="bromagosa">
@@ -554,6 +570,14 @@
       </tuv>
       <tuv xml:lang="ES" changedate="20130920T110621Z" changeid="bromagosa">
         <seg>En el menú Tools, seleccionad la versión de la placa y el puero serie en qué esté conectada la placa</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Raspbian (Debian per a RaspberriPi)</seg>
+      </tuv>
+      <tuv xml:lang="ES" changedate="20131030T104105Z" changeid="bromagosa">
+        <seg>Raspbian (Debian paraa RaspberriPi)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1414,14 +1438,6 @@
     </tu>
     <tu>
       <tuv xml:lang="CA">
-        <seg><bpt i='0' x='0'>&lt;a0&gt;</bpt>CA<ept i='0'>&lt;/a0&gt;</ept> <bpt i='1' x='1'>&lt;a1&gt;</bpt>ES<ept i='1'>&lt;/a1&gt;</ept> <bpt i='2' x='2'>&lt;a2&gt;</bpt>PT<ept i='2'>&lt;/a2&gt;</ept></seg>
-      </tuv>
-      <tuv xml:lang="ES" changedate="20130930T084943Z" changeid="bromagosa">
-        <seg><bpt i='0' x='0'>&lt;a0&gt;</bpt>CA<ept i='0'>&lt;/a0&gt;</ept> <bpt i='1' x='1'>&lt;a1&gt;</bpt>EN<ept i='1'>&lt;/a1&gt;</ept> <bpt i='2' x='2'>&lt;a2&gt;</bpt>PT<ept i='2'>&lt;/a2&gt;</ept></seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="CA">
         <seg>Al <bpt i='0' x='0'>&lt;a0&gt;</bpt>Citilab<ept i='0'>&lt;/a0&gt;</ept>, va descobrir <bpt i='1' x='1'>&lt;a1&gt;</bpt>Scratch<ept i='1'>&lt;/a1&gt;</ept> i <bpt i='2' x='2'>&lt;a2&gt;</bpt>Smalltalk<ept i='2'>&lt;/a2&gt;</ept>, reemprenent part de la seva feina com a programador.</seg>
       </tuv>
       <tuv xml:lang="ES" changedate="20130920T112307Z" changeid="bromagosa">
@@ -1518,18 +1534,18 @@
     </tu>
     <tu>
       <tuv xml:lang="CA">
-        <seg>Mentre treballava al <bpt i='0' x='0'>&lt;a0&gt;</bpt>Citilab<ept i='0'>&lt;/a0&gt;</ept> va desenvolupar el seu primer projecte final, consistent en crear un entorn per a treballar amb plaques <bpt i='1' x='1'>&lt;a1&gt;</bpt>Arduino<ept i='1'>&lt;/a1&gt;</ept> des de l'entorn d'Smalltalk <bpt i='2' x='2'>&lt;a2&gt;</bpt>Pharo<ept i='2'>&lt;/a2&gt;</ept>.</seg>
-      </tuv>
-      <tuv xml:lang="ES" changedate="20131001T103256Z" changeid="bromagosa">
-        <seg>Mientras trabajaba en <bpt i='0' x='0'>&lt;a0&gt;</bpt>Citilab<ept i='0'>&lt;/a0&gt;</ept>, desarrolló su primer proyecto final, que consistió en crear un entorno para trabajar con placas <bpt i='1' x='1'>&lt;a1&gt;</bpt>Arduino<ept i='1'>&lt;/a1&gt;</ept> desde el entorno de Smalltalk <bpt i='2' x='2'>&lt;a2&gt;</bpt>Pharo<ept i='2'>&lt;/a2&gt;</ept>.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="CA">
         <seg>Alguns d'aquests vídeos també han estat subtitulats a l'anglès.</seg>
       </tuv>
       <tuv xml:lang="ES" changedate="20130920T101631Z" changeid="bromagosa">
         <seg>Algunos de estos vídeos también han sido subtitulados al inglés.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Mentre treballava al <bpt i='0' x='0'>&lt;a0&gt;</bpt>Citilab<ept i='0'>&lt;/a0&gt;</ept> va desenvolupar el seu primer projecte final, consistent en crear un entorn per a treballar amb plaques <bpt i='1' x='1'>&lt;a1&gt;</bpt>Arduino<ept i='1'>&lt;/a1&gt;</ept> des de l'entorn d'Smalltalk <bpt i='2' x='2'>&lt;a2&gt;</bpt>Pharo<ept i='2'>&lt;/a2&gt;</ept>.</seg>
+      </tuv>
+      <tuv xml:lang="ES" changedate="20131001T103256Z" changeid="bromagosa">
+        <seg>Mientras trabajaba en <bpt i='0' x='0'>&lt;a0&gt;</bpt>Citilab<ept i='0'>&lt;/a0&gt;</ept>, desarrolló su primer proyecto final, que consistió en crear un entorno para trabajar con placas <bpt i='1' x='1'>&lt;a1&gt;</bpt>Arduino<ept i='1'>&lt;/a1&gt;</ept> desde el entorno de Smalltalk <bpt i='2' x='2'>&lt;a2&gt;</bpt>Pharo<ept i='2'>&lt;/a2&gt;</ept>.</seg>
       </tuv>
     </tu>
     <tu>

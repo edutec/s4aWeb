@@ -54,6 +54,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;a0&gt;EN&lt;/a0&gt; &lt;a1&gt;ES&lt;/a1&gt; &lt;a2&gt;PT&lt;/a2&gt;</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20131030T104054Z" changeid="bromagosa">
+        <seg>&lt;a0&gt;EN&lt;/a0&gt; &lt;a1&gt;CA&lt;/a1&gt; &lt;a2&gt;PT&lt;/a2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;a0&gt;Scratch&lt;/a0&gt; es va desenvolupar en &lt;a1&gt;Squeak&lt;/a1&gt; Smalltalk per l'Institut Tecnològic de Massachussets (MIT).</seg>
       </tuv>
       <tuv lang="ES" changedate="20130920T112901Z" changeid="bromagosa">
@@ -1406,6 +1414,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Raspbian (Debian per a RaspberriPi)</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20131030T104105Z" changeid="bromagosa">
+        <seg>Raspbian (Debian paraa RaspberriPi)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Robot complet</seg>
       </tuv>
       <tuv lang="ES" changedate="20130920T101641Z" changeid="bromagosa">
@@ -1826,6 +1842,14 @@
       </tuv>
       <tuv lang="ES" changedate="20130920T110153Z" changeid="bromagosa">
         <seg>downloads/S4A15.exe</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>downloads/S4A15_RP.deb</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20131030T104100Z" changeid="bromagosa">
+        <seg>downloads/S4A15_RP.deb</seg>
       </tuv>
     </tu>
     <tu>

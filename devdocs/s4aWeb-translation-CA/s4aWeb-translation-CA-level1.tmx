@@ -510,6 +510,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>downloads/S4A15_RP.deb</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20131030T103933Z" changeid="bromagosa">
+        <seg>downloads/S4A15_RP.deb</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can reach us at scratch@citilab.eu to report bugs or for any suggestions you may have.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T111557Z" changeid="bromagosa">
@@ -1376,8 +1384,8 @@
       <tuv lang="EN-US">
         <seg>CA ES PT</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130930T084906Z" changeid="bromagosa">
-        <seg>CA ES PT</seg>
+      <tuv lang="CA" changedate="20131030T104019Z" changeid="bromagosa">
+        <seg>EN ES PT</seg>
       </tuv>
     </tu>
     <tu>
@@ -1770,6 +1778,14 @@
       </tuv>
       <tuv lang="CA" changedate="20130919T100528Z" changeid="bromagosa">
         <seg>http://www.arduteka.com/tag/s4a/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Raspbian (Debian for RaspberriPi)</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20131030T103950Z" changeid="bromagosa">
+        <seg>Raspbian (Debian per a RaspberriPi)</seg>
       </tuv>
     </tu>
     <tu>
