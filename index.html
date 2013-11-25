@@ -85,7 +85,7 @@
 						<p>Take in account that this compatibility doesn't work both ways, so you won't be able to open an S4A project from within the original <a target="_blank" href="http://scratch.mit.edu">Scratch</a>.</p>
 						<p>Using a PicoBoard along with an <a target="_blank" href="http://arduino.cc">Arduino</a> board is also supported.</p>
 						<h3>Protocol</h3>
-						<p>S4A interacts with <a target="_blank" href="http://arduino.cc">Arduino</a> by sending the actuator states and receiving sensor states every 75 ms, therefore the pulse width needs to be greater than this time period. The data exchange follows the PicoBoard protocol and needs a specific program (firmware) to be installed in the board. Please refer to the <a onclick="slideTo('#downloads')">Downloads</a> section for further instructions on how to do so.</p>
+						<p>S4A interacts with <a target="_blank" href="http://arduino.cc">Arduino</a> by sending the actuator states and receiving sensor states every 75 ms, therefore the pulse width needs to be greater than this time period. The data exchange follows the PicoBoard protocol and needs a specific program (firmware) to be installed in the board. Please refer to the <a class="link" onclick="slideTo('#downloads')">Downloads</a> section for further instructions on how to do so.</p>
                     </section>
                 </article>
 
@@ -224,7 +224,7 @@
 					<section>
 						<h2>Version 1.4</h2>
 						<ul>
-							<li>Added full compatibility with HTTP protocol (POST AND GET), you can now send messages to S4A and watch/modify variable values from an Internet browser (among other things). See <a onclick="slideTo('#android')">Android</a> section.</li>
+							<li>Added full compatibility with HTTP protocol (POST AND GET), you can now send messages to S4A and watch/modify variable values from an Internet browser (among other things). See <a class="link" onclick="slideTo('#android')">Android</a> section.</li>
 							<li>Added a "check for updates" option in "Help" menu, from now on there is no need to visit website to check for new versions</li>
 							<li>Language is now detected upon first launch (when Scratch.ini file doesn't exist). Also saved in same file if changed from language menu</li>
 							<li>Serial port where a board is connected opens correctly when S4A is launched</li>
@@ -290,13 +290,46 @@
                         <h1>Frequently Asked Questions</h1>
                     </header>
                     <section>
-                        <h2>Which boards does S4A support?</h2>
+						<h2>General questions</h2>
+						<h4>Can the S4A firmware damage the board?</h4>
+						<p>In fact, our "firmware" is just like any other Arduino sketch, so there is no risk at all. Of course, you can upload other sketches to the board and then upload the S4A firmware again when needed.</p>
+						<h4>Can the S4A programs be pushed into the Arduino board?</h4>
+						<p>There is currently no way to compile code into Arduino binaries. It must be said that S4A was conceived as an improvement of the older versions of <a target="_blank" href="http://scratch.mit.edu">Scratch</a> (the ones that were developed in <a target="_blank" href="http://world.st">Smalltalk</a>), to make learning how to program real-world objects easier to everyone, specially to children, by dealing with these real objects in the same way they'd deal with <a target="_blank" href="http://scratch.mit.edu">Scratch</a> "normal objects", so they can interact between them. In other words, it was not made to program the board directly, but to help learn programming and electronics at the same time.</p>
+						<p>Still, if what you want is to just get rid of the USB cable, we recommend you use a wireless device like <a href="http://www.digi.com/xbee/">XBee</a>.</p>
+					</section>
+						<h4>Can I change the pinout configuration?</h4>
+						<p>Unfortunately, no. Pin configuration is hardcoded both in the firmware and in the source code of S4A, and the way S4A is made does not allow to change source code "on the fly". So, until we find a better way or enhance the communication protocol between the board and the program, the only way to customize the pinout is by changing both S4A source code and the firmware. There is a Spanish unofficial guide available <a href="http://www.google.com/url?q=http%3A%2F%2Fwww.arduteka.com%2F2013%2F01%2Fmodificar-el-codigo-de-s4a-y-del-firmware%2F&sa=D&sntz=1&usg=AFQjCNHqcWalvtbaL3e0RUs5IMH5ACTTGg">here</a> (thanks to Borja Pérez).
+                        <h4>Which boards does S4A support?</h4>
 						<p>S4A works with Arduino Diecimila, Duemilanove and Uno. Other boards haven't been tested, but they may also work.</p> 
-                    </section>
-                    <section>
-                        <h2>Will S4A work on my PC?</h2>
+                        <h4>Will S4A work on my PC?</h4>
                         <p>S4A works on the three major consumer operating systems: Microsoft Windows, GNU/Linux and MacOS. So yes, it will most probably work on your PC.</p>
                     </section>
+					<section>
+						<h2>Installation troubleshooting</h2>
+						<h4>I can't install it on 64-bit Ubuntu/Debian</h4>
+						<p>The Debian version of S4A is packaged only for i386 systems. To get it working in a 64-bit version, you need to follow the following steps (in a terminal, as root):</p>
+						<p>Fist of all, enable i386 packages and install ia32-libs</p>
+						<code>
+							dpkg --add-architecture i386<br/>
+							apt-get update<br/>
+							apt-get install ia32-libs<br/>
+						</code>
+						<p>Then install S4A:</p>
+						<code>
+							dpkg -i --force-architecture S4A15.deb
+						</code>
+						<h4>I'm having issues trying to install it on MacOS</h4>
+						<p>Since MacOS 10.8 (Mountain Lion), Gatekeeper is set up by default to allow downloaded applications only from "Mac App Store and identified developers". To install S4A, you'll need to change this option to "Anywhere".</p>
+						<p>More info <a href="http://www.google.com/url?q=http%3A%2F%2Fsupport.apple.com%2Fkb%2Fht5290&sa=D&sntz=1&usg=AFQjCNHC_0laChWoyCSNg_o6tQ7okobqGw">here</a>.</p>
+					</section>
+					<section>
+						<h2>Board connection troubleshooting</h2>
+						<h4>I've connected the board and S4A does not detect it</h4>
+						<p>Make sure you have uploaded the latest <a href="downloads/S4AFirmware15.ino">S4A firmware</a> to the board before starting S4A. To do this you'll need the official <a href="http://arduino.cc/en/Main/Software">Arduino IDE</a>.</p>
+						<p>Please follow the instructions on the <a class="link" onclick="slideTo('#downloads')">Downloads</a> section in this website.</p>
+						<h4>Been there, done that. Board still not detected</h4>
+						<p>This is a common known issue in Windows operating systems. Try stopping the connection with the board (right-click on sensor board in S4A), unplugging the USB cable, plugging it again and restarting the connection. If the program still does not detect the board, there may be a conflicting serial COM port causing S4A to hang when trying to open it. To avoid this, try opening it directly (right-click on sensor board and select serial port) or changing the assigned Arduino COM port through the Windows Device Manager. For more help on this issue, please visit <a href="http://www.digi.com/support/kbase/kbaseresultdetl?id=3308">this guide</a>.</p>
+					</section>
                 </article>
 
 				<!-- TEAM -->
