@@ -230,6 +230,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>While working at Citilab, she developed her first final thesis, which consisted in building a framework to work with Arduino boards from within the Pharo Smalltalk environment.</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20131001T103144Z" changeid="bromagosa">
+        <seg>Mentre treballava al Citilab va desenvolupar el seu primer projecte final, consistent en crear un entorn per a treballar amb plaques Arduino des de l'entorn d'Smalltalk Pharo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>downloads/s4a-sample01.pdf</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T100153Z" changeid="bromagosa">
@@ -502,6 +510,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>downloads/S4A15_RP.deb</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20131030T103933Z" changeid="bromagosa">
+        <seg>downloads/S4A15_RP.deb</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can reach us at scratch@citilab.eu to report bugs or for any suggestions you may have.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T111557Z" changeid="bromagosa">
@@ -614,18 +630,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>In the Tools menu, select the board version and the serial port where the board is connected</seg>
-      </tuv>
-      <tuv lang="CA" changedate="20130919T104434Z" changeid="bromagosa">
-        <seg>Al menú Tools, seleccioneu la versió de la placa i el port sèrie en què heu connectat la placa</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
         <seg>It was developed in 2010 by the Citilab Smalltalk Team and it has been used since by many people in a lot of differents projects around the world.</seg>
       </tuv>
       <tuv lang="CA" changedate="20130919T094533Z" changeid="bromagosa">
         <seg>El seu desenvolupament el va a dur a terme l'equip d'Smalltalk del Citilab l'any 2010, i des d'aleshores s'ha utilitzat a tot el món per a una gran varietat de projectes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the Tools menu, select the board version and the serial port where the board is connected</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20130919T104434Z" changeid="bromagosa">
+        <seg>Al menú Tools, seleccioneu la versió de la placa i el port sèrie en què heu connectat la placa</seg>
       </tuv>
     </tu>
     <tu>
@@ -850,14 +866,6 @@
       </tuv>
       <tuv lang="CA" changedate="20130919T112641Z" changeid="bromagosa">
         <seg>S4A és compatible amb Scratch, de manera que és possible obrir projectes d'Scratch des de S4A.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
-        <seg>Her first final thesis consisted in building a framework to work with Arduino boards from within the Pharo Smalltalk environment.</seg>
-      </tuv>
-      <tuv lang="CA" changedate="20130919T105344Z" changeid="bromagosa">
-        <seg>El seu primer projecte final va consistir en desenvolupar un entorn per a treballar amb plaques Arduino des de l'entorn d'Smalltalk Pharo.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1376,8 +1384,8 @@
       <tuv lang="EN-US">
         <seg>CA ES PT</seg>
       </tuv>
-      <tuv lang="CA" changedate="20130930T084906Z" changeid="bromagosa">
-        <seg>CA ES PT</seg>
+      <tuv lang="CA" changedate="20131030T104019Z" changeid="bromagosa">
+        <seg>EN ES PT</seg>
       </tuv>
     </tu>
     <tu>
@@ -1770,6 +1778,14 @@
       </tuv>
       <tuv lang="CA" changedate="20130919T100528Z" changeid="bromagosa">
         <seg>http://www.arduteka.com/tag/s4a/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Raspbian (Debian for RaspberriPi)</seg>
+      </tuv>
+      <tuv lang="CA" changedate="20131030T103950Z" changeid="bromagosa">
+        <seg>Raspbian (Debian per a RaspberriPi)</seg>
       </tuv>
     </tu>
     <tu>

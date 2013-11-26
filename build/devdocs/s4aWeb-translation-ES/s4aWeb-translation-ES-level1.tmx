@@ -94,18 +94,18 @@
     </tu>
     <tu>
       <tuv lang="CA">
-        <seg>Tingueu en compte que, per a treballar amb Arduino Uno, us caldrà la versió 0022 o superior.</seg>
-      </tuv>
-      <tuv lang="ES" changedate="20130930T085119Z" changeid="bromagosa">
-        <seg>Hay que tener en cuenta que, para trabajar con Arduino Uno, se necesita la versión 0022 o superior.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="CA">
         <seg>FAQ</seg>
       </tuv>
       <tuv lang="ES" changedate="20130920T095611Z" changeid="bromagosa">
         <seg>FAQ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Tingueu en compte que, per a treballar amb Arduino Uno, us caldrà la versió 0022 o superior.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130930T085119Z" changeid="bromagosa">
+        <seg>Hay que tener en cuenta que, para trabajar con Arduino Uno, se necesita la versión 0022 o superior.</seg>
       </tuv>
     </tu>
     <tu>
@@ -282,6 +282,14 @@
       </tuv>
       <tuv lang="ES" changedate="20130920T100703Z" changeid="bromagosa">
         <seg>S4A es compatible con Scratch, de forma que es posible abrir proyectos de Scratch desde S4A.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>EN ES PT</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20131030T104054Z" changeid="bromagosa">
+        <seg>EN CA PT</seg>
       </tuv>
     </tu>
     <tu>
@@ -486,6 +494,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>downloads/S4A15_RP.deb</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20131030T104100Z" changeid="bromagosa">
+        <seg>downloads/S4A15_RP.deb</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Un joc de nens!</seg>
       </tuv>
       <tuv lang="ES" changedate="20130920T101041Z" changeid="bromagosa">
@@ -554,6 +570,14 @@
       </tuv>
       <tuv lang="ES" changedate="20130920T110621Z" changeid="bromagosa">
         <seg>En el menú Tools, seleccionad la versión de la placa y el puero serie en qué esté conectada la placa</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Raspbian (Debian per a RaspberriPi)</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20131030T104105Z" changeid="bromagosa">
+        <seg>Raspbian (Debian paraa RaspberriPi)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1414,26 +1438,10 @@
     </tu>
     <tu>
       <tuv lang="CA">
-        <seg>CA ES PT</seg>
-      </tuv>
-      <tuv lang="ES" changedate="20130930T084943Z" changeid="bromagosa">
-        <seg>CA EN PT</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="CA">
         <seg>Al Citilab, va descobrir Scratch i Smalltalk, reemprenent part de la seva feina com a programador.</seg>
       </tuv>
       <tuv lang="ES" changedate="20130920T112307Z" changeid="bromagosa">
         <seg>En el Citilab, descubrió Scratch y Smalltalk, retomando parte de su trabajo como programador.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="CA">
-        <seg>El seu primer projecte final va consistir en desenvolupar un entorn per a treballar amb plaques Arduino des de l'entorn d'Smalltalk Pharo.</seg>
-      </tuv>
-      <tuv lang="ES" changedate="20130920T111704Z" changeid="bromagosa">
-        <seg>Su primer proyecto final consistió en desarrollar un entorno para trabajar con placas Arduino desde el entorno de Smalltalk Pharo.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1530,6 +1538,14 @@
       </tuv>
       <tuv lang="ES" changedate="20130920T101631Z" changeid="bromagosa">
         <seg>Algunos de estos vídeos también han sido subtitulados al inglés.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Mentre treballava al Citilab va desenvolupar el seu primer projecte final, consistent en crear un entorn per a treballar amb plaques Arduino des de l'entorn d'Smalltalk Pharo.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20131001T103256Z" changeid="bromagosa">
+        <seg>Mientras trabajaba en Citilab, desarrolló su primer proyecto final, que consistió en crear un entorno para trabajar con placas Arduino desde el entorno de Smalltalk Pharo.</seg>
       </tuv>
     </tu>
     <tu>

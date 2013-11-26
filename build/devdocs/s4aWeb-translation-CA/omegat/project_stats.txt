@@ -1,14 +1,14 @@
-30/09/13 10:50
+30/10/13 11:40
 Estadístiques del projecte
 
                	Segments	Paraules	Caràcters (sense espais)	Caràcters (amb espais)	
-Total:         	     316	    2528	                   13784	                 15854	
+Total:         	     320	    2546	                   13908	                 15988	
 Restants:      	       0	       0	                       0	                     0	
-Únics:         	     264	    2411	                   12806	                 14855	
+Únics:         	     266	    2425	                   12898	                 14957	
 Únics restants:	       0	       0	                       0	                     0	
 
 
 Estadístiques per fitxer:
 
 Nom de fitxer	Segments totals	Segments restants	Segments únics	Segments únics restants	Paraules totals	Paraules restants	Paraules úniques	Paraules úniques restants	Caràcters totals (sense espais)	Caràcters restants (sense espais)	Caràcters únics (sense espais)	Caràcters únics restants (sense espais)	Caràcters totals (amb espais)	Caràcters restants (amb espais)	Caràcters únics (amb espais)	Caràcters únics restants (amb espais)	
-index.html   	            316	                0	           264	                      0	           2528	                0	            2411	                        0	                          13784	                                0	                         12806	                                      0	                        15854	                              0	                       14855	                                    0	
+index.html   	            320	                0	           266	                      0	           2546	                0	            2425	                        0	                          13908	                                0	                         12898	                                      0	                        15988	                              0	                       14957	                                    0	

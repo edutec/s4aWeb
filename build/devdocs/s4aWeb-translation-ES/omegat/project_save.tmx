@@ -54,6 +54,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;a0&gt;EN&lt;/a0&gt; &lt;a1&gt;ES&lt;/a1&gt; &lt;a2&gt;PT&lt;/a2&gt;</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20131030T104054Z" changeid="bromagosa">
+        <seg>&lt;a0&gt;EN&lt;/a0&gt; &lt;a1&gt;CA&lt;/a1&gt; &lt;a2&gt;PT&lt;/a2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;a0&gt;Scratch&lt;/a0&gt; es va desenvolupar en &lt;a1&gt;Squeak&lt;/a1&gt; Smalltalk per l'Institut Tecnològic de Massachussets (MIT).</seg>
       </tuv>
       <tuv lang="ES" changedate="20130920T112901Z" changeid="bromagosa">
@@ -1158,6 +1166,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Mentre treballava al &lt;a0&gt;Citilab&lt;/a0&gt; va desenvolupar el seu primer projecte final, consistent en crear un entorn per a treballar amb plaques &lt;a1&gt;Arduino&lt;/a1&gt; des de l'entorn d'Smalltalk &lt;a2&gt;Pharo&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20131001T103256Z" changeid="bromagosa">
+        <seg>Mientras trabajaba en &lt;a0&gt;Citilab&lt;/a0&gt;, desarrolló su primer proyecto final, que consistió en crear un entorno para trabajar con placas &lt;a1&gt;Arduino&lt;/a1&gt; desde el entorno de Smalltalk &lt;a2&gt;Pharo&lt;/a2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Molts bug arreglats</seg>
       </tuv>
       <tuv lang="ES" changedate="20130920T110004Z" changeid="bromagosa">
@@ -1394,6 +1410,14 @@
       </tuv>
       <tuv lang="ES" changedate="20130920T113305Z" changeid="bromagosa">
         <seg>Acerca de S4A</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Raspbian (Debian per a RaspberriPi)</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20131030T104105Z" changeid="bromagosa">
+        <seg>Raspbian (Debian paraa RaspberriPi)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1818,6 +1842,14 @@
       </tuv>
       <tuv lang="ES" changedate="20130920T110153Z" changeid="bromagosa">
         <seg>downloads/S4A15.exe</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>downloads/S4A15_RP.deb</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20131030T104100Z" changeid="bromagosa">
+        <seg>downloads/S4A15_RP.deb</seg>
       </tuv>
     </tu>
     <tu>
