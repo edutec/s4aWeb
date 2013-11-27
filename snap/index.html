@@ -6,16 +6,15 @@
     <head profile="http://www.w3.org/2005/10/profile">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>S4A</title>
-        <meta name="description" content="S4A - Scratch for Arduino is a Scratch modification that brings the easiness of programming with Scratch to the Arduino prototyping board">
+        <title>Snap4Arduino pre-alpha</title>
+        <meta name="description" content="Snap4Arduino is a Snap! modification that brings the easiness of programming with Snap! to the Arduino prototyping board">
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="icon" type="image/ico" href="favicon.ico">
 
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-        <script src="js/vendor/jquery-1.10.1.min.js"></script>
+        <script src="../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -25,83 +24,91 @@
         <div class="main-container">
             <div class="main wrapper clearfix">
 
-				<!-- ABOUT -->
+				<div class="top-logo">
+					<img src="img/logo-top.png">
+				</div>
 
-                <article id="about">
-                    <header>
-                        <h1>S4A goes lambda</h1>
-                        <p>S4A is a <a target="_blank" href="http://scratch.mit.edu">Scratch</a> modification that allows for simple programming of the <a target="_blank" href="http://arduino.cc">Arduino</a> open source hardware platform. It provides new blocks for managing sensors and actuators connected to <a target="_blank" href="http://arduino.cc">Arduino</a>. There is also a sensors report board similar to the PicoBoard one.</p>
-						<p>The main aim of the project is attracting people to the programming world. The goal is also to provide a high level interface to <a href="http://arduino.cc" target="_blank">Arduino</a> programmers with functionalities such as interacting with a set of boards through user events.</p>
-                    </header>
-                    <section>
-                        <h2>The interface</h2>
-                        <p>
-							<img src="img/shot01.png"/>
-							<small><em>An S4A program to control a light-sensor Theremin, with record and playback capabilities</em></small>
-						</p>
-						<p>Arduino objects offer blocks for the basic microcontroller functionalities, analog and digital writes and reads, and also for higher level ones. You can find blocks to manage standard and continuous rotation servomotors:</p>
-						<p><img src="img/blocks.png"></p>
-                        <p>In S4A, an <a target="_blank" href="http://arduino.cc">Arduino</a> board is represented by a special kind of sprite. The Arduino sprite will automatically find the usb port where the board is connected.</p>
-						<p>It is possible to connect to multiple boards at the same time by just adding a new Arduino sprite.</p>
-                    </section>
-                    <section>
-						<h2>Technical details</h2>
-						<h3>Supported boards</h3>
-						<p>S4A works with Arduino Diecimila, Duemilanove and Uno. Other boards haven't been tested, but they may also work.</p> 
-						<h3>Connectivity</h3>
-						<p>Components have to be connected in a particular way. S4A allows for 6 analog inputs (analog pins), 2 digital inputs (digital pins 2 and 3), 3 analog outputs (digital pins 5, 6 and 9), 3 digital outputs (pins 10, 11 and 13) and 4 special outputs to connect Parallax continuous rotation servomotors (digital pins 4, 7, 8 and 12).</p>
-						<p>You can manage a board wirelessly by attaching an RF module to it, such as Xbee.</p>
-						<p>S4A allows you to control as many boards as USB ports you have.</p>
-						<h3>Compatibility</h3>
-						<p>S4A is backwards compatible with <a target="_blank" href="http://scratch.mit.edu">Scratch</a>, so you can open <a target="_blank" href="http://scratch.mit.edu">Scratch</a> projects in it. However, you won't be able to share your projects on the <a target="_blank" href="http://scratch.mit.edu">Scratch</a> community website because doing so goes against the <a target="_blank" href="http://scratch.mit.edu">Scratch</a> terms of use.</p>
-						<p>Take in account that this compatibility doesn't work both ways, so you won't be able to open an S4A project from within the original <a target="_blank" href="http://scratch.mit.edu">Scratch</a>.</p>
-						<p>Using a PicoBoard along with an <a target="_blank" href="http://arduino.cc">Arduino</a> board is also supported.</p>
-						<h3>Protocol</h3>
-						<p>S4A interacts with <a target="_blank" href="http://arduino.cc">Arduino</a> by sending the actuator states and receiving sensor states every 75 ms, therefore the pulse width needs to be greater than this time period. The data exchange follows the PicoBoard protocol and needs a specific program (firmware) to be installed in the board. Please refer to the <a class="link" onclick="slideTo('#downloads')">Downloads</a> section for further instructions on how to do so.</p>
-                    </section>
-                </article>
+				<!-- ABOUT -->
+				
+
+				<article id="about">
+					<header>
+						<h1>S4A goes lambda!</h1>
+						<p>Welcome to the public pre-alpha release of Snap4Arduino!</p>
+						<p>Briefly, this is how Snap4Arduino differs from <a href="http://s4a.cat">S4A</a>:</p>
+					</header>
+					<section>
+						<h2>The Good</h2>
+						<ul>
+							<li>Advanced programming concepts</li>
+							<li>You can <a href="http://snap.berkeley.edu" target="_blank"><em>Build Your Own Blocks</em></a>&trade;</li>
+							<li>Almost all <a target="_blank" href="http://arduino.cc">Arduino</a> boards supported (including Mega!)</li>
+							<li>Configurable pinouts</li>
+						</ul>
+					</section>
+					<section>
+						<h2>The Bad</h2>
+						<ul>
+							<li>Buggy! Please report any bugs you find so we can go beta soon!</li>
+							<li>No MacOS version (yet)</li>
+							<li>Not backwards compatible with <a href="http://s4a.cat">S4A</a></li>
+							<li>You can only program one board at a time (for the moment)</li>
+						</ul>
+					</section>
+					<section>
+						<h2>The Whatever</h2>
+						<ul>
+							<li>Web-based</li>
+							<li>Uses standard <a href="http://firmata.org" target="_blank">Firmata</a> firmware</li>
+							<li>Javascript client, <a href="http://pharo-project.org" target="_blank">Pharo</a> Smalltalk server</li>
+						</ul>
+					</section>
+				</article>
+
+				<article id="download">
+					<header>
+						<h1>Nice! I want to try it!</h1>
+						<p>There are currently versions for GNU/Linux and Microsoft Windows available. The project and all its components (including <a href="http://snap.berkeley.edu" target="_blank">Snap!</a>) are registered under public free software licenses (<a href="http://opensource.org/licenses/GPL-2.0" target="_blank">GPL</a> and <a href="http://opensource.org/licenses/MIT" target="_blank">MIT</a>), so you can download the sources and pretty much do whatever you want with them!</p>
+						<p>Please download the version that matches your operating system:</p>
+					</header>
+					<section>
+						<a href="downloads/win32.zip"><h2>Microsoft Windows</h2></a>
+						<a href="downloads/gnu-linux.zip"><h2>GNU/Linux</h2></a>
+						<a href="https://github.com/edutec/Snap4Arduino/archive/master.zip"><h2>Source</h2></a>
+					</section>
+				</article>
 
 				<!-- CONTACT -->
 
-                <article id="contact">
-                    <header>
-                        <h1>Contact Us</h1>
-                        <p>You can reach us at <a href="mailto:scratch@citilab.eu" target="_blank">scratch@citilab.eu</a> to report bugs or for any suggestions you may have.</p>
-                    </header>
-                </article>
-
-				<!-- SECTION -->
-<!--
-                <article id="">
-                    <header>
-                        <h1></h1>
-                        <p></p>
-                    </header>
-                    <section>
-                        <h2></h2>
-                        <p></p>
-                    </section>
-                    <section>
-                        <h2></h2>
-                        <p></p>
-                    </section>
-                </article>
-
-                <aside>
-                    <h3></h3>
-                    <p></p>
-                </aside>
--->
+				<article id="contact">
+					<header>
+						<h1>I found a bug!</h1>
+						<p>I bet you did! Please take in account this is an experimental, pre-alpha version. Bugs are hiding in the shadows waiting for you to find them, and if you do find one we would appreciate it so much if you filled up the following email template and sent it to us. If you think it can help, you can also attach a screenshot.</p>
+					</header>
+					<section>
+						<code onclick="document.getElementById('mail-send').click();" class="form clickable">
+								<p><span>Operating System:</span></p>
+								<p><span>Web Browser, and version:</span></p>
+								<p><span>Snap4Arduino version:</span></p>
+								<p><span>Steps to follow in order to reproduce the problem:</span></p>
+								<p><span>Additional notes:</span></p>
+						</code>
+					</section>
+					<footer>
+						<p>Please fill up this bug report form and send it to:</p>
+						<div class="mail">
+							<a id="mail-send" href="mailto:scratch@citilab.eu?subject=Snap4Arduino Bug Report&body=Operating System:%0D%0AWeb Browser, and version:%0D%0ASnap4Arduino version:%0D%0ASteps to follow in order to reproduce the problem:%0D%0AAdditional notes:" target="_blank">scratch@citilab.eu</a>
+						</div>
+					</footer>
+				</article>
 
             </div> <!-- #main -->
         </div> <!-- #main-container -->
 
         <div class="footer-container">
             <footer class="wrapper">
-				<a target="_blank" href="http://citilab.eu"><img src="img/citilab.png" class="citilab logo"/></a>
-                <h3>Copyright &copy; 2013 <a target="_blank" href="http://citilab.eu">Citilab</a></h3>
 				<a target="_blank" href="http://edutec.citilab.eu"><img src="img/edutec.png" class="edutec logo"/></a>
-				<p>Snap4Arduino is free software distributed under an <a href="http://opensource.org/licenses/MIT" target="_blank"><strong>MIT</strong></a> license</p>
+				<a target="_blank" href="http://citilab.eu"><img src="img/citilab.png" class="citilab logo"/></a>
             </footer>
         </div>
 
@@ -114,3 +121,4 @@
 
     </body>
 </html>
+

@@ -7,14 +7,14 @@ button,
 input,
 select,
 textarea {
-    color: #4088b6;
+    color: #1f435a;
 }
 
 body {
     font-size: 1em;
     line-height: 1.4;
 	background: #e8e8e8;
-	color: #4088b6;
+	color: #1f435a;
 }
 
 ::-moz-selection {
@@ -57,26 +57,6 @@ textarea {
     padding: 0.2em 0;
 }
 
-/* ==========================================================================
-   PORTAMENTO Styles
-   ========================================================================== */
-
-#portamento_container {
-	width: 100%;
-}
-
-#portamento_container #menu-container.fixed {
-   	position:fixed;
-	width: 100%;
-}
-
-#menu-container.fixed a,
-#menu-container.fixed a:hover,
-#menu-container.fixed a:visited {
-    color: #EEE;
-}
-
-
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
@@ -118,7 +98,7 @@ nav a {
 
 nav a:hover,
 nav a:visited {
-    color: #4088b6;
+    color: #1f435a;
 }
 
 nav a:hover {
@@ -135,11 +115,6 @@ nav a:hover {
 
 .main article h1 {
     font-size: 2em;
-}
-
-.footer-container footer {
-    color: #EEE;
-    padding: 20px 0;
 }
 
 /* ===============
@@ -164,12 +139,79 @@ a {
 	text-decoration: underline;
 }
 
+.clickable {
+	cursor: pointer;
+}
+
 a:hover {
 	text-shadow: 0px 0px 6px rgba(0,0,0,0.4);
 }
 
+.main-container {
+	padding-top: 48px;
+}
+
+.top-logo {
+	width: 100%;
+	text-align: center;
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+section {
+	padding-left: 30px;
+}
+
+.mail {
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+
+code.form {
+	border-image: url(../img/airmail-border.png) 1 1 round;
+	font-size: 12px;
+	display: block;
+	background-color: #f0f0f0;
+	margin: 30px 30px 30px 0;
+	padding: 5px 25px 15px 25px;
+}
+
+code.form > p {
+	padding: 10px 0 0 0;
+	line-height: 1em;
+	width: 100%;
+	border-bottom: 1px dashed #1f435a;
+}
+
+code.form > p span {
+	padding-bottom: 10px;
+	background-color: #f0f0f0;
+}
+
+.footer-container {
+	margin-top: 50px;
+	height: 90px;
+	overflow: hidden;
+}
+
 .footer-container .wrapper {
 	position: relative;
+}
+
+.citilab {
+	float: right;
+	margin-top: 10px;
+}
+
+.edutec {
+	float: left;
+	margin-top: 25px;
 }
 
 /* ==========================================================================
@@ -232,14 +274,9 @@ a:hover {
    ============ */
 
     .main article {
-        float: left;
-        width: 57%;
+        width: 100%;
     }
 
-    .main aside {
-        float: right;
-        width: 28%;
-    }
 }
 
 @media only screen and (min-width: 1140px) {
@@ -248,8 +285,8 @@ a:hover {
     Maximal Width
    =============== */
 
-    .wrapper , #portamento_container nav.fixed {
-        width: 1026px; /* 1140px - 10% for margins */
+    .wrapper {
+        width: 960px; 
         margin: 0 auto;
     }
 }
