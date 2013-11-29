@@ -174,7 +174,8 @@ section {
 }
 
 code.form {
-	border-image: url(../img/airmail-border.png) 1 1 round;
+	-webkit-border-image: url("../img/airmail-border.png") 1 1 round;
+	border-image: url("../img/airmail-border.png") 1 1 round;
 	font-size: 12px;
 	display: block;
 	background-color: #f0f0f0;
