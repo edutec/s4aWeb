@@ -29,7 +29,6 @@
 				</div>
 
 				<!-- ABOUT -->
-				
 
 				<article id="about">
 					<header>
@@ -51,7 +50,7 @@
 						<ul>
 							<li>Buggy! Please report any bugs you find so we can go beta soon!</li>
 							<li>No MacOS version (yet)</li>
-							<li>Not backwards compatible with <a href="http://s4a.cat">S4A</a></li>
+							<li>Not compatible with <a href="http://s4a.cat">S4A</a></li>
 							<li>You can only program one board at a time (for the moment)</li>
 						</ul>
 					</section>
@@ -127,6 +126,24 @@
 						</div>
 					</footer>
 				</article>
+
+				<!-- KNOWN ISSUES -->
+
+				<article id="issues">
+					<header>
+						<h1>Known issues</h1>
+						<p>These are known and reported bugs we haven't have the time to fix as of today. Remember, this is a pre-alpha version we're building and maintaining in our very scarce free time, but we'll get there and fix all of these!</p>
+					</header>
+					<section>
+						<ul>
+							<li>Only digital output works in pins higher than 13 on Mega boards. No PWM, no servos, no input</li>
+							<li>When selecting 0 from a dropdown box (for instance, in the analog pin selector) the box remains empty. However, the value <em>is</em> there and the block will function normally</li>
+							<li>Again, no MacOSX version... we're waiting for someone else to fix a bug we're not smart enough to fix ourselves</li>
+							<li>Saving to cloud is not possible yet. We're planning to set up a Snap4Arduino cloud server so we can all share and save our projects in the future</li>
+						</ul>
+					</section>
+				</article>
+
 
             </div> <!-- #main -->
         </div> <!-- #main-container -->
