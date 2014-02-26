@@ -219,6 +219,12 @@ a:hover {
 	color: #E0E0E0;
 }
 
+.donate {
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 5px;
+}
+
 .footer-container .wrapper {
 	position: relative;
 }
