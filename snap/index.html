@@ -6,7 +6,7 @@
     <head profile="http://www.w3.org/2005/10/profile">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Snap4Arduino pre-alpha</title>
+        <title>Snap4Arduino alpha</title>
         <meta name="description" content="Snap4Arduino is a Snap! modification that brings the easiness of programming with Snap! to the Arduino prototyping board">
         <meta name="viewport" content="width=device-width">
 
@@ -33,7 +33,7 @@
 				<article id="about">
 					<header>
 						<h1>S4A goes lambda!</h1>
-						<p>Welcome to the public pre-alpha release of Snap4Arduino!</p>
+						<p>Welcome to the public alpha release of Snap4Arduino!</p>
 						<p>Briefly, this is how Snap4Arduino differs from <a href="http://s4a.cat">S4A</a>:</p>
 					</header>
 					<section>
@@ -41,6 +41,7 @@
 						<ul>
 							<li>Advanced programming concepts</li>
 							<li>You can <a href="http://snap.berkeley.edu" target="_blank"><em>Build Your Own Blocks</em></a>&trade;</li>
+							<li>Desktop-based! No need for intermediate servers or middleware!</li>
 							<li>Almost all <a target="_blank" href="http://arduino.cc">Arduino</a> boards supported (including Mega!)</li>
 							<li>Configurable pinouts</li>
 						</ul>
@@ -48,7 +49,7 @@
 					<section>
 						<h2>The Bad</h2>
 						<ul>
-							<li>No MacOSX version yet, but one will be available in a few days!</li>
+							<li>No MacOSX version yet, but we're working real hard on it. If you're a MacOSX developer, maybe you can help us. Drop us an email!</li>
 							<li>Buggy! Please report any bugs you find so we can go beta soon!</li>
 							<li>Not compatible with <a href="http://s4a.cat">S4A</a></li>
 							<li>You can only program one board at a time (for the moment)</li>
@@ -57,9 +58,8 @@
 					<section>
 						<h2>The Whatever</h2>
 						<ul>
-							<li>Web-based</li>
 							<li>Uses standard <a href="http://firmata.org" target="_blank">Firmata</a> firmware</li>
-							<li>Javascript client, <a href="http://pharo-project.org" target="_blank">Pharo</a> Smalltalk server</li>
+							<li>Based on <a href="https://github.com/rogerwang/node-webkit" target="_blank">Node-webkit</a></li>
 						</ul>
 					</section>
 				</article>
@@ -73,11 +73,11 @@
 						<p>Please download the version that matches your operating system:</p>
 					</header>
 					<section>
-						<a href="downloads/win32/snap4arduino.zip"><h2>Microsoft Windows</h2></a>
-						<a href="downloads/gnu/snap4arduino.tar.gz"><h2>GNU/Linux</h2></a>
+						<a href="downloads/win32/Snap4Arduino.zip"><h2>Microsoft Windows</h2></a>
+						<a href="downloads/gnu/Snap4Arduino.tar.gz"><h2>GNU/Linux</h2></a>
 						<!--<a href="downloads/mac/snap4arduino.zip"><h2>MacOSX</h2></a>-->
 						<a href="https://github.com/edutec/Snap4Arduino/archive/master.zip"><h2>Source</h2></a>
-						<small>Current version: 0.48 pre-alpha</small>
+						<small>Current version: 1.0 alpha</small>
 					</section>
 				</article>
 
@@ -97,9 +97,16 @@
 							<li>In the Tools menu, select the board version and the serial port where the board is connected</li>
 							<li>Go to File and click on Upload</li>
 						</ol>
+						<p>Snap4Arduino will now be able to interact with your board.</p>
+					</section>
+					<section>
+						<h2>GNU/Linux</h2>
+						<p>You just need to unpack the package. The executable is <em>Snap4Arduino</em>.</p>
+						<p>In case it complains about a missing library, you can sudo run the <em>postinstall.sh</em> script, which will attempt to automatically take care of the issue.</p>
+						<h2>Microsoft Windows</h2>
+						<p>Just unzip the package and run the <em>Snap4Arduino-1.0-alpha.exe</em> installer.</p>
 					</section>
 					<footer>
-						<p>Snap4Arduino will now be able to interact with your board.</p>
 						<p>Happy prototyping!</p>
 					</footer>
 				</article>
@@ -114,7 +121,6 @@
 					<section>
 						<code onclick="document.getElementById('mail-send').click();" class="form clickable">
 								<p><span>Operating System:</span></p>
-								<p><span>Web Browser, and version:</span></p>
 								<p><span>Snap4Arduino version:</span></p>
 								<p><span>Steps to follow in order to reproduce the problem:</span></p>
 								<p><span>Additional notes:</span></p>
@@ -123,7 +129,7 @@
 					<footer>
 						<p>Please fill up this bug report form and send it to:</p>
 						<div class="mail">
-							<a id="mail-send" href="mailto:scratch@citilab.eu?subject=Snap4Arduino Bug Report&body=Operating System:%0D%0AWeb Browser, and version:%0D%0ASnap4Arduino version:%0D%0ASteps to follow in order to reproduce the problem:%0D%0AAdditional notes:" target="_blank">scratch@citilab.eu</a>
+							<a id="mail-send" href="mailto:scratch@citilab.eu?subject=Snap4Arduino Bug Report&body=Operating System:%0D%0ASnap4Arduino version:%0D%0ASteps to follow in order to reproduce the problem:%0D%0AAdditional notes:" target="_blank">scratch@citilab.eu</a>
 						</div>
 					</footer>
 				</article>
@@ -133,7 +139,7 @@
 				<article id="issues">
 					<header>
 						<h1>Known issues</h1>
-						<p>These are known and reported bugs or issues we haven't had the time to fix as of today. Remember, this is a pre-alpha version we're building and maintaining in our very scarce free time, but we'll get there and fix all of these!</p>
+						<p>These are known and reported bugs or issues we haven't had the time to fix as of today. Remember, this is an alpha version we're building and maintaining in our very scarce free time, but we'll get there and fix all of these!</p>
 					</header>
 					<section>
 						<ul>
