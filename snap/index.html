@@ -41,19 +41,21 @@
 						<p>Snap4Arduino is a modification of the <a href="http://snap.berkeley.edu" target="_blank">Snap</a> visual programming language that lets you seamlessly interact with almost all versions of the <a target="_blank" href="http://arduino.cc">Arduino</a> electronic prototyping board.</p>
 						<p>A short example of what you can do with it:</p>
 						<iframe width="560" height="315" src="//www.youtube.com/embed/I-nQtc9vYWs" frameborder="0" allowfullscreen></iframe>
-						<p>Snap4Arduino is being built by the same <a href="http://edutec.citilab.eu" target="_blank">team</a> that developed <a href="http://s4a.cat">S4A</a>.</p>
+						<p>Snap4Arduino is being built by the same <a href="http://edutec.citilab.eu" target="_blank">team</a> that developed <a href="http://s4a.cat">S4A</a>, with the collaboration of <a href="https://github.com/elaval" target="_blank">Ernesto Laval</a>.</p>
 					</section>
 					<header>
-						<p>Briefly, this is how Snap4Arduino differs from <a href="http://s4a.cat">S4A</a>:</p>
+						<p>Briefly, these are some Snap4Arduino strong and weak points:</p>
 					</header>
 					<section>
 						<h2>The Good</h2>
 						<ul>
-							<li>Advanced programming concepts</li>
-							<li>You can <a href="http://snap.berkeley.edu" target="_blank"><em>Build Your Own Blocks</em></a>&trade;</li>
-							<li>Desktop-based! No need for intermediate servers or middleware!</li>
 							<li>Almost all <a target="_blank" href="http://arduino.cc">Arduino</a> boards supported (including Mega and Nano!)</li>
 							<li>Configurable pinouts</li>
+							<li>Faster (7x!) response times than <a href="http://s4a.cat">S4A</a></li>
+							<li>You can interact with as many boards as you want at the same time</li>
+							<li>Lets you <a href="http://snap.berkeley.edu" target="_blank"><em>Build Your Own Blocks</em></a>&trade;</li>
+							<li>Desktop-based. No need for intermediate servers or middleware!</li>
+							<li>Uses standard <a href="http://firmata.org" target="_blank">Firmata</a> firmware</li>
 						</ul>
 					</section>
 					<section>
@@ -61,14 +63,6 @@
 						<ul>
 							<li>Buggy! Please report any bugs you find so we can go beta soon!</li>
 							<li>Not compatible with <a href="http://s4a.cat">S4A</a></li>
-							<li>You can only program one board at a time (for the moment)</li>
-						</ul>
-					</section>
-					<section>
-						<h2>The Whatever</h2>
-						<ul>
-							<li>Uses standard <a href="http://firmata.org" target="_blank">Firmata</a> firmware</li>
-							<li>Based on <a href="https://github.com/rogerwang/node-webkit" target="_blank">Node-webkit</a></li>
 						</ul>
 					</section>
 				</article>
@@ -78,14 +72,13 @@
 				<article id="download">
 					<header>
 						<h1>Nice! I want to try it!</h1>
-						<p>There are currently versions for GNU/Linux and Microsoft Windows available. The project and all its components (including <a href="http://snap.berkeley.edu" target="_blank">Snap</a>) are registered under public free software licenses (<a href="http://opensource.org/licenses/GPL-2.0" target="_blank">GPL</a> and <a href="http://opensource.org/licenses/MIT" target="_blank">MIT</a>), so you can download the sources and pretty much do whatever you want with them!</p>
+						<p>There are currently versions for GNU/Linux, MacOSX and Microsoft Windows available. The project and all its components (including <a href="http://snap.berkeley.edu" target="_blank">Snap</a>) are registered under public free software licenses (<a href="http://opensource.org/licenses/GPL-2.0" target="_blank">GPL</a> and <a href="http://opensource.org/licenses/MIT" target="_blank">MIT</a>), so you can download the sources and pretty much do whatever you want with them!</p>
 						<p>Please download the version that matches your operating system:</p>
 					</header>
 					<section>
 						<a href="downloads/win32/Snap4Arduino.zip"><h2>Microsoft Windows</h2></a>
 						<a href="downloads/gnu/Snap4Arduino.tar.gz"><h2>GNU/Linux</h2></a>
 						<a href="downloads/mac/Snap4Arduino.zip"><h2>MacOSX</h2></a>
-						<a href="https://github.com/edutec/Snap4Arduino"><h2>Source</h2></a>
 						<small>Current version: 1.0.3 alpha</small>
 					</section>
 				</article>
@@ -122,6 +115,20 @@
 					</footer>
 				</article>
 
+				<!-- SOURCE CODE -->
+
+				<article id="source">
+					<header>
+						<h1>I want to mess with your code</h1>
+						<p>Sure, here's our GitHub repo:</p>
+					</header>
+					<section>
+						<a href="https://github.com/edutec/Snap4Arduino"><h2>Snap4Arduino@GitHub</h2></a>
+						<p>Please feel free to send us your pull requests and participate in reporting, fixing or commenting on <a href="https://github.com/edutec/Snap4Arduino/issues" target="_blank">bugs!</a></p>
+					</section>
+				</article>
+
+
 				<!-- TEAM -->
 
                 <article id="team">
@@ -136,7 +143,8 @@
 				<article id="contact">
 					<header>
 						<h1>I found a bug!</h1>
-						<p>I bet you did! Please take in account this is an experimental alpha version. Bugs are hiding in the shadows waiting for you to find them, and if you do find one we would appreciate it so much if you filled up the following email template and sent it to us. If you think it can help, you can also attach a screenshot.</p>
+						<p>I bet you did! Please take in account this is an experimental alpha version. Bugs are hiding in the shadows waiting for you to find them, and if you do find one we would appreciate it so much if you reported it.</p>
+						<p>If you're a GitHub user, please use the <a href="https://github.com/edutec/Snap4Arduino/issues" target="_blank">official issue tracker</a>. Otherwise, you can always fill up the following email template and send it to us. If you think it can help, you can also attach a screenshot.</p>
 					</header>
 					<section>
 						<code onclick="document.getElementById('mail-send').click();" class="form clickable">
@@ -159,12 +167,10 @@
 				<article id="issues">
 					<header>
 						<h1>Known issues</h1>
-						<p>These are known and reported bugs or issues we haven't had the time to fix as of today. Remember, this is an alpha version we're building and maintaining in our very scarce free time, but we'll get there and fix all of these!</p>
 					</header>
 					<section>
-						<ul>
-							<li>Saving to cloud is not possible yet. We're planning to set up a Snap4Arduino cloud server so we can all share and save our projects in the future</li>
-						</ul>
+						<p>You can check out the status of all open issues in out <a href="https://github.com/edutec/Snap4Arduino/issues" target="_blank">official issue tracker</a>. Please feel free to comment on them, and remember you can always contribute to the project by sending us a pull request.</a>.
+						<p>Remember, this is an alpha version we're building and maintaining in our very scarce free time, but we'll get there and fix all of these.</p>
 					</section>
 				</article>
 
