@@ -221,6 +221,32 @@
                         <h1>Cambios</h1>
                     </header>
 					<section>
+						<h2>Version 1.6</h2>
+						<ul>
+								<h3>S4A:</h3>
+								<li>Fixed issue on block watchers when displaying %t instead the sensor name</li>
+								<li>Fixed issue when analog input error not disappearing</li>
+								<li>Fixed bug when creating new Arduino object and selecting an existing connection <em>(thanks to Vaner Anampa, Erik Bartmann and many more for reporting this bug)</em></li>
+								<li>Changed default pins and their order on Arduino blocks (as before)</li>
+								<li>Merged servo blocks, now pins 8, 7 and 4 can be used for standard and CR servomotors.</li>
+								<li>Added HTTP block (GET method) as requested by IMI ("Institut Municipal d'Informatica") of Barcelona</li>
+								<li>Updated some translation files. Thanks to:</li>
+								<ul>
+										<li>Frederique Pinson - French (fr.po)</li>
+										<li>Miguel Bouzada - Galician (gl.po)</li>
+										<li>Fabio Albanese - Italian (it.po)</li>
+										<li>Sungkuk Lim - Korean (ko.po)</li>
+										<li>Jan Van den Bergh - Dutch (nl.po)</li>
+										<li>Vadim Litvenko - Russian (ru.po)</li>
+										<li>Johan Solve - Swedish (sv.po)</li>
+								</ul>
+								<h3>Firmware:</h3>
+								<li>Refactored reset pins</li>
+								<li>Merged code for standard and CR servos</li>
+								<li>Merged patch for Leonardo from Peter Mueller (many thanks for this!)</li>
+						</ul>
+					</section>
+					<section>
 						<h2>Versión 1.5</h2>
 						<ul>
 							<li>Arreglado bug de colisión entre objetos (Arduino y no Arduino)</li>
@@ -267,11 +293,11 @@
                         <h2>Instalar S4A en el ordenador</h2>
 						<p>S4A funciona sobre los tres sistemas operativos de escritorio más populares. Descargad e instalad el que os convenga.</p>
 						<ul>
-							<li><a href="http://vps34736.ovh.net/S4A/S4A15.zip">Windows</a></li>
-							<li><a href="http://vps34736.ovh.net/S4A/S4A15.dmg">Mac</a></li>
-							<li><a href="http://vps34736.ovh.net/S4A/S4A15.deb">Linux (Debian)</a></li>
-							<li><a href="http://vps34736.ovh.net/S4A/S4A15.rpm">Linux (Fedora)</a></li>
-							<li><a href="http://vps34736.ovh.net/S4A/S4A15_RP.deb">Raspbian (Debian para RaspberryPi)</a></li>
+							<li><a href="http://vps34736.ovh.net/S4A/S4A16.zip">Windows</a></li>
+							<li><a href="http://vps34736.ovh.net/S4A/S4A16.dmg">Mac</a></li>
+							<li><a href="http://vps34736.ovh.net/S4A/S4A16.deb">Linux (Debian)</a></li>
+							<li><a href="http://vps34736.ovh.net/S4A/S4A15.rpm">Linux (Fedora)</a> <em>(version 1.5)</em></li>
+							<li><a href="http://vps34736.ovh.net/S4A/S4A15_RP.deb">Raspbian (Debian for RaspberryPi)</a> <em>(version 1.5)</em></li>
 						</ul>
                     </section>
                     <section>
@@ -279,9 +305,9 @@
                         <p>Este firmware es un programa que debe instalarse en vuestra placa <a target="_blank" href="http://arduino.cc">Arduino</a> para poderos comunicar con ella desde S4A.</p>
 						<ul>
 							<li>Descargad e instalad el entorno Arduino siguiendo las instrucciones de <a href="http://arduino.cc/en/Main/Software" target="_blank">http://arduino.cc/en/Main/Software</a>. Hay que tener en cuenta que, para trabajar con Arduino Uno, se necesita la versión 0022 o superior.</li>
-							<li>Descargad nuestro firmware <a href="http://vps34736.ovh.net/S4A/S4AFirmware15.ino" target="_blank">aquí</a></li>
+							<li>Descargad nuestro firmware <a href="http://vps34736.ovh.net/S4A/S4AFirmware16.ino" target="_blank">aquí</a></li>
 							<li>Conectad la placa Arduino a un puerto USB de vuestro ordenador</li>
-							<li>Abrid el archivo de firmware (S4AFirmware15.ino) desde el entorno Arduino</li>
+							<li>Abrid el archivo de firmware (S4AFirmware16.ino) desde el entorno Arduino</li>
 							<li>En el menú Tools, seleccionad la versión de la placa y el puero serie en qué esté conectada la placa</li>
 							<li>Cargad el firmware a la placa mediante la opción de menú Tools &gt; Upload</li>
 						</ul>

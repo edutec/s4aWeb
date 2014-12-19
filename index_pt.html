@@ -223,6 +223,32 @@ abrir um projeto do S4A pelo <a target="_blank" href="http://scratch.mit.edu">Sc
                         <h1>Changelog</h1>
                     </header>
 					<section>
+						<h2>Version 1.6</h2>
+						<ul>
+								<h3>S4A:</h3>
+								<li>Fixed issue on block watchers when displaying %t instead the sensor name</li>
+								<li>Fixed issue when analog input error not disappearing</li>
+								<li>Fixed bug when creating new Arduino object and selecting an existing connection <em>(thanks to Vaner Anampa, Erik Bartmann and many more for reporting this bug)</em></li>
+								<li>Changed default pins and their order on Arduino blocks (as before)</li>
+								<li>Merged servo blocks, now pins 8, 7 and 4 can be used for standard and CR servomotors.</li>
+								<li>Added HTTP block (GET method) as requested by IMI ("Institut Municipal d'Informatica") of Barcelona</li>
+								<li>Updated some translation files. Thanks to:</li>
+								<ul>
+										<li>Frederique Pinson - French (fr.po)</li>
+										<li>Miguel Bouzada - Galician (gl.po)</li>
+										<li>Fabio Albanese - Italian (it.po)</li>
+										<li>Sungkuk Lim - Korean (ko.po)</li>
+										<li>Jan Van den Bergh - Dutch (nl.po)</li>
+										<li>Vadim Litvenko - Russian (ru.po)</li>
+										<li>Johan Solve - Swedish (sv.po)</li>
+								</ul>
+								<h3>Firmware:</h3>
+								<li>Refactored reset pins</li>
+								<li>Merged code for standard and CR servos</li>
+								<li>Merged patch for Leonardo from Peter Mueller (many thanks for this!)</li>
+						</ul>
+					</section>
+					<section>
 						<h2>Versão 1.5</h2>
 						<ul>
 							<li>Corrigido bug de colisão de objetos (Arduino e não-Arduino)</li>
@@ -269,11 +295,11 @@ abrir um projeto do S4A pelo <a target="_blank" href="http://scratch.mit.edu">Sc
                         <h2>Instalando o S4A em seu computador</h2>
 						<p>S4A funciona nos três principais sistemas operacionais para consumidores. Baixe e instale de acordo com sua configuração:</p>
 						<ul>
-							<li><a href="http://vps34736.ovh.net/S4A/S4A15.zip">Windows</a></li>
-							<li><a href="http://vps34736.ovh.net/S4A/S4A15.dmg">Mac</a></li>
-							<li><a href="http://vps34736.ovh.net/S4A/S4A15.deb">Linux (Debian)</a></li>
-							<li><a href="http://vps34736.ovh.net/S4A/S4A15.rpm">Linux (Fedora)</a></li>
-							<li><a href="http://vps34736.ovh.net/S4A/S4A15_RP.deb">Raspbian (Debian para RaspberryPi)</a></li>
+							<li><a href="http://vps34736.ovh.net/S4A/S4A16.zip">Windows</a></li>
+							<li><a href="http://vps34736.ovh.net/S4A/S4A16.dmg">Mac</a></li>
+							<li><a href="http://vps34736.ovh.net/S4A/S4A16.deb">Linux (Debian)</a></li>
+							<li><a href="http://vps34736.ovh.net/S4A/S4A15.rpm">Linux (Fedora)</a> <em>(version 1.5)</em></li>
+							<li><a href="http://vps34736.ovh.net/S4A/S4A15_RP.deb">Raspbian (Debian for RaspberryPi)</a> <em>(version 1.5)</em></li>
 						</ul>
                     </section>
                     <section>
@@ -281,9 +307,9 @@ abrir um projeto do S4A pelo <a target="_blank" href="http://scratch.mit.edu">Sc
                         <p>Este firmware é um pedaço de software que precisará instalar em sua placa <a target="_blank" href="http://arduino.cc">Arduino</a> para que seja capaz de comunicar-se com o S4A.</p>
 						<ul>
 							<li>Baixe e instale o ambiente de desenvolvimento do Arduino seguindo as instruções em <a href="http://arduino.cc/en/Main/Software" target="_blank">http://arduino.cc/en/Main/Software</a>. Leve em conta que Arduino Uno requer pelo menos a versão 0022.</li>
-							<li>Baixe nosso firmware <a href="http://vps34736.ovh.net/S4A/S4AFirmware15.ino" target="_blank">aqui</a></li>
+							<li>Baixe nosso firmware <a href="http://vps34736.ovh.net/S4A/S4AFirmware16.ino" target="_blank">aqui</a></li>
 							<li>Conecte sua placa Arduino à porta USB do seu computador</li>
-							<li>Abra o arquivo de firmware (S4AFirmware15.ino) no ambiente
+							<li>Abra o arquivo de firmware (S4AFirmware16.ino) no ambiente
 de desenvolvimento Arduino</li>
 							<li>No menu Ferramentas, selecione a versão da placa e a porta serial onde a placa está conectada</li>
 							<li>Carregue o firmware na sua placa através de Ferramentas > &gt; Upload</li>

@@ -1,0 +1,2208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header
+    creationtool="OmegaT"
+    creationtoolversion="2.3.0_1"
+    segtype="sentence"
+    o-tmf="OmegaT TMX"
+    adminlang="EN-US"
+    srclang="CA"
+    datatype="plaintext"
+  >
+  </header>
+  <body>
+    <tu>
+      <tuv lang="CA">
+        <seg>No és possible obrir projectes de S4A des de l'&lt;a0&gt;Scratch&lt;/a0&gt; original.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T100826Z" changeid="bromagosa">
+        <seg>No es posible abrir proyectos de S4A desde el &lt;a0&gt;Scratch&lt;/a0&gt; original.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>examples/photoresistor_led.sb</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101600Z" changeid="bromagosa">
+        <seg>examples/photoresistor_led.sb</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Des d'aquí podeu descarregar-vos un zip amb materials i exercicis complets per a realitzar un taller:</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101322Z" changeid="bromagosa">
+        <seg>Desde aquí podéis descargaros un zip con materiales y ejercicios completos para realizar un taller:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Connectivitat</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T100401Z" changeid="bromagosa">
+        <seg>Conectividad</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els missatges S4A amb noms que no comencin amb un signe més no són visibles des del client web</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T104927Z" changeid="bromagosa">
+        <seg>Los mensajes de S4A con nombres que no empiecen con un signo más no son visibles desde el cliente web</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Especificació del protocol S4A</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T102222Z" changeid="bromagosa">
+        <seg>Especificación del protocolo S4A</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Arreglat bug relacionat amb un error persistent en aturar i reemprendre la connexió amb la placa</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T105000Z" changeid="bromagosa">
+        <seg>Arreglado bug relacionado con un error persistente al parar y reanudar la conexión con la placa</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>img/joan.png</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T111920Z" changeid="bromagosa">
+        <seg>img/joan.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Hi S4A!</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T103855Z" changeid="bromagosa">
+        <seg>Hi S4A!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per aquest motiu, també distribuïm una imatge amb el codi font net per a desenvolupadors, descarregable des d'aquest enllaç:</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110945Z" changeid="bromagosa">
+        <seg>Por este motivo, también distribuimos una imagen con el código fuente limpio para desarrolladores, descargable desde este enlace:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>FAQ</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T095611Z" changeid="bromagosa">
+        <seg>FAQ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Tingueu en compte que, per a treballar amb Arduino Uno, us caldrà la versió 0022 o superior.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130930T085119Z" changeid="bromagosa">
+        <seg>Hay que tener en cuenta que, para trabajar con Arduino Uno, se necesita la versión 0022 o superior.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>http://arduino.cc/en/Main/Software</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110353Z" changeid="bromagosa">
+        <seg>http://arduino.cc/en/Main/Software</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>examples/button_led.png</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101512Z" changeid="bromagosa">
+        <seg>examples/button_led.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Robòtica: Un cotxe controlat per teclat</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T102213Z" changeid="bromagosa">
+        <seg>Robótica: Un coche controlado por teclado</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La necessitat d'analitzar l'informació generada i les dades recollides va instigar el seu apropament a l'informàtica.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T112008Z" changeid="bromagosa">
+        <seg>La necesidad de analizar la información generada y los datos recogidos instigó su aproximación a la informática.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>downloads/s4a-sample01.pdf</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T102128Z" changeid="bromagosa">
+        <seg>downloads/s4a-sample01.pdf</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>downloads/S4A15.dmg</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110153Z" changeid="bromagosa">
+        <seg>downloads/S4A15.dmg</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Molts bug arreglats</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110004Z" changeid="bromagosa">
+        <seg>Muchos bug arreglados</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per a instal·lar S4A, cal instal·lar software tan al PC com a la placa &lt;a0&gt;Arduino&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110033Z" changeid="bromagosa">
+        <seg>Para instalar S4A, hay que instalar software tanto en el PC como en la placa &lt;a0&gt;Arduino&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Descarregueu el nostre firmware &lt;a0&gt;aquí&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110534Z" changeid="bromagosa">
+        <seg>Descargad nuestro firmware &lt;a0&gt;aquí&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Connecteu la placa Arduino a un port USB del vostre ordinador</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110547Z" changeid="bromagosa">
+        <seg>Conectad la placa Arduino a un puerto USB de vuestro ordenador</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>S4A funciona sobre els tres sistemes operatius d'escriptori més populars.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110138Z" changeid="bromagosa">
+        <seg>S4A funciona sobre los tres sistemas operativos de escritorio más populares.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>És membre de la mesa de la &lt;a1&gt;European Smalltalk Users Group&lt;/a1&gt; (ESUG) i president de l'associació &lt;a2&gt;Smalltalk.cat&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T112841Z" changeid="bromagosa">
+        <seg>Es miembro de la mesa de la &lt;a1&gt;European Smalltalk Users Group&lt;/a1&gt; (ESUG) y presidente de la associación &lt;a2&gt;Smalltalk.cat&lt;/a2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>img/hi-s4a-qr.png</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T102326Z" changeid="bromagosa">
+        <seg>img/hi-s4a-qr.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>http://esug.org</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T112707Z" changeid="bromagosa">
+        <seg>http://esug.org</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>LED RGB</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101516Z" changeid="bromagosa">
+        <seg>LED RGB</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>També hi trobareu blocs per a tractar amb motors estàndard i servomotors de rotació contínua.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T100216Z" changeid="bromagosa">
+        <seg>También encontraréis bloques para tratar con motores estándar y servomotores de rotación contínua.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Docs</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T095559Z" changeid="bromagosa">
+        <seg>Docs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un programa de S4A per a controlar un Theremin de llum, amb capacitat de gravació i reproducció</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T095856Z" changeid="bromagosa">
+        <seg>Un programa de S4A para controlar un Theremin de luz, con capacidad de grabación y reproducción</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Com que &lt;a0&gt;Scratch&lt;/a0&gt; és, en realitat, una imatge d'&lt;a1&gt;Squeak&lt;/a1&gt; Smalltalk, tot el seu codi ve inclòs en la versió final.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110721Z" changeid="bromagosa">
+        <seg>Como &lt;a0&gt;Scratch&lt;/a0&gt; es, en realidad, una imagen de &lt;a1&gt;Squeak&lt;/a1&gt; Smalltalk, todo su código viene incluido en la versión final.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Exercicis</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T102127Z" changeid="bromagosa">
+        <seg>Ejercicios</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els missatges S4A amb noms que comencin amb un signe més (ex.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T104819Z" changeid="bromagosa">
+        <seg>Los mensajes de S4A con nombres que empiecen con un signo más (ej.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>S4A és compatible amb &lt;a0&gt;Scratch&lt;/a0&gt;, de manera que és possible obrir projectes d'&lt;a1&gt;Scratch&lt;/a1&gt; des de S4A.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T100703Z" changeid="bromagosa">
+        <seg>S4A es compatible con &lt;a0&gt;Scratch&lt;/a0&gt;, de forma que es posible abrir proyectos de &lt;a1&gt;Scratch&lt;/a1&gt; desde S4A.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;a0&gt;EN&lt;/a0&gt; &lt;a1&gt;ES&lt;/a1&gt; &lt;a2&gt;PT&lt;/a2&gt;</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20131030T104054Z" changeid="bromagosa">
+        <seg>&lt;a0&gt;EN&lt;/a0&gt; &lt;a1&gt;CA&lt;/a1&gt; &lt;a2&gt;PT&lt;/a2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Jordi Delgado</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T112637Z" changeid="bromagosa">
+        <seg>Jordi Delgado</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>S4A - Scratch for Arduino és una modificació d'Scratch que porta la facilitat de programar en Scratch a la placa de prototipatge Arguino</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T095535Z" changeid="bromagosa">
+        <seg>S4A - Scratch for Arduino es una modificación de Scratch que trae la facilidad de programar en Scratch a la placa de prototipaje Arguino</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;s1&gt;http://[IP]:42001/sensor-update=[nom-del-sensor]=[valor]&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T103818Z" changeid="bromagosa">
+        <seg>&lt;s1&gt;http://[IP]:42001/sensor-update=[nombre-del-sensor]=[valor]&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Polsador i LED</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101456Z" changeid="bromagosa">
+        <seg>Pulsador y LED</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Més endavant, es va unir a diversos projectes amb l'objectiu d'establir una relació més propera entre els usuaris i la programació.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T112444Z" changeid="bromagosa">
+        <seg>Más adelante, se unió a varios proyectos con el objetivo de establecer una relación más cercana entre los usuarios y la programación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Codi</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101515Z" changeid="bromagosa">
+        <seg>Código</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En Víctor va començar a estudiar Enginyeria en Informàtica a la Universitat Autònoma de Barcelona (UAB), però després de dos anys va passar a estudiar el grau de telecomunicacions a l'Escola Politècnica Superior de Castelldefels.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T111828Z" changeid="bromagosa">
+        <seg>Víctor empezó a estudiar Ingeniería en Informática en la Universitat Autònoma de Barcelona (UAB), pero al cabo de dos años pasó a estudiar el grado de telecomunicaciones en la Escola Politècnica Superior de Castelldefels.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Bernat Romagosa</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T112504Z" changeid="bromagosa">
+        <seg>Bernat Romagosa</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'intercanvi de dades segueix el protocol PicoBoard, i necessita que s'instal·li un programa específic (firmware) a la placa.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101008Z" changeid="bromagosa">
+        <seg>El intercambio de datos sigui el protocolo PicoBoard, y necesita que se instale un programa específico (firmware) en la placa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;a0&gt;Scratch&lt;/a0&gt; es va desenvolupar en &lt;a1&gt;Squeak&lt;/a1&gt; Smalltalk per l'Institut Tecnològic de Massachussets (MIT).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T112901Z" changeid="bromagosa">
+        <seg>&lt;a0&gt;Scratch&lt;/a0&gt; fue desarrollado en &lt;a1&gt;Squeak&lt;/a1&gt; Smalltalk por el Instituto Tecnológico de Massachussets (MIT).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;s1&gt;http://[IP]:42001/vars-update=[nom-de-la-variable]=[valor]&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T103826Z" changeid="bromagosa">
+        <seg>&lt;s1&gt;http://[IP]:42001/vars-update=[nombre-de-la-variable]=[valor]&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>També podeu utilitzar la interfície web de la llista de correu per a subscriure-us, contribuir i consultar l'arxiu:</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T113055Z" changeid="bromagosa">
+        <seg>También podéis utilizar la interfaz web de la lista de correo para suscribiros, contribuir y consultar el archivo:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>S4A ha estat desenvolupat al &lt;a0&gt;Citilab&lt;/a0&gt; per l'equip de recerca Edutech, amb l'ajuda del grup de programació &lt;a1&gt;Smalltalk.cat&lt;/a1&gt; i de col·laboradors com Jorge Gómez, cap del projecte d'educació en software i hardware a &lt;a2&gt;Miscela&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130927T090821Z" changeid="bromagosa">
+        <seg>S4A ha sido desarrollado en el &lt;a0&gt;Citilab&lt;/a0&gt; por el equivo de investigación Edutech, con la ayuda del grupo de programación &lt;a1&gt;Smalltalk.cat&lt;/a1&gt; y de colaboradores como Jorge Gómez, jefe del proyecto de educación en software y hardware a &lt;a2&gt;Miscela&lt;/a2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>img/shot01.png</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T095838Z" changeid="bromagosa">
+        <seg>img/shot01.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Comunitat</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T095615Z" changeid="bromagosa">
+        <seg>Comunidad</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquest vídeo serveix com a introducció pels tallers d'S4A que s'imparteixen al &lt;a0&gt;Citilab&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T104423Z" changeid="bromagosa">
+        <seg>Este vídeo sirve como introducción para los talleres de S4A que se imparten en el &lt;a0&gt;Citilab&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>També compta amb un panell de sensors similar al de la PicoBoard.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T095722Z" changeid="bromagosa">
+        <seg>También cuenta con un panel de sensores similar al de la PicoBoard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Va aprendre &lt;a0&gt;Smalltalk&lt;/a0&gt; en un curs impartit per Jordi Delgado al &lt;a1&gt;Citilab&lt;/a1&gt; durant l'any 2008, on més endavant va entrar a treballar amb l'objectiu de desenvolupar una escola virtual de programació.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T112602Z" changeid="bromagosa">
+        <seg>Aprendió &lt;a0&gt;Smalltalk&lt;/a0&gt; en un curso impartido pir Jordi Delgado en el &lt;a1&gt;Citilab&lt;/a1&gt; durante el año 2008, donde más adelante entró a trabajar con el objetivo de desarrollar una escuela virtual de programación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Vídeos</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101601Z" changeid="bromagosa">
+        <seg>Vídeos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En Jordi és professor titular al departament de Llenguatges i Sistemes Informàtics de la Universitat Politècnica de Catalunya (UPC).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130927T090842Z" changeid="bromagosa">
+        <seg>Jordi es profesor titular en el departamento de Lenguajes y Sistemas Informáticos de la Universitat Politècnica de Catalunya (UPC).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>img/victor.png</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T111746Z" changeid="bromagosa">
+        <seg>img/victor.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>width=device-width</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T095536Z" changeid="bromagosa">
+        <seg>width=device-width</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>http://scratch.mit.edu</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T095623Z" changeid="bromagosa">
+        <seg>http://scratch.mit.edu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Instal·lar S4A a l'ordinador</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110122Z" changeid="bromagosa">
+        <seg>Instalar S4A en el ordenador</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Acualment, és el cap de l'equip de recerca en educació tecnològica Edutec.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T112503Z" changeid="bromagosa">
+        <seg>Acualmente, es el responsable del equipo de investigación en educación tecnológica Edutec.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>downloads/S4A15_RP.deb</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20131030T104100Z" changeid="bromagosa">
+        <seg>downloads/S4A15_RP.deb</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un joc de nens!</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101041Z" changeid="bromagosa">
+        <seg>Un juego de niños!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>examples/button_led.sb</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101512Z" changeid="bromagosa">
+        <seg>examples/button_led.sb</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>S4A permet utilitzar una PicoBoard conjuntament amb un &lt;a0&gt;Arduino&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T100836Z" changeid="bromagosa">
+        <seg>S4A permite utilizar una PicoBoard conjuntamente con un &lt;a0&gt;Arduino&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Instal·lar el firmware a Arduino</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110210Z" changeid="bromagosa">
+        <seg>Instalar el firmware en el Arduino</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;s1&gt;http://[IP]:42001/broadcast=[nom-del-missatge]&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T103751Z" changeid="bromagosa">
+        <seg>&lt;s1&gt;http://[IP]:42001/broadcast=[nombre-del-mensaje]&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>examples/button_led_with_state.sb</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101545Z" changeid="bromagosa">
+        <seg>examples/button_led_with_state.sb</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Ençallos externs de documentació</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T102229Z" changeid="bromagosa">
+        <seg>Enlaces externos de documentación</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>examples/photoresistor_led.png</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101600Z" changeid="bromagosa">
+        <seg>examples/photoresistor_led.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Al menú Tools, seleccioneu la versió de la placa i el port sèrie en què heu connectat la placa</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110621Z" changeid="bromagosa">
+        <seg>En el menú Tools, seleccionad la versión de la placa y el puero serie en qué esté conectada la placa</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Raspbian (Debian per a RaspberriPi)</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20131030T104105Z" changeid="bromagosa">
+        <seg>Raspbian (Debian paraa RaspberriPi)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>downloads/s4a-sample03.pdf</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T102203Z" changeid="bromagosa">
+        <seg>downloads/s4a-sample03.pdf</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>img/balloon.png</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T112758Z" changeid="bromagosa">
+        <seg>img/balloon.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Hem desenvolupat una aplicació simple d'Android que pot comunicar-se amb S4A via HTTP mitjançant el protocol de sensors remots d'&lt;a0&gt;Scratch&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T102304Z" changeid="bromagosa">
+        <seg>Hemos desarrollado una aplicación simple de Android que puede comunicarse con S4A via HTTP mediante el protocolo de sensores remotos de &lt;a0&gt;Scratch&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Exemples Bàsics</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101418Z" changeid="bromagosa">
+        <seg>Ejemplos Básicos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La seva tasca principal al &lt;a0&gt;Citilab&lt;/a0&gt; ha estat relacionada amb el camp de la formació en dues àrees: l'ensenyament de la programació mitjançant &lt;a1&gt;Scratch&lt;/a1&gt;, especialment per a nens, i la formació en coneixements d'informàtica a ciutadans adults.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T112140Z" changeid="bromagosa">
+        <seg>Su principal tarea en el &lt;a0&gt;Citilab&lt;/a0&gt; ha estado relacionada con el campo de la formación en dos áreas: la enseñanza de la programación mediante &lt;a1&gt;Scratch&lt;/a1&gt;, especialmente para niños, y la formación en conocimientos de informática a ciudadanos adultos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>-puntuacioJugador) només són visibles (no modificables) des del client web</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T104220Z" changeid="bromagosa">
+        <seg>-puntuacionJugador) sólo son visibles y modificables desde el cliente web</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>S4A per a desenvolupadors</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110952Z" changeid="bromagosa">
+        <seg>S4A para desarrolladores</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>S4A és una modificació d'&lt;a0&gt;Scratch&lt;/a0&gt; que permet programar la plataforma de hardware lliure &lt;a1&gt;Arduino&lt;/a1&gt; d'una manera senzilla.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T113342Z" changeid="bromagosa">
+        <seg>S4A es una modificación de &lt;a0&gt;Scratch&lt;/a0&gt; que permite programar la plataforma de hardware libre &lt;a1&gt;Arduino&lt;/a1&gt; de una forma sencilla.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Jose García</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T112044Z" changeid="bromagosa">
+        <seg>Jose García</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Arreglat bug de col·lisió entre objectes (Arduino i no Arduino)</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T104941Z" changeid="bromagosa">
+        <seg>Arreglado bug de colisión entre objetos (Arduino y no Arduino)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Música: Un instrument similar a un theremin</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T102158Z" changeid="bromagosa">
+        <seg>Música: Un instrumento similar a un theremin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Com utilitzar l'entrada d'un fotoresistor per a activar un LED.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T104416Z" changeid="bromagosa">
+        <seg>Como usar la entrada de un fotoresistor para activar un LED.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un altre objectiu és proporcionar una interfície d'alt nivell per a programadors d'&lt;a0&gt;Arduino&lt;/a0&gt; amb funcionalitats tals com la interacció amb un conjunt de plaques mitjançant esdeveniments d'usuari.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T104320Z" changeid="bromagosa">
+        <seg>Otro de sus objetivos es proporcionar una interfaz de alto nivel para programadores de &lt;a0&gt;Arduino&lt;/a0&gt; con funcionalidades tales como la interacción con un conjunto de placas mediante eventos de usuario.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>img/citilab.png</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130930T085030Z" changeid="bromagosa">
+        <seg>img/citilab.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>favicon.ico</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T095537Z" changeid="bromagosa">
+        <seg>favicon.ico</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquest firmware és un programa que cal instal·lar a la vostra placa &lt;a0&gt;Arduino&lt;/a0&gt; per tal de poder-vos-hi comunicar des d'S4A.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110353Z" changeid="bromagosa">
+        <seg>Este firmware es un programa que debe instalarse en vuestra placa &lt;a0&gt;Arduino&lt;/a0&gt; para poderos comunicar con ella desde S4A.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Pàgina web de la llista de correu</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T113101Z" changeid="bromagosa">
+        <seg>Página web de la lista de correo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>index_es.html</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T095548Z" changeid="bromagosa">
+        <seg>index_ca.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Versió 1.5</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T104929Z" changeid="bromagosa">
+        <seg>Versión 1.5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>des del Web</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T103859Z" changeid="bromagosa">
+        <seg>desde el Web</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>examples/switch_led.png</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101544Z" changeid="bromagosa">
+        <seg>examples/switch_led.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Versió 1.3</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T105725Z" changeid="bromagosa">
+        <seg>Versión 1.3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Versió 1.4</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T105401Z" changeid="bromagosa">
+        <seg>Versión 1.4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Scratch IO Wiki - per José Javier Vitón</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T102233Z" changeid="bromagosa">
+        <seg>Scratch IO Wiki - por José Javier Vitón</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En qualsevol cas, no és possible compartir projectes de S4A a la web de la comunitat &lt;a2&gt;Scratch&lt;/a2&gt;, ja que això aniria en contra del termes i condicions d'ús d'&lt;a3&gt;Scratch&lt;/a3&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T100757Z" changeid="bromagosa">
+        <seg>En cualquier caso, no es posible compartir proyectos de S4A en la web de la comunidad &lt;a2&gt;Scratch&lt;/a2&gt;, ya que ésto violaría los términos y condiciones de uso de &lt;a3&gt;Scratch&lt;/a3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>mailto:scratch@citilab.eu</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T113102Z" changeid="bromagosa">
+        <seg>mailto:scratch@citilab.eu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Inverteix la major part del seu temps en divulgar, difondre la idea i programar en &lt;a0&gt;Smalltalk&lt;/a0&gt;, un llenguatge de programació apassionant que considera que tothom hauria d'utilitzar.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T112739Z" changeid="bromagosa">
+        <seg>Invierte la mayor parte de su tiempo en divulgar, difundir la idea y programar en &lt;a0&gt;Smalltalk&lt;/a0&gt;, un lenguaje de programación apassionante que considera que todo el mundo debería usar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>downloads/S4A15.exe</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110153Z" changeid="bromagosa">
+        <seg>downloads/S4A15.exe</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Actualitzar una variable de S4A:&lt;br0/&gt;</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T103822Z" changeid="bromagosa">
+        <seg>Actualizar una variable de S4A:&lt;br0/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>img/shot02.jpg</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T102815Z" changeid="bromagosa">
+        <seg>img/shot02.jpg</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Marina Conde</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T111243Z" changeid="bromagosa">
+        <seg>Marina Conde</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Hi Scratch for Arduino!</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T102237Z" changeid="bromagosa">
+        <seg>Hi Scratch for Arduino!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Descarregueu i instal·leu el que us convingui.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110152Z" changeid="bromagosa">
+        <seg>Descargad e instalad el que os convenga.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Introducció al taller d'S4A</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101833Z" changeid="bromagosa">
+        <seg>Introducción al taller de S4A</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Durant aquest temps, va sorgir-li l'oportunitat d'entrar al &lt;a0&gt;Citilab&lt;/a0&gt; a través d'una beca, on va desenvolupar S4A, el seu projecte final.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T111914Z" changeid="bromagosa">
+        <seg>Durante este tiempo, le surgió la oportunidad de entrar al &lt;a0&gt;Citilab&lt;/a0&gt; a través de una beca, donde desarrolló S4A, su proyecto final.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Fotoresistor i LED</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101548Z" changeid="bromagosa">
+        <seg>Fotoresistor y LED</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Descarregueu i instal·leu l'entorn Arduino seguint les instruccions de &lt;a0&gt;http://arduino.cc/en/Main/Software&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110457Z" changeid="bromagosa">
+        <seg>Descargad e instalad el entorno Arduino siguiendo las instrucciones de &lt;a0&gt;http://arduino.cc/en/Main/Software&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Primitives indexades canviades a primitives amb nom per a una millor compatibilitat amb les noves màquines virtuals d'Squeak (gràcies a Miriam Ruiz pel pedàs)</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T105216Z" changeid="bromagosa">
+        <seg>Primitivas indexadas cambiadas a primitivas con nombre para una mejor compatibilidad con las nuevas máquinas virtuales de Squeak (gracias a Miriam Ruiz por el parche)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Marina Conde es va diplomar en Enginyeria Tècnica en Informàtica de Gestió per la Universitat Politècnica de Catalunya (UPC) l'any 2009, on va continuar els estudis fins obtenir, l'any 2012, el títol d'Enginyeria Superior en Informàtica.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T111625Z" changeid="bromagosa">
+        <seg>Marina Conde se diplomó en Ingeniería Técnica en Informática de Gestión por la Universitat Politècnica de Catalunya (UPC) en el año 2009, donde continuó los estudios hasta obtener, en 2012, el título de Ingeniería Superior en Informática.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Domòtica: Un controlador de persiana</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T102202Z" changeid="bromagosa">
+        <seg>Domótica: Un controlador de persiana</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>http://squeak.org</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110656Z" changeid="bromagosa">
+        <seg>http://squeak.org</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'any 2009, en Bernat es va graduar com a Enginyer Tècnic en Informàtica de Gestió per la Universitat Oberta de Catalunya (UOC).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T112526Z" changeid="bromagosa">
+        <seg>En el año 2009, Bernat se graduó como Ingeniero Técnico en Informática de Gestión por la Universitat Oberta de Catalunya (UOC).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>És possible comunicar-se inalàmbricament amb una placa mitjançant un mòdul de RF, com ara Xbee.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T104329Z" changeid="bromagosa">
+        <seg>Es posible comunicarse inalámbricamente con una placa mediante un módulo de RF, como Xbee.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>És imprescindible carregar el nou firmware, així com actualitzar el bootloader en determinades plaques</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T105755Z" changeid="bromagosa">
+        <seg>Es imprescindible cargar el nuevo firmware, así como actualizar el bootloader en determinadas placas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>examples/rgb_led.png</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101524Z" changeid="bromagosa">
+        <seg>examples/rgb_led.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>css/normalize.min.css</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T095536Z" changeid="bromagosa">
+        <seg>css/normalize.min.css</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Víctor Casado</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T111745Z" changeid="bromagosa">
+        <seg>Víctor Casado</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Proporciona blocs nous per tractar amb sensors i actuadors connectats a una placa &lt;a2&gt;Arduino&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T095709Z" changeid="bromagosa">
+        <seg>Proporciona bloques nuevos para tratar con sensores y actuadores connectados a una placa &lt;a2&gt;Arduino&lt;/a2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>http://smalltalk.cat</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T111055Z" changeid="bromagosa">
+        <seg>http://smalltalk.cat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquí trobareu els passos detallats per a posar S4A en marxa.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110046Z" changeid="bromagosa">
+        <seg>Aquí encontraréis los pasos detallados para poner S4A en marcha.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Més endavant, va utilitzar aquest projecte com a base sobre la qual es va programar S4A.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T111745Z" changeid="bromagosa">
+        <seg>Más adelante, utilizó este proyecto como base sobre la cual se programó S4A.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>http://opensource.org/licenses/MIT</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110642Z" changeid="bromagosa">
+        <seg>http://opensource.org/licenses/MIT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Afegida opció per a comprovar si hi ha actualitzacions disponibles des del menú d'ajuda.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T105504Z" changeid="bromagosa">
+        <seg>Añadida opción para comprobar si hay actualizaciones disponibles desde el menú de ayuda.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>IE=edge,chrome=1</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T094943Z" changeid="bromagosa">
+        <seg>IE=edge,chrome=1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Hardware?</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101036Z" changeid="bromagosa">
+        <seg>Hardware?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Linux (Debian)</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110155Z" changeid="bromagosa">
+        <seg>Linux (Debian)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>http://pharo-project.org</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T111626Z" changeid="bromagosa">
+        <seg>http://pharo-project.org</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>S4A permet controlar tantes plaques com ports USB tingui el vostre PC.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T104337Z" changeid="bromagosa">
+        <seg>S4A permite controlar tantas placas como puertos USB tenga vuestro PC.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Enviar el valor d'un sensor remot (per exemple, l'acceleròmetre del client, la posició del punter del ratolí, etc):&lt;br0/&gt;</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T103812Z" changeid="bromagosa">
+        <seg>Enviar el valor de un sensor remoto (por ejemplo, el accelerómetro del cliente, la posición del puntero del ratón, etc):&lt;br0/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Així que, molt probablement, funcionarà al vostre ordinador.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T111046Z" changeid="bromagosa">
+        <seg>Así que, muy probablemente, funcionará en vuestro ordenador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Entre d'altres, un sistema de gestió del coneixement i diverses aplicacions educatives.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T112637Z" changeid="bromagosa">
+        <seg>Entre otros, un sistema de gestión del conocimiento y varias aplicaciones educativas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els components s'han de connectar d'una manera determinada.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T100416Z" changeid="bromagosa">
+        <seg>Los componentes deven conectarse de una forma determinada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>De tota manera, a la versió final d'S4A hi ha codi que ha estat compilat, i s'hauran perdut diversos noms de variables i arguments de missatges.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110917Z" changeid="bromagosa">
+        <seg>De todas formas, a la versión final de S4A hay código que ha sido compilado, y se habrán perdido varios nombres de variables y argumentos de mensajes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Carregueu el firmware a la placa mitjançant l'opció de menú Tools &gt; Upload</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110639Z" changeid="bromagosa">
+        <seg>Cargad el firmware a la placa mediante la opción de menú Tools &gt; Upload</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La interfície</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T095837Z" changeid="bromagosa">
+        <seg>La interfaz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una vegada us hi hagueu subscrit, podeu enviar els vostres missatges a:</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T113029Z" changeid="bromagosa">
+        <seg>Una vez suscritos, podéis mandar vuestros mensajes a:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>examples/rgb_led.sb</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101524Z" changeid="bromagosa">
+        <seg>examples/rgb_led.sb</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'equip</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T111052Z" changeid="bromagosa">
+        <seg>El equipo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>mailto:s4a-community@googlegroups.com</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T113029Z" changeid="bromagosa">
+        <seg>mailto:s4a-community@googlegroups.com</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Vegeu la secció d'&lt;a0&gt;Android&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T105441Z" changeid="bromagosa">
+        <seg>Ver sección de &lt;a0&gt;Android&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Descàrregues</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T095610Z" changeid="bromagosa">
+        <seg>Descargas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El port sèrie on es connecta una placa s'obre correctament en arrencar S4A</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T105652Z" changeid="bromagosa">
+        <seg>El puerto serie en qué se conecta una placa se abre correctamente al arrancar S4A</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>http://arduino.cc</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T095623Z" changeid="bromagosa">
+        <seg>http://arduino.cc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un robot amb una càmera rotativa, sensors de distància i control remot.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101758Z" changeid="bromagosa">
+        <seg>Un robot con una cámara rotativa, sensores de distáncia y control remoto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Enviar un missatge:&lt;br0/&gt;</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T103741Z" changeid="bromagosa">
+        <seg>Enviar un mensaje:&lt;br0/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Descàrrega i instal·lació</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110011Z" changeid="bromagosa">
+        <seg>Descarga e instalación</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Les variables S4A amb noms que comencin amb un signe menys (ex.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T103957Z" changeid="bromagosa">
+        <seg>Las variables de S4A con nombres que empiecen con un signo menos (ej.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Obriu l'arxiu de firmware (S4AFirmware15.ino) des de l'entorn Arduino</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110558Z" changeid="bromagosa">
+        <seg>Abrid el archivo de firmware (S4AFirmware15.ino) desde el entorno Arduino</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>http://citilab.eu</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101043Z" changeid="bromagosa">
+        <seg>http://citilab.eu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Arreglat bug de la versió per a Windows, en què la barra de títol no mostrava el nom i la versió d'S4A</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T105724Z" changeid="bromagosa">
+        <seg>Arreglado bug de la versión para Windows, en qué la barra de título no mostraba el nombre y la versión de S4A</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>img/jordi.png</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T112638Z" changeid="bromagosa">
+        <seg>img/jordi.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>http://miscela.es</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130927T090747Z" changeid="bromagosa">
+        <seg>http://miscela.es</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>API HTTP</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T103301Z" changeid="bromagosa">
+        <seg>API HTTP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Afegit bloc de reiniciar actuadors</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T105347Z" changeid="bromagosa">
+        <seg>Añadido bloque de reiniciar actuadores</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per a veure l'API HTTP en funcionament, podeu utilitzar l'aplicació web de prova:</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T103854Z" changeid="bromagosa">
+        <seg>Para ver la API HTTP en funcionamento, podéis utilizar la aplicación web de prueba:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El seu desenvolupament el va a dur a terme l'equip d'&lt;a2&gt;Smalltalk&lt;/a2&gt; del &lt;a3&gt;Citilab&lt;/a3&gt; l'any 2010, i des d'aleshores s'ha utilitzat a tot el món per a una gran varietat de projectes.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101146Z" changeid="bromagosa">
+        <seg>Fue desarrollado por el equipo de &lt;a2&gt;Smalltalk&lt;/a2&gt; del &lt;a3&gt;Citilab&lt;/a3&gt; en el año 2010, y desde entonces se ha usado en todo el mundo para una gran variedad de proyectos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Afegida compatibilitat per a aplicacions Android (HiS4A)</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T105956Z" changeid="bromagosa">
+        <seg>Añadida compatibilidad para aplicaciones Android (HiS4A)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Què és</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T095558Z" changeid="bromagosa">
+        <seg>Acerca</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Preguntes més freqüents</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110958Z" changeid="bromagosa">
+        <seg>Preguntas más frecuentes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per utilitzar-lo, seguiu aquestes instruccions:</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T102337Z" changeid="bromagosa">
+        <seg>Para utilizarlo, seguid estas instrucciones:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els botons corresponen a missatges, i el touchpad i lliscador a sensors remots</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T102852Z" changeid="bromagosa">
+        <seg>Los botones se corresponden con mensajes, y el touchpad y deslizador a sensores remotos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>S4A és programari lliure subjecte a una llicència &lt;a0&gt;MIT&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110655Z" changeid="bromagosa">
+        <seg>S4A es software libre sujeto a una licencia &lt;a0&gt;MIT&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>index.html</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T095537Z" changeid="bromagosa">
+        <seg>index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Només cal afegir un nou sprite Arduino.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T100316Z" changeid="bromagosa">
+        <seg>Sólo es necesario añadir un nuevo sprite Arduino.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En Jose va estudiar Enginyeria Superior en Telecomunicacions, però va començar a treballar a una editorial abans d'acabar els estudis.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T112213Z" changeid="bromagosa">
+        <seg>Jose estudió Inginiería Superior en Telecomunicaciones, pero empezó a trabajar en una editorial andes de terminar los estudios.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En S4A, una placa &lt;a0&gt;Arduino&lt;/a0&gt; es representa amb un tipus especial d'sprite.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T100229Z" changeid="bromagosa">
+        <seg>En S4A, una placa &lt;a0&gt;Arduino&lt;/a0&gt; se representa con un tipo especial de sprite.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per a subscriure-us-hi, envieu un correu a:</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T113012Z" changeid="bromagosa">
+        <seg>Para suscribiros, enviad un correo a:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Ja no cal visitar la web per a comprovar-ho</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T105518Z" changeid="bromagosa">
+        <seg>Ya no hace falta visitar la web para comprobarlo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>android/index.html</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T103842Z" changeid="bromagosa">
+        <seg>android/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Robot complet</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101641Z" changeid="bromagosa">
+        <seg>Robot completo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>S4A funciona sobre els tres sistemes operatius d'escriptori més populars: Microsoft Windows, GNU/Linux and MacOS.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T111035Z" changeid="bromagosa">
+        <seg>S4A funciona sobre los tres sistemas operativos de escritorio más populares: Microsoft Windows, GNU/Linux and MacOS.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'idioma es detecta automàticament en arrencar per primer cop (quan l'arxiu Scratch.ini no existeix).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T105700Z" changeid="bromagosa">
+        <seg>El idioma se detecta automáticamente al arrancar por primera vez (cuando el archivo Scratch.ini no existe).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>downloads/s4a-sample02.pdf</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T102158Z" changeid="bromagosa">
+        <seg>downloads/s4a-sample02.pdf</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>http://groups.google.com/group/s4a-community</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T113056Z" changeid="bromagosa">
+        <seg>http://groups.google.com/group/s4a-community</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Ara és possible enviar missatges a S4A i observar/modificar valors de variables des d'un navegador web (entre altres coses).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T105433Z" changeid="bromagosa">
+        <seg>Ahora es posible mandar mensajes a S4A y observar/modificar valores de variables desde un navegador web (entre otras cosas).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>S4A interactua amb &lt;a0&gt;Arduino&lt;/a0&gt; enviant l'estat dels actuadors i rebent l'estat dels sensors cada 75 ms, per tant l'amplada del pols ha de ser major que aquest període.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T100942Z" changeid="bromagosa">
+        <seg>S4A interactúa con &lt;a0&gt;Arduino&lt;/a0&gt; enviando el estado de los actuadores y recibiendo el estado de los sensores cada 75 ms, por lo tanto el ancho del pulso tiene que ser mayor que éste período.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Canvis</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T095603Z" changeid="bromagosa">
+        <seg>Cambios</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Al &lt;a0&gt;Citilab&lt;/a0&gt;, va descobrir &lt;a1&gt;Scratch&lt;/a1&gt; i &lt;a2&gt;Smalltalk&lt;/a2&gt;, reemprenent part de la seva feina com a programador.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T112307Z" changeid="bromagosa">
+        <seg>En el &lt;a0&gt;Citilab&lt;/a0&gt;, descubrió &lt;a1&gt;Scratch&lt;/a1&gt; y &lt;a2&gt;Smalltalk&lt;/a2&gt;, retomando parte de su trabajo como programador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Què és S4A</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T113305Z" changeid="bromagosa">
+        <seg>Acerca de S4A</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Ús de l'aplicació web d'exemple:</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T103909Z" changeid="bromagosa">
+        <seg>Uso de la aplicación web de ejemplo:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>downloads/S4ADev.zip</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110946Z" changeid="bromagosa">
+        <seg>downloads/S4ADev.zip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La finalitat principal del projecte és atreure gent al món de la programació.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T095743Z" changeid="bromagosa">
+        <seg>La finalidad principal del proyecto es atraer a gente al mundo de la programación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Es poden connectar múltiples plaques alhora.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T100304Z" changeid="bromagosa">
+        <seg>Pueden conectarse múltiples placas a la vez.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Contacte</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T095617Z" changeid="bromagosa">
+        <seg>Contacto</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Scratch for Arduino (S4A) és una versió modificada d'&lt;a0&gt;Scratch&lt;/a0&gt;, preparada per a interactuar amb plaques &lt;a1&gt;Arduino&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101058Z" changeid="bromagosa">
+        <seg>Scratch for Arduino (S4A) es una versión modificada de &lt;a0&gt;Scratch&lt;/a0&gt;, preparada para interactuar con placas &lt;a1&gt;Arduino&lt;/a1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Com utilitzar un LED RGB des d'Scratch.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T104412Z" changeid="bromagosa">
+        <seg>Como usar un LED RGB desde Scratch.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>downloads/S4AFirmware15.ino</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110527Z" changeid="bromagosa">
+        <seg>downloads/S4AFirmware15.ino</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>downloads/S4A15.deb</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110154Z" changeid="bromagosa">
+        <seg>downloads/S4A15.deb</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Afegida compatibilitat completa amb el protocol HTTP (POST i GET).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T105413Z" changeid="bromagosa">
+        <seg>Añadida compatibilidad completa con el protocolo HTTP (POST y GET).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Alguns d'aquests vídeos també han estat subtitulats a l'anglès.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101631Z" changeid="bromagosa">
+        <seg>Algunos de estos vídeos también han sido subtitulados al inglés.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Mentre treballava al &lt;a0&gt;Citilab&lt;/a0&gt; va desenvolupar el seu primer projecte final, consistent en crear un entorn per a treballar amb plaques &lt;a1&gt;Arduino&lt;/a1&gt; des de l'entorn d'Smalltalk &lt;a2&gt;Pharo&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20131001T103256Z" changeid="bromagosa">
+        <seg>Mientras trabajaba en &lt;a0&gt;Citilab&lt;/a0&gt;, desarrolló su primer proyecto final, que consistió en crear un entorno para trabajar con placas &lt;a1&gt;Arduino&lt;/a1&gt; desde el entorno de Smalltalk &lt;a2&gt;Pharo&lt;/a2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>downloads/hi-s4a.apk</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T102239Z" changeid="bromagosa">
+        <seg>downloads/hi-s4a.apk</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Canviat el pin per defecte dels blocs digital on/off de 13 a 10</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T105243Z" changeid="bromagosa">
+        <seg>Cambiado el pin por defecto de los bloques digital on/off de 13 a 10</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>+nomJugador) són visibles i modificables des del client web</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T103948Z" changeid="bromagosa">
+        <seg>+nombreJugador) son visibles y modificables desde el cliente web</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Podeu decarregar-vos-el des d'&lt;a1&gt;aquí&lt;/a1&gt;, o escanejant aquest codi QR:</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T102325Z" changeid="bromagosa">
+        <seg>Os lo podéis descargar desde &lt;a1&gt;aquí&lt;/a1&gt;, o escaneando este código QR:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>S4A funciona correctament amb Arduino Diecimila, Duemilanove i Uno.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T100332Z" changeid="bromagosa">
+        <seg>S4A funciona correctamente con Arduino Diecimila, Duemilanove y Uno.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>index_pt.html</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130930T084940Z" changeid="bromagosa">
+        <seg>index_pt.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per a programadors</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T102218Z" changeid="bromagosa">
+        <seg>Para programadores</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>downloads/s4a-protocol.pdf</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T102219Z" changeid="bromagosa">
+        <seg>downloads/s4a-protocol.pdf</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>A HiS4A (Android), introduïu la IP local del PC on tingueu S4A funcionant (podeu trobar-la des del menú Edita &gt; Host de xarxa), més el prefix (només necessari si us esteu connectant des de més d'un client d'Android)</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T104316Z" changeid="bromagosa">
+        <seg>En HiS4A (Android), introducid la IP local del PC en qué S4A esté funcionando (la podéis encontrar desde el menú Editar &gt; Host de red), y continuación el prefjo (sólo necesario si os estáis conectando desde más de un cliente de Android)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els objectes Arduino proporcionen blocs per a les funcionalitats bàsiques del micro-controlador, escriptures i lectures digitals i analògiques, i altres funcionalitats de més alt nivell.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T100108Z" changeid="bromagosa">
+        <seg>Los objetos Arduino proporcionan bloques para las funcionalidades básicas del micro-controlador, escrituras y lecturas digitales y analógicas, y otras funcionalidades de más alto nivel.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Blog Arduteka: S4A</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T102236Z" changeid="bromagosa">
+        <seg>Blog Arduteka: S4A</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Windows</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110153Z" changeid="bromagosa">
+        <seg>Windows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>També es desa en aquest mateix arxiu en canviar-se des del menú d'idioma</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T105600Z" changeid="bromagosa">
+        <seg>También se guarda en este mismo archivo al cambiarse desde el menú de idioma</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Abans de res, cal activar l'opció de sensors remots a S4A (clic dret a qualsevol bloc de &quot;Sensors&quot;).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T103722Z" changeid="bromagosa">
+        <seg>En primer lugar, debe activarse la opción de sensores remotos en S4A (clic derecho en cualquier bloque de &quot;Sensores&quot;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Pots contactar amb nosaltres a &lt;a0&gt;scratch@citilab.eu&lt;/a0&gt; per informar-nos de bugs o per a qualsevol suggerència.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T113132Z" changeid="bromagosa">
+        <seg>Puedes contactar con nosotros en &lt;a0&gt;scratch@citilab.eu&lt;/a0&gt; para informarnos sobre bugs o para cualquier sugerencia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El nostre equip va crear i utilitzar aquests materials en un curs d'S4A a l'escola Elisava l'any 2011.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101409Z" changeid="bromagosa">
+        <seg>Nuestro equipo creó y utilizó estos materiales en un curso de S4A en la escuela Elisava durante el año 2011.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>img/logo.png</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T095537Z" changeid="bromagosa">
+        <seg>img/logo.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Essent programadors d'&lt;a2&gt;Smalltalk&lt;/a2&gt;, vam poder modificar el seu codi font per aconseguir que interactués amb plaques &lt;a3&gt;Arduino&lt;/a3&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T112931Z" changeid="bromagosa">
+        <seg>Al ser programadores de &lt;a2&gt;Smalltalk&lt;/a2&gt;, pudimos modificar su código fuente para conseguir que interactuara con placas &lt;a3&gt;Arduino&lt;/a3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un exemple simple mostrant com activar un LED mitjançant un polsador.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T104409Z" changeid="bromagosa">
+        <seg>Un ejemplo simple mostrando como activar un LED mediante un pulsador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aplicació web de prova</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T103833Z" changeid="bromagosa">
+        <seg>Aplicación web de prueba</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Especificació dels missatges</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T103728Z" changeid="bromagosa">
+        <seg>Especificación de los mensajes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>s4a-community@googlegroups.com</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T113030Z" changeid="bromagosa">
+        <seg>s4a-community@googlegroups.com</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Arreglada la compatibilitat amb Arduino UNO a Linux (gràcies a Jorge Gómez).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T105737Z" changeid="bromagosa">
+        <seg>Arreglada la compatibilidad con Arduino UNO en Linux (gracias a Jorge Gómez).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Joan Güell</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T111918Z" changeid="bromagosa">
+        <seg>Joan Güell</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Traduccions al català i castellà millorades</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T105400Z" changeid="bromagosa">
+        <seg>Traducciones al catalán y castellano mejoradas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>s4a-community+subscribe@googlegroups.com</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T113015Z" changeid="bromagosa">
+        <seg>s4a-community+subscribe@googlegroups.com</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>downloads/s4a-workshop.zip</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101322Z" changeid="bromagosa">
+        <seg>downloads/s4a-workshop.zip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Es va inscriure al seu primer curs de programació l'any 1975, quan els ordinadors encara es programaven amb targetes perforades.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T112117Z" changeid="bromagosa">
+        <seg>Se inscribió a su primer curse de programación en el año 1975, cuando los ordenadores todavía se programaban usando tarjetas perforadas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Taller</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101252Z" changeid="bromagosa">
+        <seg>Taller</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Smalltalk</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T112750Z" changeid="bromagosa">
+        <seg>Smalltalk</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'sprite Arduino trobarà automàticament el port USB on s'hagi connectat la placa.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T100253Z" changeid="bromagosa">
+        <seg>El sprite Arduino encontrará automáticamente el puerto USB en qué se haya conectado la placa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si us plau, consulteu la secció de &lt;a1&gt;Descàrregues&lt;/a1&gt; per a més instruccions sobre l'instal·lació.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101035Z" changeid="bromagosa">
+        <seg>Por favor, consultad la sección de &lt;a1&gt;Descargas&lt;/a1&gt; para más instrucciones sobre la instalación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>img/blocks.png</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T100216Z" changeid="bromagosa">
+        <seg>img/blocks.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Protocol</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T100838Z" changeid="bromagosa">
+        <seg>Protocolo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>img/bernat.png</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T112504Z" changeid="bromagosa">
+        <seg>img/bernat.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per formular preguntes i respostes, si us plau utilitzeu la llista de correu de la comunitat.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T112955Z" changeid="bromagosa">
+        <seg>Para formular preguntas y respuestas, por favor utilitzad la lista de correo de la comunidad.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquí trobareu exemples bàsics d'S4A, amb els esquemes d'&lt;a0&gt;Arduino&lt;/a0&gt; i un arxiu .sb amb el projecte &lt;a1&gt;Scratch&lt;/a1&gt; per a descarregar.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101452Z" changeid="bromagosa">
+        <seg>Aquí encontraréis ejemplos básicos de S4A, con los esquemas de &lt;a0&gt;Arduino&lt;/a0&gt; y un archivo .sb con el proyecto &lt;a1&gt;Scratch&lt;/a1&gt; para descargar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Hi trobareu uns quants exemples de casos d'ús del nostre software.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T102124Z" changeid="bromagosa">
+        <seg>Encontraréis unos cuantos ejemplos de casos de uso de nuestro software.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>css/main.css</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T095536Z" changeid="bromagosa">
+        <seg>css/main.css</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'aplicació Android utilitza un protocol molt senzill que hem desenvolupat sobre el protocol de missatges HTTP d'&lt;a0&gt;Scratch&lt;/a0&gt;, la qual cosa permet interactuar amb S4A des d'un navegador o qualsevol altra aplicació amb accés a la xarxa.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T103419Z" changeid="bromagosa">
+        <seg>La aplicación Android utiliza un protocolo muy sencillo que hemos desarrollado sobre el protocolo de mensajes HTTP de &lt;a0&gt;Scratch&lt;/a0&gt;, la cual cosa permite interactuar con S4A desde un navegador o cualquier otra aplicación con acceso a la red.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Polsador, LED i conservació d'estat</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101533Z" changeid="bromagosa">
+        <seg>Pulsador, LED y conservación de estado</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La nostra motivació principal va ser proporcionar una manera senzilla per a interactuar amb el món real, aprofitant-nos de la facilitat d'ús d'&lt;a0&gt;Scratch&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101222Z" changeid="bromagosa">
+        <seg>Nuestra motivación principal fue proporcionar una forma sencilla para interactuar con el mundo real, aprovechándonos de la facilidad de uso de &lt;a0&gt;Scratch&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>S4A</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T095236Z" changeid="bromagosa">
+        <seg>S4A</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>http://www.arduteka.com/tag/s4a/</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T102234Z" changeid="bromagosa">
+        <seg>http://www.arduteka.com/tag/s4a/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquí trobareu tota la documentació, vídeos, exemples i exercicis que hem produït fins ara.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101251Z" changeid="bromagosa">
+        <seg>Aquí encontraréis toda la documentación, vídeos, ejemplos y ejercicios que hemos producido hasta la fecha.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>A S4A, activeu els sensors remots (clic dret a qualsevol bloc de &quot;Sensors&quot;)</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T102357Z" changeid="bromagosa">
+        <seg>En S4A, activad los sensores remotos (clic derecho en cualquier bloque de &quot;Sensores&quot;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Equip</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T095612Z" changeid="bromagosa">
+        <seg>Equipo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Mac</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110154Z" changeid="bromagosa">
+        <seg>Mac</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>http://world.st</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101043Z" changeid="bromagosa">
+        <seg>http://world.st</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Funcionarà S4A al meu ordinador?</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T111020Z" changeid="bromagosa">
+        <seg>¿Funcionará S4A en mi ordenador?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>mailto:s4a-community+subscribe@googlegroups.com</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T113014Z" changeid="bromagosa">
+        <seg>mailto:s4a-community+subscribe@googlegroups.com</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Compatibilitat</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T100635Z" changeid="bromagosa">
+        <seg>Compatibilidad</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Les variables d'S4A amb noms que no comencin amb els signes més o menys no són visibles des del client web</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T104755Z" changeid="bromagosa">
+        <seg>Las variables de S4A con nombres que no empiecen con los signos más o menos no son visibles desde el cliente web</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Especificacions tècniques</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T100322Z" changeid="bromagosa">
+        <seg>Especificaciones técnicas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Canviats els noms del panell de sensors i els seus corresponents blocs d'Arduino per mostrar números de pin reals</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T105901Z" changeid="bromagosa">
+        <seg>Cambiados los nombres del panel de sensores y sus correspondientes bloques de Arduino para mostrar números de pin reales</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Les variables d'S4A amb noms que comencin amb un signe més (ex.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T103932Z" changeid="bromagosa">
+        <seg>Las variables de S4A con nombres que empiecen con un signo más (ej.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Documentació i exemples</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101228Z" changeid="bromagosa">
+        <seg>Documentación y ejemplos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Canviat el pin 12 de servo estàndard a sortida digital normal</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T105227Z" changeid="bromagosa">
+        <seg>Cambiado el pin 12 de servo estándar a salida digital normal</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En Joan és un biòleg que, en els seus primers anys, va treballar en el camp de l'ecologia.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T111945Z" changeid="bromagosa">
+        <seg>Joan es un biólogo que, en sus primeros años, trabajó en el campo de la ecología.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;s0&gt;IMPORTANT!&lt;/s0&gt; Tant S4A com HiS4A han d'estar connectats a la mateixa xarxa local!</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T104436Z" changeid="bromagosa">
+        <seg>&lt;s0&gt;¡IMPORTANTE!&lt;/s0&gt; ¡Tanto S4A como HiS4A tienen que estar conectados a la misma red local!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>No s'ha provat amb altres plaques, però és possible que també funcionin.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T100357Z" changeid="bromagosa">
+        <seg>No se ha probado con otras placas, pero es posible que también funcionen.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>+iniciarJoc) són visibles des del client web</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T104831Z" changeid="bromagosa">
+        <seg>+iniciarJuego) son visibles desde cliente web</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Copyright © 2013 &lt;a0&gt;Citilab&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130923T075234Z" changeid="bromagosa">
+        <seg>Copyright © 2013 &lt;a0&gt;Citilab&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Plaques compatibles</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T100325Z" changeid="bromagosa">
+        <seg>Placas compatibles</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quines plaques són compatibles amb S4A?</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T111008Z" changeid="bromagosa">
+        <seg>¿Qué placas son compatibles con S4A?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>https://scratch-io.wikispaces.com/</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T102230Z" changeid="bromagosa">
+        <seg>https://scratch-io.wikispaces.com/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Cal tenir en compte que aquesta compatibilitat no és bidireccional.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T100811Z" changeid="bromagosa">
+        <seg>Téngase en cuenta que esta compatibilidad no es bidireccional.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Des d'aleshores, ha estat involucrat en diversos projectes de programació al &lt;a0&gt;Citilab&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T112620Z" changeid="bromagosa">
+        <seg>Desde entonces, ha estado involucrado en varios proyectos de programación en el &lt;a0&gt;Citilab&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Pertany al grup de recerca LARCA i imparteix classes a la Facultat d'Informàtica de Barcelona.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T112706Z" changeid="bromagosa">
+        <seg>Pertenece al grupo de investigación LARCA e imparte clases en la Facultat d'Informàtica de Barcelona.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Us trobareu davant de l'entorn clàssic d'una imatge d'&lt;a2&gt;Squeak&lt;/a2&gt; 2.8, i tindreu accés a un Browser, Workspace i totes les eines a què esteu acostumats.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110843Z" changeid="bromagosa">
+        <seg>Os encontraréis delante de el entorno clásico de una imagen de &lt;a2&gt;Squeak&lt;/a2&gt; 2.8, y tendréis acceso a un Browser, Workspace y todas las herramientas a qué estáis acostumbrados.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un LED que canvia d'estat quan polsem un botó.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101544Z" changeid="bromagosa">
+        <seg>Un LED que cambia de estado al pulsar un botón.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>img/3steps.png</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110011Z" changeid="bromagosa">
+        <seg>img/3steps.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>img/jose.png</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T112141Z" changeid="bromagosa">
+        <seg>img/jose.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Materials Taller Elisava 2011</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101326Z" changeid="bromagosa">
+        <seg>Materiales Taller Elisava 2011</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Afegides comandes de servidor al menú &quot;Edita&quot; per a treballar amb comunicació en xarxa sobre sockets</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T105946Z" changeid="bromagosa">
+        <seg>Añadidos comandos de servidor en el menú &quot;Editar&quot; para trabajar con comunicación en red sobre sockets</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Android</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T095559Z" changeid="bromagosa">
+        <seg>Android</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquí trobareu un recull de demos en català o castellà.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101615Z" changeid="bromagosa">
+        <seg>Aquí encontraréis una coleción de demos en catalán o castellano.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>S4A habilita 6 entrades analògiques (pins analògics), 2 entrades digitals (pins digitals 2 i 3), 3 sortides analògiques (pins digitals 5, 6 i 9), 3 sortides digitals (pins 10, 11 i 13) i 4 sortides especials per a connectar servomotors de rotació contínua Parallax (pins digitals 4, 7, 8 i 12).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T100553Z" changeid="bromagosa">
+        <seg>S4A habilita 6 entradas analógicas (pines analógicos), 2 entradas digitales (pines digitales 2 y 3), 3 salidas analógicas (pines digitales 5, 6 y 9), 3 salidas digitales (pines 10, 11 i 13) y 4 salidas especiales para conectar servomotores de rotación contínua Parallax (pines digitales 4, 7, 8 y 12).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>img/marina.png</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T111243Z" changeid="bromagosa">
+        <seg>img/marina.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Durant el temps que va treballar en aquesta empresa, va programar una àmplia varietat d'aplicacions.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T112247Z" changeid="bromagosa">
+        <seg>Durante el tiempo en qué trabajó en esta empresa, programó una amplia variedad de aplicaciones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per accedir-hi, pitjeu majúscules + clic esquerre sobre el menú &quot;Arxiu&quot; d'S4A, i seleccioneu &quot;Sortir del mode d'usuari&quot;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T110755Z" changeid="bromagosa">
+        <seg>Para acceder a él, pulsad mayúsculas + clic izquierdo sobre el menú &quot;Archivo&quot; de S4A, y seleccionad &quot;Salir del modo de usuario&quot;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Consta de dues plaques arduino (per al control remot i el robot), un mòdul wireless XBee, tres sensors d'infrarrojos, un mòdul de càmera i tres servomotors.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20130920T101827Z" changeid="bromagosa">
+        <seg>Consta de dos placas arduino (para el control remoto y el robot), un módulo wireless XBee, tres sensores de infrarojos, un módulo de cámara y tres servomotores.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
