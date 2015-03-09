@@ -163,6 +163,13 @@ h1 {
 	margin-bottom: 25px;
 }
 
+.donate {
+	display: block;
+	position: fixed;
+	top: 2px;
+	right: 2px;
+}
+
 section {
 	padding-left: 30px;
 }
