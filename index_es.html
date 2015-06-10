@@ -41,20 +41,18 @@
                     <li><a onclick="slideTo('#android')">Android</a></li>
                     <li><a onclick="slideTo('#changelog')">Cambios</a></li>
                     <li><a onclick="slideTo('#downloads')">Descargas</a></li>
-                    <li><a onclick="slideTo('#kit')">Kit</a></li>
                     <li><a onclick="slideTo('#faq')">FAQ</a></li>
                     <li><a onclick="slideTo('#team')">Equipo</a></li>
-                    <li><a onclick="slideTo('#community')">Contacto</a></li>
-                    <li><a href="/snap">Snap!</a></li>
-                    <li><a href="http://blog.s4a.cat">Blog</a></li>
+                    <li><a onclick="slideTo('#community')">Comunidad</a></li>
+                    <li><a onclick="slideTo('#contact')">Contacto</a></li>
                 </ul>
             </nav>
 		</div>
 
         <div class="main-container">
-            <div class="main wrapper clearfix">
+            <div class="main wrapper clearfix"><!-- ABOUT -->
 
-				<!-- ABOUT -->
+				
 
                 <article id="about">
                     <header>
@@ -90,24 +88,13 @@
                     </section>
                 </article>
 
-				<aside>
-					<h3>Realiza una donación</h3>
-					<p>Si deseas aydarnos a continuar con el desarrollo y el mantenimiento de este proyecto, puedes realizar una donación a S4A!</p>
-					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-						<input type="hidden" name="cmd" value="_s-xclick">
-						<input type="hidden" name="hosted_button_id" value="JF86UUC8CMDRQ">
-						<input type="image" src="img/donate-es.png" border="0" name="submit" alt="Donate via PayPal.">
-						<img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
-					</form>
-				</aside>
-
                 <aside>
                     <h3>Hardware? Un juego de niños!</h3>
                     <p>Scratch for Arduino (S4A) es una versión modificada de <a target="_blank" href="http://scratch.mit.edu">Scratch</a>, preparada para interactuar con placas <a target="_blank" href="http://arduino.cc">Arduino</a>. Fue desarrollado por el equipo de <a target="_blank" href="http://world.st">Smalltalk</a> del <a target="_blank" href="http://citilab.eu">Citilab</a> en el año 2010, y desde entonces se ha usado en todo el mundo para una gran variedad de proyectos.</p>
-					<p>Nuestra motivación principal fue proporcionar una forma sencilla para interactuar con el mundo real, aprovechándonos de la facilidad de uso de <a target="_blank" href="http://scratch.mit.edu">Scratch</a>.</p>
+					<p>Nuestra motivación principal fue proporcionar una forma sencilla para interactuar con el mundo real, aprovechándonos de la facilidad de uso de <a target="_blank" href="http://scratch.mit.edu">Scratch</a>.</p><!-- DOCS -->
                 </aside>
 
-				<!-- DOCS -->
+				
 
                 <article id="docs">
                     <header>
@@ -117,7 +104,7 @@
 					<section>
 						<h2>Taller</h2>
 						<p>Desde aquí podéis descargaros un zip con materiales y ejercicios completos para realizar un taller:</p>
-						<p><a href="http://vps34736.ovh.net/S4A/s4a-workshop.zip">Materiales Taller Elisava 2011</a></p>
+						<p><a href="downloads/s4a-workshop.zip">Materiales Taller Elisava 2011</a></p>
 						<p>Nuestro equipo creó y utilizó estos materiales en un curso de S4A en la escuela Elisava durante el año 2011.</p>
 					</section>
 					<section>
@@ -155,24 +142,23 @@
                     </section>
                     <section>
                         <h2>Ejercicios</h2>
-						<p><a href="http://vps34736.ovh.net/S4A/s4a-sample01.pdf" target="_blank">Música: Un instrumento similar a un theremin</a></p>
-						<p><a href="http://vps34736.ovh.net/S4A/s4a-sample02.pdf" target="_blank">Domótica: Un controlador de persiana</a></p>
-						<p><a href="http://vps34736.ovh.net/S4A/s4a-sample03.pdf" target="_blank">Robótica: Un coche controlado por teclado</a></p>
+						<p><a href="downloads/s4a-sample01.pdf" target="_blank">Música: Un instrumento similar a un theremin</a></p>
+						<p><a href="downloads/s4a-sample02.pdf" target="_blank">Domótica: Un controlador de persiana</a></p>
+						<p><a href="downloads/s4a-sample03.pdf" target="_blank">Robótica: Un coche controlado por teclado</a></p>
                     </section>
                     <section>
                         <h2>Para programadores</h2>
-						<p><a href="http://vps34736.ovh.net/S4A/s4a-protocol.pdf" target="_blank">Especificación del protocolo S4A</a></p>
+						<p><a href="downloads/s4a-protocol.pdf" target="_blank">Especificación del protocolo S4A</a></p>
                     </section>
                 </article>
 
                 <aside>
                     <h3>Enlaces externos de documentación</h3>
-                    <p><a href="http://vps34736.ovh.net/S4A/s4a-manual.pdf" target="_blank">Manual de S4A - por José Manuel Ruiz Gutiérrez</a></p>
                     <p><a href="https://scratch-io.wikispaces.com/" target="_blank">Scratch IO Wiki - por José Javier Vitón</a></p>
-                    <p><a href="http://www.arduteka.com/tag/s4a/" target="_blank">Blog Arduteka: S4A</a></p>
+                    <p><a href="http://www.arduteka.com/tag/s4a/" target="_blank">Blog Arduteka: S4A</a></p><!-- ANDROID -->
                 </aside>
 
-				<!-- ANDROID -->
+				
 
                 <article id="android">
                     <header>
@@ -180,7 +166,7 @@
                     </header>
                     <section>
                         <h2>Hi Scratch for Arduino!</h2>
-						<p>Hemos desarrollado una aplicación simple de Android que puede comunicarse con S4A via HTTP mediante el protocolo de sensores remotos de <a target="_blank" href="http://scratch.mit.edu">Scratch</a>. Os lo podéis descargar desde <a href="http://vps34736.ovh.net/S4A/hi-s4a.apk">aquí</a>, o escaneando este código QR:</p>
+						<p>Hemos desarrollado una aplicación simple de Android que puede comunicarse con S4A via HTTP mediante el protocolo de sensores remotos de <a target="_blank" href="http://scratch.mit.edu">Scratch</a>. Os lo podéis descargar desde <a href="downloads/hi-s4a.apk">aquí</a>, o escaneando este código QR:</p>
 						<p><img src="img/hi-s4a-qr.png"/></p>
 						<p>Para utilizarlo, seguid estas instrucciones:</p>
 						<ul>
@@ -210,42 +196,15 @@
 							<li>Las variables de S4A con nombres que no empiecen con los signos más o menos no son visibles desde el cliente web</li>
 							<li>Los mensajes de S4A con nombres que empiecen con un signo más (ej. +iniciarJuego) son visibles desde cliente web</li>
 							<li>Los mensajes de S4A con nombres que no empiecen con un signo más no son visibles desde el cliente web</li>
-						</ul>
+						</ul><!-- CHANGELOG -->
 					</section>
 				</article>
-
-				<!-- CHANGELOG -->
+				
 				
                 <article id="changelog">
                     <header>
                         <h1>Cambios</h1>
                     </header>
-					<section>
-						<h2>Version 1.6</h2>
-						<ul>
-								<h3>S4A:</h3>
-								<li>Fixed issue on block watchers when displaying %t instead the sensor name</li>
-								<li>Fixed issue when analog input error not disappearing</li>
-								<li>Fixed bug when creating new Arduino object and selecting an existing connection <em>(thanks to Vaner Anampa, Erik Bartmann and many more for reporting this bug)</em></li>
-								<li>Changed default pins and their order on Arduino blocks (as before)</li>
-								<li>Merged servo blocks, now pins 8, 7 and 4 can be used for standard and CR servomotors.</li>
-								<li>Added HTTP block (GET method) as requested by IMI ("Institut Municipal d'Informatica") of Barcelona</li>
-								<li>Updated some translation files. Thanks to:</li>
-								<ul>
-										<li>Frederique Pinson - French (fr.po)</li>
-										<li>Miguel Bouzada - Galician (gl.po)</li>
-										<li>Fabio Albanese - Italian (it.po)</li>
-										<li>Sungkuk Lim - Korean (ko.po)</li>
-										<li>Jan Van den Bergh - Dutch (nl.po)</li>
-										<li>Vadim Litvenko - Russian (ru.po)</li>
-										<li>Johan Solve - Swedish (sv.po)</li>
-								</ul>
-								<h3>Firmware:</h3>
-								<li>Refactored reset pins</li>
-								<li>Merged code for standard and CR servos</li>
-								<li>Merged patch for Leonardo from Peter Mueller (many thanks for this!)</li>
-						</ul>
-					</section>
 					<section>
 						<h2>Versión 1.5</h2>
 						<ul>
@@ -277,11 +236,11 @@
 							<li>Añadida compatibilidad para aplicaciones Android (HiS4A)</li>
 							<li>Traducciones al catalán y castellano mejoradas</li>
 							<li>Muchos bug arreglados</li>
-						</ul>
+						</ul><!-- DOWNLOADS -->
 					</section>
                 </article>
 
-				<!-- DOWNLOADS -->
+				
 
                 <article id="downloads">
                     <header>
@@ -293,11 +252,10 @@
                         <h2>Instalar S4A en el ordenador</h2>
 						<p>S4A funciona sobre los tres sistemas operativos de escritorio más populares. Descargad e instalad el que os convenga.</p>
 						<ul>
-							<li><a href="http://vps34736.ovh.net/S4A/S4A16.zip">Windows</a></li>
-							<li><a href="http://vps34736.ovh.net/S4A/S4A16.dmg">Mac</a></li>
-							<li><a href="http://vps34736.ovh.net/S4A/S4A16.deb">Linux (Debian)</a></li>
-							<li><a href="http://vps34736.ovh.net/S4A/S4A15.rpm">Linux (Fedora)</a> <em>(version 1.5)</em></li>
-							<li><a href="http://vps34736.ovh.net/S4A/S4A15_RP.deb">Raspbian (Debian for RaspberryPi)</a> <em>(version 1.5)</em></li>
+							<li><a href="downloads/S4A15.exe">Windows</a></li>
+							<li><a href="downloads/S4A15.dmg">Mac</a></li>
+							<li><a href="downloads/S4A15.deb">Linux (Debian)</a></li>
+							<li><a href="downloads/S4A15_RP.deb">Raspbian (Debian paraa RaspberriPi)</a></li>
 						</ul>
                     </section>
                     <section>
@@ -305,45 +263,23 @@
                         <p>Este firmware es un programa que debe instalarse en vuestra placa <a target="_blank" href="http://arduino.cc">Arduino</a> para poderos comunicar con ella desde S4A.</p>
 						<ul>
 							<li>Descargad e instalad el entorno Arduino siguiendo las instrucciones de <a href="http://arduino.cc/en/Main/Software" target="_blank">http://arduino.cc/en/Main/Software</a>. Hay que tener en cuenta que, para trabajar con Arduino Uno, se necesita la versión 0022 o superior.</li>
-							<li>Descargad nuestro firmware <a href="http://vps34736.ovh.net/S4A/S4AFirmware16.ino" target="_blank">aquí</a></li>
+							<li>Descargad nuestro firmware <a href="downloads/S4AFirmware15.ino" target="_blank">aquí</a></li>
 							<li>Conectad la placa Arduino a un puerto USB de vuestro ordenador</li>
-							<li>Abrid el archivo de firmware (S4AFirmware16.ino) desde el entorno Arduino</li>
+							<li>Abrid el archivo de firmware (S4AFirmware15.ino) desde el entorno Arduino</li>
 							<li>En el menú Tools, seleccionad la versión de la placa y el puero serie en qué esté conectada la placa</li>
 							<li>Cargad el firmware a la placa mediante la opción de menú Tools &gt; Upload</li>
 						</ul>
                     </section>
-					<section id="drivers">
-						<h2>Controladores para Arduino</h2>
-						<p>Si vuestro sistema operativo es Microsoft Windows, es posible que tengáis que instalar los controladores de Arduino en vuestro ordenador:</p>
-						<a href="http://vps34736.ovh.net/S4A/drivers.zip">Controladores de Arduino para Microsoft Windows</a>
-					</section>
 					<section>
 						<h2>Para programadores</h2>
 						<p>S4A es software libre sujeto a una licencia <a href="http://opensource.org/licenses/MIT" target="_blank">MIT</a>.</p>
 						<p>Como <a target="_blank" href="http://scratch.mit.edu">Scratch</a> es, en realidad, una imagen de <a target="_blank" href="http://squeak.org">Squeak</a> Smalltalk, todo su código viene incluido en la versión final. Para acceder a él, pulsad mayúsculas + clic izquierdo sobre el menú "Archivo" de S4A, y seleccionad "Salir del modo de usuario". Os encontraréis delante de el entorno clásico de una imagen de <a target="_blank" href="http://squeak.org">Squeak</a> 2.8, y tendréis acceso a un Browser, Workspace y todas las herramientas a qué estáis acostumbrados.</p>
 						<p>De todas formas, a la versión final de S4A hay código que ha sido compilado, y se habrán perdido varios nombres de variables y argumentos de mensajes. Por este motivo, también distribuimos una imagen con el código fuente limpio para desarrolladores, descargable desde este enlace:</p>
-						<p><a href="http://vps34736.ovh.net/S4A/S4ADev.zip">S4A para desarrolladores</a></p>
-					</section>
-					<section>
-						<h2>Descarga alternativa</h2>
-						<p>Como, a veces, puede que nuestro proveedor de VPS sufra alguna incidencia, ponemos a vuestra disposición un directorio compartido con todos los archivos de S4A, incluyendo algunas versiones antiguas:</p>
-						<a href="https://www.dropbox.com/sh/5odhz6vin339sgy/AADbe_aQHezQb8JOpaLuvJu1a?dl=0">S4A Dropbox folder</a>
+						<p><a href="downloads/S4ADev.zip">S4A para desarrolladores</a></p><!-- FAQ -->
 					</section>
                 </article>
 
-				<!-- KIT -->
-
-                <article id="kit">
-                    <header>
-						<h1>Kit S4A</h1>
-						<h2>Properament!</h2>
-						<p>En respuesta a las pecitiones de la comunidad S4A, nuestros alumnos, y usuarios de todo el mundo, estamos trabajando en la producción de un conjunto de kits que proporcionaran los componentes necesarios para empezar a trabajar con S4A, con firmware preinstalado y documentación incluida.</p>
-						<p>Los kits estan diseñados para poderse actualizar de forma incremental, de forma que nadie tenga que gastar dinero en componentes que no necesite para su proyecto.</p>
-						<p>Estad atentos!</p>
-                    </header>
-                </article>
-	
-				<!-- FAQ -->
+				
 
                 <article id="faq">
                     <header>
@@ -355,11 +291,11 @@
                     </section>
                     <section>
                         <h2>¿Funcionará S4A en mi ordenador?</h2>
-                        <p>S4A funciona sobre los tres sistemas operativos de escritorio más populares: Microsoft Windows, GNU/Linux and MacOS. Así que, muy probablemente, funcionará en vuestro ordenador.</p>
+                        <p>S4A funciona sobre los tres sistemas operativos de escritorio más populares: Microsoft Windows, GNU/Linux and MacOS. Así que, muy probablemente, funcionará en vuestro ordenador.</p><!-- TEAM -->
                     </section>
                 </article>
 
-				<!-- TEAM -->
+				
 
                 <article id="team">
                     <header>
@@ -408,10 +344,10 @@
                 <aside>
                     <h3>Smalltalk</h3>
 					<img class="balloon" src="img/balloon.png"/>
-                    <p><a target="_blank" href="http://scratch.mit.edu">Scratch</a> fue desarrollado en <a target="_blank" href="http://squeak.org">Squeak</a> Smalltalk por el Instituto Tecnológico de Massachussets (MIT). Al ser programadores de <a target="_blank" href="http://world.st">Smalltalk</a>, pudimos modificar su código fuente para conseguir que interactuara con placas <a target="_blank" href="http://arduino.cc">Arduino</a>.</p>
+                    <p><a target="_blank" href="http://scratch.mit.edu">Scratch</a> fue desarrollado en <a target="_blank" href="http://squeak.org">Squeak</a> Smalltalk por el Instituto Tecnológico de Massachussets (MIT). Al ser programadores de <a target="_blank" href="http://world.st">Smalltalk</a>, pudimos modificar su código fuente para conseguir que interactuara con placas <a target="_blank" href="http://arduino.cc">Arduino</a>.</p><!-- COMMUNITY -->
                 </aside>
 
-				<!-- COMMUNITY -->
+				
 
                 <article id="community">
                     <header>
@@ -421,19 +357,16 @@
 						<p>Una vez suscritos, podéis mandar vuestros mensajes a:</p>
 						<p><a target="_blank" href="mailto:s4a-community@googlegroups.com">s4a-community@googlegroups.com</a></p>
 						<p>También podéis utilizar la interfaz web de la lista de correo para suscribiros, contribuir y consultar el archivo:</p>
-						<p><a target="_blank" href="http://groups.google.com/group/s4a-community">Página web de la lista de correo</a></p>
+						<p><a target="_blank" href="http://groups.google.com/group/s4a-community">Página web de la lista de correo</a></p><!-- CONTACT -->
                     </header>
                 </article>
 
-				<!-- CONTACT -->
+				
 
                 <article id="contact">
                     <header>
                         <h1>Contacto</h1>
-						<p>Puedes contactar con nosotros en <a href="mailto:scratch@citilab.eu" target="_blank">scratch@citilab.eu</a> para informarnos sobre bugs o para cualquier sugerencia.</p>
-				
-				<!-- SECTION -->
-<!--
+                        <p>Puedes contactar con nosotros en <a href="mailto:scratch@citilab.eu" target="_blank">scratch@citilab.eu</a> para informarnos sobre bugs o para cualquier sugerencia.</p><!-- SECTION --><!--
                 <article id="">
                     <header>
                         <h1></h1>
@@ -462,15 +395,6 @@
 
             </div><!-- #main --> 
         </div><!-- #main-container --> 
-
-		<div class="donate">
-			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-				<input type="hidden" name="cmd" value="_s-xclick">
-				<input type="hidden" name="hosted_button_id" value="JF86UUC8CMDRQ">
-				<input type="image" src="img/donate-es.png" border="0" name="submit" alt="Donate via PayPal.">
-				<img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
-			</form>
-		</div>
 
         <div class="footer-container">
             <footer class="wrapper">
