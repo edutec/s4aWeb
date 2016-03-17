@@ -10,8 +10,8 @@
     <meta name="description" content="Snap4Arduino is a Snap! modification that brings the easiness of programming with Snap! to the Arduino prototyping board">
     <meta name="viewport" content="width=device-width">
 
-    <link rel="stylesheet" href="css/normalize.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="./css/normalize.min.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="icon" type="image/ico" href="favicon.ico">
 
     <script src="../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -28,6 +28,24 @@
         </form>
 
         <div class="main-container">
+            <div id= "menu-container" class="">
+                <nav id="menu" class="wrapper clearfix">
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#download">Download</a></li>
+                        <li><a href="#installation">Installation</a></li>
+                        <li><a href="#coolthings">Cool Stuff</a></li>
+                        <li><a href="#source">Source Code</a></li>
+                        <li><a href="#extensions">Extensions</a></li>
+                        <li><a href="#protocol">HTTP Protocol</a></li>
+                        <li><a href="#commandline">Command Line version</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact">Bug Reporting</a></li>
+                        <li><a href="#community">Contact</a></li>
+                        <li><a href="http://blog.s4a.cat">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
 
             <div class="main wrapper clearfix">
 
@@ -64,6 +82,8 @@
                             <li>Desktop-based. No need for intermediate servers or middleware!</li>
                             <li>Uses standard <a href="http://firmata.org" target="_blank">Firmata</a> firmware</li>
                             <li>Translation of simple scripts into Arduino sketches</li>
+                            <li>HTTP protocol for remote control and live-streaming of the Snap<i>!</i> stage</li>
+                            <li>Command line version for embedded GNU/Linuxes and all the hopeless geeks out there</li>
                         </ul>
                     </section>
                     <section>
@@ -79,7 +99,8 @@
                 <article id="download">
                     <header>
                         <h1>Nice! I want to try it!</h1>
-                        <p>There are currently versions for GNU/Linux, MacOSX and Microsoft Windows available. The project and all its components (including <a href="http://snap.berkeley.edu" target="_blank">Snap</a>) are registered under public free software licenses (<a href="http://opensource.org/licenses/GPL-2.0" target="_blank">GPL</a> and <a href="http://opensource.org/licenses/MIT" target="_blank">MIT</a>), so you can download the sources and pretty much do whatever you want with them!</p>
+                        <p>There are currently versions for GNU/Linux, MacOSX and Microsoft Windows available. There is also an experimental, not yet finished, Chromebook version that you can also use for other machines (Raspberry Pi, Beaglebone, Odroid, etc).</p>
+                        <p>The project and all its components (including <a href="http://snap.berkeley.edu" target="_blank">Snap<i>!</i></a>) are registered under public free software licenses (<a href="http://opensource.org/licenses/GPL-2.0" target="_blank">GPL</a> and <a href="http://opensource.org/licenses/MIT" target="_blank">MIT</a>), so you can download the sources and pretty much do whatever you want with them!</p>
                         <p>Please download the version that matches your operating system:</p>
                     </header>
                     <section>
@@ -87,6 +108,7 @@
                         <a href="http://vps34736.ovh.net/snap4arduino/Snap4Arduino-osx.zip"><h2>MacOSX</h2></a>
                         <a href="http://vps34736.ovh.net/snap4arduino/Snap4Arduino-gnu32.zip"><h2>GNU/Linux (32 bits)</h2></a>
                         <a href="http://vps34736.ovh.net/snap4arduino/Snap4Arduino-gnu64.zip"><h2>GNU/Linux (64 bits)</h2></a>
+                        <a href="http://vps34736.ovh.net/snap4arduino/Snap4Arduino-chrome.zip"><h4>Chrome App (<i>EXPERIMENTAL</i>)</h4></a>
                         <small>Current version: <span id="version">1.1.1 beta</span>, released on <span id="release-date">16/03/2016</span></small>
                     </section>
                 </article>
@@ -113,16 +135,61 @@
                         <h2>GNU/Linux</h2>
                         <p>You just need to unpack the package. The executable is <em>Snap4Arduino</em>.</p>
                         <p>In case it complains about a missing library, you can sudo run the <em>postinstall.sh</em> script, which will attempt to automatically take care of the issue.</p>
-                        <p>In case you are running a 64b system, you will need to enable multiarch and install the i386 versions of a couple libraries as well.</p>
                         <p>If you would like to help us build packages for different distros, please don't hesitate to write to us.</p>
                         <h2>MacOS X</h2>
                         <p>Unzip the package and run the <em>Snap4Arduino</em> package. If you wish, you can move it to your <em>Applications</em> folder so you can access it as a regular app.</p>
                         <h2>Microsoft Windows</h2>
                         <p>Just unzip the package and run the installer.</p>
+                        <h2>Chromebook</h2>
+                        <ol>
+                            <li>Extract the <strong>experimental</strong> Chromebook package, a file called Snap4Arduino-chrome.crx will pop up</li>
+                            <li>Point your Chrome to <i>chrome://extensions</i> (paste this in your address bar)</li>
+                            <li>Drag and drop the <i>Snap4Arduino-chrome.crx</i> file from your file system into your Chrome, into the <i>chrome://extensions tab</i></li>
+                            <li>Chrome will tell you the extension needs you ti give it permissions. Those are for accessing the serial port and the file system, so that you can load/save files</i>
+                            <li>That's it! You'll find Snap4Arduino among your regular Chrome apps!</li>
+                        </ol>
+                        <h2>Other systems</h2>
+                        <p>The <strong>experimental</strong> Chrome app will (mostly) work on any other system. We've only tested it in a Raspbian system, but it should work wherever you can install Chromium or Chrome. Once you've got Chromium/Chrome working, refer to the Chromebook install section.
                     </section>
                     <footer>
                         <p>Happy prototyping!</p>
                     </footer>
+                </article>
+
+                <!-- COOL THINGS -->
+
+                <article id="coolthings">
+                    <header>
+                        <h1>Show me the cool stuff</h1>
+                        <p>Here's a couple of fun things that can be done with Snap4Arduino, most of them recorded on a Hi-Tech last generation potato camera:</p>
+                    </header>
+                    <section>
+                        <h3>A bluetooth-controlled car</h3>
+                        <iframe width="560" height="315" src="//www.youtube.com/embed/hr23HfC3OWQ" frameborder="0" allowfullscreen></iframe>
+                        <h3>A line follower with parking lights</h3>
+                        <iframe width="560" height="315" src="//www.youtube.com/embed/97ByFhhiQOU" frameborder="0" allowfullscreen></iframe>
+                        <h3>An ultrasound ruler</h3>
+                        <iframe width="560" height="315" src="//www.youtube.com/embed/i6OzdKh8PXE" frameborder="0" allowfullscreen></iframe>
+                        <p><small>Refer to <a href="#extensions">this section</a> for info on how to use ultrasound sensors</small></p>
+                        <h3>An LCD screen</h3>
+                        <iframe width="560" height="315" src="//www.youtube.com/embed/rCrV-coweLg" frameborder="0" allowfullscreen></iframe>
+                        <h3>A command line application</h3>
+                        <iframe width="560" height="315" src="//www.youtube.com/embed/XJresVyZul4" frameborder="0" allowfullscreen></iframe>
+                        <h3>A somewhat autonomous RaspberryPi powered bullseye contraption</h3>
+                        <iframe width="560" height="315" src="//www.youtube.com/embed/CeL0r6_3u04" frameborder="0" allowfullscreen></iframe>
+                        <h3>An Etch-A-Sketch that streams itself to any device over the network</h3>
+                        <iframe width="560" height="315" src="//www.youtube.com/embed/7WMurQs4J9U" frameborder="0" allowfullscreen></iframe>
+                        <h3>A shy Poppy Ergo Jr Robot</h3>
+                        <iframe width="560" height="315" src="//www.youtube.com/embed/FGKFoUICByE" frameborder="0" allowfullscreen></iframe>
+                        <h3>Music for a horror film of the 50s</h3>
+                        <iframe width="560" height="315" src="//www.youtube.com/embed/k35FN1ikWi4" frameborder="0" allowfullscreen></iframe>
+                        <h3>A machine that beats you at Tic-Tac-Toe</h3>
+                        <iframe width="560" height="315" src="//www.youtube.com/embed/usDAgvcEXJA" frameborder="0" allowfullscreen></iframe>
+                        <h3>A mechatronic teddy bear</h3>
+                        <iframe width="560" height="315" src="//www.youtube.com/embed/afZ31DvivKY" frameborder="0" allowfullscreen></iframe>
+                        <h3>A LOGO-turtle-like bluetooth drawing robot</h3>
+                        <iframe width="560" height="315" src="//www.youtube.com/embed/SPnnuo1cDFk" frameborder="0" allowfullscreen></iframe>
+                    </section>
                 </article>
 
                 <!-- SOURCE CODE -->
@@ -158,6 +225,53 @@
                             <li>Chris Clay's <a target="_blank" href="https://github.com/chrisclaynz/Robotics-unleashed">Robotics-unleashed</a> is a super-Firmata modification that allows you to control several devices at the same time.</li>
                         </ul>
                     </section>
+                </article>
+
+                <!-- HTTP PROTOCOL -->
+
+                <article id="protocol">
+                    <header>
+                        <h1>HTTP Protocol</h1>
+                        <p>Snap4Arduino comes with a built-in tiny HTTP server that mimics (and extends) <a href="http://wiki.scratch.mit.edu/wiki/Remote_Sensors_Protocol" target="_blank">the one Scratch 1.4 had</a>.</p>
+                        <p>This means you can control your Snap4Arduino application from any computer, mobile phone, tablet or any other network-enabled device in the same network.</p>
+                        <p>In the following sections, the word <b>IP</b> refers to the IP address of the machine that has Snap4Arduino running on it.</p>
+                    </header>
+                    <section>
+                        <h3>Giving orders to Snap4Arduino</h3>
+                        <p>Point your browser to http://<b>IP</b>:42001/broadcast=<b>MESSAGE</b></p>
+                        <p>This will broadcast the message <b>MESSAGE</b> to Snap4Arduino, where you can capture it with a regular <i>When I receive [message]</i> block.</p>
+                    </section>
+                    <section>
+                        <h3>Updating the value of a Snap4Arduino variable</h3>
+                        <p>Point your browser to http://<b>IP</b>:42001/vars-update=<b>VARIABLE-NAME</b>=<b>VARIABLE-VALUE</b></p>
+                        <p>This will set the variable called <b>VARIABLE-NAME</b> to the value <b>VARIABLE-VALUE</b>.
+                        <p>You can also send a POST request to Snap4Arduino to update a variable.</p>
+                    </section>
+                    <section>
+                        <h3>Finding out which messages is Snap4Arduino listening for</h3>
+                        <p>Point your browser to http://<b>IP</b>:42001/send-messages</p>
+                        <p>This will show a list of all message names for which Snap4Arduino has <i>When I receive [message]</i> hat blocks.</p>
+                    </section>
+                   <section>
+                        <h3>Finding out which variables are defined in Snap4Arduino</h3>
+                        <p>Point your browser to http://<b>IP</b>:42001/send-vars</p>
+                        <p>This will show a list of all variables defined in Snap4Arduino, along with their current value.</p>
+                    </section>
+                   <section>
+                        <h3>Getting a real-time stream of the stage in Snap4Arduino</h3>
+                        <p>Point your browser to http://<b>IP</b>:42001/stage</p>
+                        <p>This will render a real time version of what's going on in the stage. Like demonstrated <a href="https://www.youtube.com/watch?v=7WMurQs4J9U" target="_blank">in this video</a>.</p>
+                    </section>
+                </article>
+
+                <!-- COMMAND LINE -->
+
+                <article id="commandline">
+                    <header>
+                        <h1>Did I hear there's also a command line version?</h1>
+                        <p>Actually, there is! It's not yet completely functional, but it will work most of time.</p>
+                        <p>Take a look at <a target="_blank" href="https://github.com/bromagosa/snap-interpreter">this GitHub repository</a> and follow the instructions in its <a target="_blank" href="https://github.com/bromagosa/snap-interpreter/blob/master/README.md">README.md</a> file.</p>
+                    </header>
                 </article>
 
                 <!-- TEAM -->
@@ -254,6 +368,14 @@
                 <a target="_blank" href="http://citilab.eu"><img src="img/citilab.png" class="citilab logo"/></a>
             </footer>
         </div>
+
+        <script src="../js/vendor/jquery-1.10.1.min.js"></script>
+        <script src="../js/vendor/portamento.js"></script>
+        <script>
+        $(document).ready(function() {
+            $('#menu-container').portamento({gap: 0});
+        });
+        </script>
 
         <script>
 var _gaq=[['_setAccount','UA-44320961-1'],['_trackPageview']];
