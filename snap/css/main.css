@@ -447,7 +447,12 @@ code.form > p span {
     width: 100%;
 }
 
+#portamento_container #menu-container {
+    display: none;
+}
+
 #portamento_container #menu-container.fixed {
+    display: block;
     position:fixed;
     width: 100%;
     background: #cbd6dd;
