@@ -166,8 +166,9 @@ h1 {
 .donate {
 	display: block;
 	position: fixed;
-	top: 40px;
-	left: 2px;
+	top: 4px;
+	right: 2px;
+        width: 160px;
 }
 
 section {
