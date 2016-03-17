@@ -166,7 +166,7 @@ h1 {
 .donate {
 	display: block;
 	position: fixed;
-	top: 4px;
+	top: 40px;
 	right: 2px;
 }
 
@@ -461,5 +461,5 @@ code.form > p span {
 #menu-container.fixed a,
 #menu-container.fixed a:hover,
 #menu-container.fixed a:visited {
-    color: #EEE;
+    color: #333;
 }
