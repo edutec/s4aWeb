@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head profile="http://www.w3.org/2005/10/profile">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>S4A</title>
+    <meta name="description" content="S4A - Scratch for Arduino est une modification de Scratch qui permet de programmer la carte Arduino avec la facilité apportée par la programmation Scratch">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/ico" href="favicon.ico">
+
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <script src="js/vendor/jquery-1.10.1.min.js"></script>
+</head>
+<body>
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="header-container">
+            <header class="wrapper clearfix">
+                <img class="logo" src="img/logo.png"/>
+                <img class="citilab" src="img/citilab.png"/>
+                <div class="language-selectors">
+                    <a href="index.html">EN</a>
+                    <a href="index_ca.html">CA</a>
+                    <a href="index_es.html">ES</a>
+                    <a href="index_pt.html">PT</a>
+                </div>
+            </header>
+        </div>
+
+        <div id= "menu-container" class="">
+            <nav id="menu" class="wrapper clearfix">
+                <ul>
+                    <li><a onclick="slideTo('#about')">À propos</a></li>
+                    <li><a onclick="slideTo('#docs')">Documentation</a></li>
+                    <li><a onclick="slideTo('#android')">Android</a></li>
+                    <li><a onclick="slideTo('#changelog')">Historique des modifications</a></li>
+                    <li><a onclick="slideTo('#downloads')">Téléchargement</a></li>
+                    <li><a onclick="slideTo('#kit')">Kit</a></li>
+                    <li><a onclick="slideTo('#faq')">FAQ</a></li>
+                    <li><a onclick="slideTo('#team')">Équipe</a></li>
+                    <li><a onclick="slideTo('#community')">Contact</a></li>
+                    <li><a href="/snap">Snap!</a></li>
+                    <li><a href="http://blog.s4a.cat">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+
+                <!-- ABOUT -->
+
+                <article id="about">
+                    <header>
+                        <h1>À propos de S4A</h1>
+                        <p>S4A est une modification de <a target="_blank" href="http://scratch.mit.edu">Scratch</a> qui permet de programmer facilement la plateforme hardware open-source <a target="_blank" href="http://arduino.cc">Arduino</a>. Elle propose de nouveaux blocs pour gérer les senseurs et actuateurs connectés à l'<a target="_blank" href="http://arduino.cc">Arduino</a>. Il y a aussi un tableau de bord pour monitorer les senseurs similaire à celui de la PicoBoard.</p>
+                        <p>Le but principal de ce projet est d'attirer les gens dans le monde de la programmation. Le but est aussi de fournir une interface de haut niveau aux programmeurs d'<a href="http://arduino.cc" target="_blank">Arduino</a> avec des fonctions permettant d'interagir avec un ensemble de cartes à partir d'évènements utilisateurs.</p>
+                    </header>
+                    <section>
+                        <h2>L'interface</h2>
+                        <p>
+                        <img src="img/shot01.png"/>
+                        <small><em>Un programme S4A pour controller un capteur de lumière Theremin, avec la possibilité d'enregistrer et rejouer les valeurs lues</em></small>
+                        </p>
+                        <p>Les objets Arduino offrent des blocs pour les fonctionnalités de base du microcontrôleur, lectures et écritures analogiques et numérique, et également pour celles de haut niveau. Vous retrouverez ainsi des blocs pour gérer les servomoteurs standards et à rotation continue :</p>
+                        <p><img src="img/blocks.png"></p>
+                        <p>Dans S4A, une carte <a target="_blank" href="http://arduino.cc">Arduino</a> est représentée par un type spécial de lutin. Le lutin Arduino va automatiquement trouver le port USB sur lequel la carte est connectée.</p>
+                        <p>Il est possible de se connecter à plusieurs cartes en même temps, simplement en ajoutant un nouveau lutin Arduino.</p>
+                    </section>
+                    <section>
+                        <h2>Détails techniques</h2>
+                        <h3>Cartes supportées</h3>
+                        <p>S4A fonctionne avec les Arduino Diecimila, Duemilanove et Uno. Les autres cartes n'ont pas été testées, mais pourraient aussi fonctionner.</p> 
+                        <h3>Connectivité</h3>
+                        <p>Les composants doivent être connectés d'une façon particulière. S4A autorise 6 entrées analogiques (pins analogiques), 2 entrées numériques (pins numériques 2 et 3), 3 sorties analogiques (pins numériques 5, 6 et 9), 3 sorties numériques (pins numériques 10, 11 et 13) et 4 sorties spéciales pour connecter les servomoteurs à rotation continue Parallax (pins numériques 4, 7, 8 et 12).</p>
+                        <p>Il est possible de contrôler une carte avec une connexion sans fil en lui ajoutant un module RF, un Xbee par exemple.</p>
+                        <p>S4A vous permet de contrôler autant de cartes qu'il y a de ports USB disponibles sur votre machine.</p>
+                        <h3>Compatibilité</h3>
+                        <p>S4A est rétro-compatible avec <a target="_blank" href="http://scratch.mit.edu">Scratch</a>, et vous pouvez donc ouvrir des projets <a target="_blank" href="http://scratch.mit.edu">Scratch</a> avec. Par contre, vous ne pourrez pas partager vos projets sur le site communautaire de <a target="_blank" href="http://scratch.mit.edu">Scratch</a> car cela enfrendrait les conditions d'utilisation de <a target="_blank" href="http://scratch.mit.edu">Scratch</a>.</p>
+                        <p>Notez bien que cette compatibilité ne fonctionne pas dans les deux sens, ce qui fait que vous ne pourrez pas ouvrir un projet S4A dans le <a target="_blank" href="http://scratch.mit.edu">Scratch</a> original.</p>
+                        <p>Utiliser une PicoBoard avec une <a target="_blank" href="http://arduino.cc">Arduino</a> est également supporté.</p>
+                        <h3>Protocole</h3>
+                        <p>S4A interagit avec l'<a target="_blank" href="http://arduino.cc">Arduino</a> en envoyant les états des actuateurs et en recevant les états des senseurs toutes les 75 ms, la largeur de l'impulsion doit être plus grande que cette période de temps. L'échange de données suit le protocole de la PicoBoard et nécessite un programme spécifique (firmware) sur la carte. Référez-vous à la section <a class="link" onclick="slideTo('#downloads')">Téléchargement</a> pour avoir de plus amples informations sur comment procéder.</p>
+                    </section>
+                </article>
+
+                <aside>
+                    <h3>Faire un don à S4A</h4>
+                    <p>Si vous désirez nous aider à continuer le développement et la maintenance de ce projet, vous pouvez toujours faire un don !</p>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="JF86UUC8CMDRQ">
+                        <input type="image" src="img/donate-en.png" border="0" name="submit" alt="Donate via PayPal.">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                </aside>
+
+                <aside>
+                    <h3>Hardware ? Un jeu d'enfant !</h3>
+                    <p>Scratch for Arduino (S4A) est une version modifiée de <a target="_blank" href="http://scratch.mit.edu">Scratch</a>, prête à interagir avec les cartes <a target="_blank" href="http://arduino.cc">Arduino</a>. Elle a été développée en 2010 par l'équipe <a target="_blank" href="http://citilab.eu">Citilab</a> <a target="_blank" href="http://world.st">Smalltalk</a> et elle a été utilisée depuis par de nombreuses personnes dans de nombreux projets différents à travers le monde entier.</p>
+                    <p>Notre but principal était de fournir une manière simple d'interagir avec le monde réel en exploitant la facilité d'utilisation de <a target="_blank" href="http://scratch.mit.edu">Scratch</a>.</p>
+                </aside>
+
+                <!-- DOCS -->
+
+                <article id="docs">
+                    <header>
+                        <h1>Documentation et exemples</h1>
+                        <p>Vous trouverez ici toute la documentation, les vidéos, les exemples et les exercices que nous avons créés.</p>
+                    </header>
+                    <section>
+                        <h2>Atelier</h2>
+                        <p>Une archive ZIP contenant tout le matériel et les exercices nécessaires pour un atelier peuvent être téléchargé ici :</p>
+                        <p><a href="http://vps34736.ovh.net/S4A/s4a-workshop.zip">Elisava Workshop Materials 2011</a> (EN)</p>
+                        <p>Ce matériel a été créé et utilisé par notre équipe dans un cours de S4A à la Elisava School of Design (Barcelone) en 2011.</p>
+                    </section>
+                    <section>
+                        <h2>Exemples basiques</h2>
+                        <p>Vous trouverez ici des exemples S4A basiques, avec le schéma <a target="_blank" href="http://arduino.cc">Arduino</a> et un fichier de projet .sb pour <a target="_blank" href="http://scratch.mit.edu">Scratch</a> à télécharger.</p>
+                        <h3>Bouton et LED</h3>
+                        <p>Un exemple qui montre comment allumer une LED en appuyant sur un bouton.</p>
+                        <p><img src="examples/button_led.png" width="580"/></p>
+                        <p><a href="examples/button_led.sb">Code</a></p>
+                        <h3>LED RGB</h3>
+                        <p>Utiliser une LED RGB depuis Scratch.</p>
+                        <p><img src="examples/rgb_led.png"/></p>
+                        <p><a href="examples/rgb_led.sb">Code</a></p>
+                        <h3>Bouton, LED et état</h3>
+                        <p>Une LED qui change d'état lorsqu'on appuie un bouton.</p>
+                        <p><img src="examples/switch_led.png" width="580"/></p>
+                        <p><a href="examples/button_led_with_state.sb">Code</a></p>
+                        <h3>Photorésistance et LED</h3>
+                        <p>Utiliser l'entrée d'une photorésistance pour contrôler une LED.</p>
+                        <p><img src="examples/photoresistor_led.png" width="580"/></p>
+                        <p><a href="examples/photoresistor_led.sb">Code</a></p>
+                    </section>
+
+                    <section>
+                        <h2>Vidéos</h2>
+                        <p>Certaines des démos suivantes sont en catalan ou espagnol, mais les images parlent assez bien d'elles-mêmes. Certaines des vidéos ont également des sous-titres en français.</p>
+
+                        <h3>Un robot complet</h3>
+                        <p>Un robot avec une caméra rotative, un capteur de distance et contrôlable à distance. Il utilise deux cartes Arduino (contrôle à distance + robot), un module sans-fil XBee, trois capteurs infrarouge, un module caméra et trois servomoteurs.</p> 
+                        <p><iframe width="580" height="327" src="http://www.youtube.com/embed/IzGGv9xkkRs?feature=player_embedded" frameborder="0" allowfullscreen></iframe></p>
+
+                        <h3>Introduction à l'atelier S4A</h3>
+                        <p>Cette vidéo sert d'introduction pour les ateliers S4A donné au <a target="_blank" href="http://citilab.eu">Citilab</a>, mais vous y trouverez quelques démos de ce qui peut être réalisé avec notre logiciel.</p>
+                        <p><iframe width="580" height="327" src="http://www.youtube.com/embed/RJAgSUIf12U?feature=player_detailpage" frameborder="0" allowfullscreen></iframe></p>
+                    </section>
+                    <section>
+                        <h2>Exercises</h2>
+                        <p><a href="http://vps34736.ovh.net/S4A/s4a-sample01.pdf" target="_blank">Musique: Un instrument du style Thérémine</a> (EN)</p>
+                        <p><a href="http://vps34736.ovh.net/S4A/s4a-sample02.pdf" target="_blank">Domotique: Un contrôleur pour un rideau</a> (EN)</p>
+                        <p><a href="http://vps34736.ovh.net/S4A/s4a-sample03.pdf" target="_blank">Robotique: Une voiture contrôlée par un clavier</a> (EN)</p>
+                    </section>
+                    <section>
+                        <h2>Pour les développeurs</h2>
+                        <p><a href="http://vps34736.ovh.net/S4A/s4a-protocol.pdf" target="_blank">Spécifications du protocole S4A</a> (EN)</p>
+                    </section>
+                </article>
+
+                <aside>
+                    <h3>Liens vers de la documentation externe</h3>
+                    <p><a href="http://vps34736.ovh.net/S4A/s4a-manual.pdf" target="_blank">Manuel de S4A - par José Manuel Ruiz Gutiérrez</a> (ES)</p>
+                    <p><a href="https://scratch-io.wikispaces.com/" target="_blank">Scratch IO Wiki - par José Javier Vitón</a> (EN)</p>
+                    <p><a href="http://www.arduteka.com/tag/s4a/" target="_blank">Arduteka Blog: S4A</a></p>
+                </aside>
+
+                <!-- ANDROID -->
+
+                <article id="android">
+                    <header>
+                        <h1>Android</h1>
+                    </header>
+                    <section>
+                        <h2>Hi Scratch pour Arduino!</h2>
+                        <p>Nous avons développé une simple application Android qui peut communiquer avec S4A par HTTP à l'aide du protocole pour senseurs distants de <a target="_blank" href="http://scratch.mit.edu">Scratch</a>. Vous pouvez la télécharger <a href="http://vps34736.ovh.net/S4A/hi-s4a.apk">ici</a> ou en scannant le QR code ci-dessous :</p>
+                        <p><img src="img/hi-s4a-qr.png"/></p>
+                        <p>Pour l'utiliser, suivez les instructions ci-dessous :</p>
+                        <ul>
+                            <li>Dans S4A, activez les senseurs distants (clic droit sur n'importe quel bloc de type "Senseur")</li>
+                            <li>Dans HiS4A (Android), entrez l'adresse IP locale de la machine sur laquelle tourne S4A (vous pouvez la trouver par le menu Édition &gt; Montrer l'adresse IP), et le préfixe (seulement nécessaire si vous vous connectez depuis plusieurs clients Android)</li>
+                            <li>Les boutons correspondent aux messages et le pavé tactile et slider aux senseurs distants<br/><img src="img/shot02.jpg"/></li>
+                        </ul>
+                        <em><strong>IMPORTANT !</strong> S4A et HiS4A doivent tous les deux être connectés sur le même réseau local !</em>
+                    </section>
+                    <section>
+                        <h2>API HTTP</h2>
+                        <p>L'application Android utilise un très simple protocole construit sur le protocole de messages HTTP de <a target="_blank" href="http://scratch.mit.edu">Scratch</a>, tel qu'il est aussi possible d'interagir avec S4A à partir d'un navigateur ou toute autre application qui a accès au réseau.</p>
+                        <p>Il faut avant tout activer l'option des senseurs distants dans S4A (clic droit sur n'importe quel bloc de type "senseur").</p>
+                        <h3>Spécification des messages</h3>
+                        <p>Diffuse un message :<br/>
+                        <strong>http://[IP]:42001/broadcast=[nom-du-message]</strong></p>
+                        <p>Envoie la valeur à un senseur distant (par exemple, l'accéléromètre du client, la position de la souris, etc.) :<br/>
+                        <strong>http://[IP]:42001/sensor-update=[nom-du-senseur]=[valeur]</strong></p>
+                        <p>Met à jour une variable de S4A :<br/>
+                        <strong>http://[IP]:42001/vars-update=[nom-de-variable]=[valeur]</strong></p>
+                    </section>
+                    <section>
+                        <h2>Application web de test</h2>
+                        <p>Si vous voulez voir l'API HTTP en action, vous pouvez le faire depuis notre application web de test :</p>
+                        <p><a href="android/index.html" target="_blank">Hi S4A! from the Web</a></p>
+                        <p>Utiliser l'application web d'exemple :</p>
+                        <ul>
+                            <li>Les variables S4A dont le nom commence avec un signe plus (par exemple +playerName) sont visibles et modifiables depuis le client web</li>
+                            <li>Les variables S4A dont le nom commence avec un signe moins (par exemple -playerScore) sont seulement visibles (non modifiable) depuis le client web</li>
+                            <li>Les variables S4A dont le nom ne commence ni avec un signe plus, ni avec un signe moins ne sont pas visibles depuis le client web</li>
+                            <li>Les messages S4A dont le nom commence avec un signe plus (par exemple +startGame) sont visibles depuis le client web</li>
+                            <li>Les messages S4A dont le nom ne commence pas avec un signe plus ne sont pas visibles depuis le client web</li>
+                        </ul>
+                    </section>
+                </article>
+
+                <!-- CHANGELOG -->
+                <article id="changelog">
+                    <header>
+                        <h1>Historique des modifications</h1>
+                    </header>
+                    <section>
+                        <h2>Version 1.6</h2>
+                        <ul>
+                            <h3>S4A:</h3>
+                            <li>Résolution d'un bug avec les blocs moniteurs affichant %t au lieu du nom du senseur</li>
+                            <li>Résolution d'un bug lorsqu'une erreur d'une entrée analogique ne diparaissait pas</li>
+                            <li>Résolution d'une bug lors de la création d'un nouvel objet Arduino avec la sélection d'une connexion existante <em>(merci à  Vaner Anampa, Erik Bartmann et beaucoup d'autres pour avoir signalé ce bug)</em></li>
+                            <li>Changement des pins par défaut et de leur ordre sur les blocs Arduino (comme avant)</li>
+                            <li>Fusion des blocs servo, les pins 8, 7 et 4 pouvant maintenant être utilisé pour les servomoteurs standards et CR.</li>
+                            <li>Ajout d'un bloc HTTP (méthode GET) comme demandé par l'IMI ("Institut Municipal d'Informatica") de Barcelone</li>
+                            <li>Mise à jour de certains fichiers de traduction. Merci à :</li>
+                            <ul>
+                                <li>Frederique Pinson - Français (fr.po)</li>
+                                <li>Miguel Bouzada - Galicien (gl.po)</li>
+                                <li>Fabio Albanese - Italien (it.po)</li>
+                                <li>Sungkuk Lim - Coréen (ko.po)</li>
+                                <li>Jan Van den Bergh - Néerlandais (nl.po)</li>
+                                <li>Vadim Litvenko - Russe (ru.po)</li>
+                                <li>Johan Solve - Suédois (sv.po)</li>
+                            </ul>
+                            <h3>Firmware :</h3>
+                            <li>Refactoring des pins reset</li>
+                            <li>Fusion des codes pour les servos standard et CR</li>
+                            <li>Fusion du patch pour Leonardo de Peter Mueller (mille mercis pour ça !)</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Version 1.5</h2>
+                        <ul>
+                            <li>Résolution d'un bug de collision d'objets (Arduino et non Arduino)</li>
+                            <li>Résolution d'un bug lié à des messages d'erreur persistants lorsque la connexion à la carte est arrêtée puis reprise</li>
+                            <li>Changement des primitives indexées en nommées pour avoir une meilleure compatibilité avec les nouvelles VMs Squeak (merci à  Miriam Ruiz pour le patch)</li>
+                            <li>Changement de la pin 12 du servo standard à une sortie numérique normale</li>
+                            <li>Changement des pins par défaut dans les blocs numérique on/off de 13 à 10</li>
+                            <li>Ajout de blocs de reset des actuateurs</li>
+                            <li>Amélioration des traductions ecatalane et espagnole</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Version 1.4</h2>
+                        <ul>
+                            <li>Ajout de la compatibilité complète avec le protocole HTTP (POST et GET), vous pouvez maintenant envoyer des messages à S4A et monitorer/modifier les valeurs des variables depuis un navigateur web (entre autre). Voir la section <a class="link" onclick="slideTo('#android')">Android</a>.</li>
+                            <li>Ajout d'une option "Vérifier les mises à jour" dans le menu "Aide", de sorte qu'il ne faille plus visiter le site web pour vérifier s'il y a de nouvelles versions</li>
+                            <li>La langue est maintenant détectée lors du premier démarrage (lorsque le fichier Scratch.ini n'existe pas). Également sauvegardée dans le même fichier si modifiée depuis le menu langue</li>
+                            <li>Le port série où une carte est connectée s'ouvre correctement lorsque S4A est lancé</li>
+                            <li>Résolution d'un bug dans la version Windows, où la barre de titre ne montrait pas le nom et la version de S4A une fois lancé</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Version 1.3</h2>
+                        <ul>
+                            <li>Résolution de la compatibilité avec les Arduino UNO sous Linux (merci à Jorge Gómez). Vous devrez charger le nouveau firmware, en plus de mettre à jour le bootloader pour certaines cartes</li>
+                            <li>Changement des noms des senseurs de la carte et des blocs Arduino correspondants pour montrer les vrais numéros de pins</li>
+                            <li>Ajout de commandes serveur au menu "Édition" pour gérer la communication par socket</li>
+                            <li>Ajout de la compatibilité pour les applications Android (HiS4A)</li>
+                            <li>Amélioration des traductions catalane et espagnole</li>
+                            <li>Plusieurs résolutions de bugs</li>
+                        </ul>
+                    </section>
+                </article>
+
+                <!-- DOWNLOADS -->
+
+                <article id="downloads">
+                    <header>
+                        <h1>Téléchargement et installation</h1>
+                        <p><img class="steps" src="img/3steps.png"/></p>
+                        <p>Installer S4A nécessite l'installation d'un logiciel sur sa machine et sur la carte <a target="_blank" href="http://arduino.cc">Arduino</a>. Vous trouverez ici les étapes détaillées pour installer et exécuter le logiciel.</p>
+                    </header>
+                    <section>
+                        <h2>Installer S4A sur votre machine</h2>
+                        <p>S4A fonctionne sur les trois systèmes d'exploitation principaux. Téléchargez et installez celui qui correspond à votre machine :</p>
+                        <ul>
+                            <li><a href="http://vps34736.ovh.net/S4A/S4A16.zip">Windows</a></li>
+                            <li><a href="http://vps34736.ovh.net/S4A/S4A16.dmg">Mac</a></li>
+                            <li><a href="http://vps34736.ovh.net/S4A/S4A16.deb">Linux (Debian)</a></li>
+                            <li><a href="http://vps34736.ovh.net/S4A/S4A15.rpm">Linux (Fedora)</a> <em>(version 1.5)</em></li>
+                            <li><a href="http://vps34736.ovh.net/S4A/S4A15_RP.deb">Raspbian (Debian pour RaspberryPi)</a> <em>(version 1.5)</em></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Installer le firmware sur l'Arduino</h2>
+                        <p>Ce firmware est un logiciel que vous devez installer dans la carte <a target="_blank" href="http://arduino.cc">Arduino</a> pour pouvoir communiquer avec depuis S4A.</p>
+                        <ul>
+                            <li>Téléchargez et installez l'environnement Arduino en suivant les instructions sur <a href="http://arduino.cc/en/Main/Software" target="_blank">http://arduino.cc/en/Main/Software</a>. Notez que Arduino Uno nécessite au moins la version 0022.</li>
+                            <li>Téléchargez notre firmware <a href="http://vps34736.ovh.net/S4A/S4AFirmware16.ino" target="_blank">ici</a></li>
+                            <li>Connectez votre carte Arduino à un port USB sur votre machine</li>
+                            <li>Ouvrez le fichier du firmware (S4AFirmware16.ino) depuis l'environnement Arduino</li>
+                            <li>Dans le menu Outils, sélectionnez la version de votre carte et le port série sur lequel elle est connectée</li>
+                            <li>Chagez le firmware sur la carte via le menu Fichier &gt; Téléverser</li>
+                        </ul>
+                    </section>
+                    <section id="drivers">
+                        <h2>Pilotes Arduino</h2>
+                        <p>Si vous êtes un utilisateur de Microsoft Windows, vous pourriez devoir installer les pilotes Arduino sur votre machine:</p>
+                        <a href="http://vps34736.ovh.net/S4A/drivers.zip">Pilotes Arduino pour Microsoft Windows</a>
+                    </section>
+                    <section>
+                        <h2>Pour les développeurs</h2>
+                        <p>S4A est un logiciel libre distribué sous une licence <a href="http://opensource.org/licenses/MIT" target="_blank">MIT</a>.</p>
+                        <p>Since <a target="_blank" href="http://scratch.mit.edu">Scratch</a> est en fait une image Smalltalk <a target="_blank" href="http://squeak.org">Squeak</a>, tout son code est en fait distribué avec la version utilisateur finale. Pour y accéder, faites un clic gauche tout en maintenant la touche SHIFT sur le menu "Fichier" de S4A et sélectionnez "Sortir du monde utilisateur". Vous êtes maintenant en face d'une image <a target="_blank" href="http://squeak.org">Squeak</a> 2.8 classique, et vous avez accès au Browser, Workspace et à tous les outils que vous connaissez.</p>
+                        <p>Cependant, dans la version utilisateur finale, certaines portions de code ont été compilées et certaines variables et noms d'arguments de message manquent, et c'est pourquoi nous vous fournissons aussi une image spécifique pour développeurs avec un code source clair, téléchargeable ici :</p>
+                        <p><a href="http://vps34736.ovh.net/S4A/S4ADev.zip">Édition développeur de S4A</a></p>
+                    </section>
+                    <section>
+                        <h2>Site alternatif de téléchargement</h2>
+                        <p>Étant donné que notre fournisseur VPS pourrait parfois être indisponible, nous avons mis en place un site alternatif vous proposant tous les fichiers, ainsi que les anciennes version, au téléchargement :</p>
+                        <a href="https://www.dropbox.com/sh/5odhz6vin339sgy/AADbe_aQHezQb8JOpaLuvJu1a?dl=0">Dossier dropbox de S4A</a>
+                    </section>
+                </article>
+
+                <!-- KIT -->
+
+                <article id="kit">
+                    <header>
+                        <h1>Kit S4A</h1>
+                        <h2>Bientôt !</h2>
+                        <p>Suite à plusieurs requêtes de la communauté S4A, de plusieurs de nos étudiants, et d'utilisateurs à travers le monde, nous développons une série de kits qui contiendront le hardware nécessaire pour commencer à utiliser S4A, avec le firmware préinstallé et de la documentation.</p>
+                        <p>Ces kits seront composés de manière incrémentale de sorte que vous ne deviez pas payer pour les composants dont vous n'avez pas besoin pour vos projets.</p>
+                        <p>Restez informés !</p>
+                    </header>
+                </article>
+
+                <!-- FAQ -->
+
+                <article id="faq">
+                    <header>
+                        <h1>Questions fréquemment posées</h1>
+                    </header>
+                    <section>
+                        <h2>Questions générales</h2>
+                        <h4>Le firmware S4A peut-il abimer la carte ?</h4>
+                        <p>En fait, notre "firmware" est juste un sketch Arduino et il n'y a donc aucun risque. Vous pouvez bien entendu téléverser d'autres sketchs sur la carte et ensuite remettre notre firmware autant de fois que vous voulez.</p>
+                        <h4>Les programmes S4A peuvent-ils être envoyés sur la carte Arduino ?</h4>
+                        <p>Il n'y a actuellement aucun moyen de compiler le code en un binaire Arduino. Il faut savoir que S4A a été conçu comme une amélioration des anciennes version de <a target="_blank" href="http://scratch.mit.edu">Scratch</a> (celles qui étaient développées en <a target="_blank" href="http://world.st">Smalltalk</a>), pour rendre plus facile pour tout le monde l'apprentissage de la programmation d'objets réels, en particulier pour les enfants, en interagissant avec ces objets comme ils le font avec des "objets normaux" <a target="_blank" href="http://scratch.mit.edu">Scratch</a>. En d'autres mots, notre logiciel n'a pas été fait pour programmer directement la carte, mais pour aider à apprendre la programmation et l'électronique en même temps.</p>
+                        
+                        <p>Enfin, si ce que vous voulez est de vous débarrasser du câble USB, nous vous recommandons d'utiliser un dispositif sans fil comme la <a href="http://www.digi.com/xbee/">XBee</a>.</p>
+                    </section>
+                    <h4>Puis-je changer la configuration des pins ?</h4>
+                    <p>Malheureusement non. La configuration des pins est hardcodée autant dans le firmware que dans le code source de S4A et la manière avec laquelle S4A a été conçue fait qu'il n'est pas possible de modifier le code "à la volée". Donc, jusqu'à ce qu'on trouve une meilleure manière ou qu'on améliore le protocole de communication entre la carte et le programme, la seule manière de modifier la configuration des pins et de la changer dans les codes sources de S4A et du firmware. Il y a un guide non officiel en espagnol disponible <a href="http://www.google.com/url?q=http%3A%2F%2Fwww.arduteka.com%2F2013%2F01%2Fmodificar-el-codigo-de-s4a-y-del-firmware%2F&sa=D&sntz=1&usg=AFQjCNHqcWalvtbaL3e0RUs5IMH5ACTTGg">ici</a> (merci à Borja Pérez).
+                    <h4>Quelles cartes sont supportées par S4A ?</h4>
+                    <p>S4A fonctionne avec les Arduino Diecimila, Duemilanove et Uno. Les autres cartes n'ont pas été testées, mais pourraient aussi fonctionner.</p> 
+                    <h4>Est-ce-que S4A fonctionnera sur mon PC ?</h4>
+                    <p>S4A fonctionne sur les trois systèmes d'exploitation principaux : Microsoft Windows, GNU/Linux et MacOS. Donc oui, il fonctionnera très probablement sur votre PC.</p>
+                    </section>
+                    <section>
+                        <h2>Problèmes à l'installation</h2>
+                        <h4>Je ne parviens pas à l'installer sur une Ubuntu/Debian 64-bit</h4>
+                        <p>La version Debian de S4A est packagée uniquement pour les systèmes i386. Pour la faire fonctionner sur un système 64-bit, vous devez suivre les étapes suivantes (dans un terminal, en tant que root) :</p>
+                        <p>Tout d'abord, activez les packages i386 et installez ia32-libs :</p>
+                        <code>
+                            dpkg --add-architecture i386<br/>
+                            apt-get update<br/>
+                            apt-get install ia32-libs<br/>
+                        </code>
+                        <p>Installez ensuite S4A :</p>
+                        <code>
+                            dpkg -i --force-architecture S4A16.deb
+                        </code>
+                        <h4>J'ai des problèmes pour l'installer sur MacOS</h4>
+                        <p>Depuis MacOS 10.8 (Mountain Lion), Gatekeeper est configuré par défaut pour n'autoriser que les applications téléchargées depuis "Mac App Store et développeurs identifiés". Pour installer S4A, vous devez changer cette option en "N'importe où".</p>
+                        <p>Plus d'informations <a href="http://www.google.com/url?q=http%3A%2F%2Fsupport.apple.com%2Fkb%2Fht5290&sa=D&sntz=1&usg=AFQjCNHC_0laChWoyCSNg_o6tQ7okobqGw">ici</a>.</p>
+                    </section>
+                    <section>
+                        <h2>Problèmes lors de la connexion de la carte</h2>
+                        <h4>J'ai connecté la carte et S4A ne la détecte pas</h4>
+                        <p>Vérifiez que vous avez bien téléversé le dernier <a href="http://vps34736.ovh.net/S4A/S4AFirmware16.ino">firmware S4A</a> sur la carte avant de démarrer S4A. Pour cela, il vous faut l'<a href="http://arduino.cc/en/Main/Software">IDE Arduino</a> officiel.</p>
+                        <p>Suivez pour cela les instructions de la section <a class="link" onclick="slideTo('#downloads')">Téléchargement</a> de ce site.</p>
+                        <h4>Malgré tout cela, ma carte n'est toujours pas détectée</h4>
+                        <p>Il s'agit d'un problème commun et connu sur les systèmes d'exploitation Windows. Essayez d'arrêter la connexion avec la carte (clic droit sur le tableau de bord des senseurs dans S4A), débranchez le câble USB, rebranchez-le et redémarrez la connexion. Si le programme ne détecte toujours pas la carte, cela peut venir d'un conflit avec le port série COM avec pour conséquence que S4A décroche lorsqu'il tente de l'ouvrir. Pour éviter cela, essayez de l'ouvrir directement (clic droit sur le tableau de bord des senseurs et sélection de port série) ou de changer le port affecté à l'Arduino depuis le gestionnaire de périphériques de Windows. Pour plus d'aide par rapport à ce problème, visitez <a href="http://www.digi.com/support/kbase/kbaseresultdetl?id=3308">ce guide</a>.</p>
+                    </section>
+                </article>
+
+                <!-- TEAM -->
+
+                <article id="team">
+                    <header>
+                        <h1>L'équipe</h1>
+                        <p>S4A a été développé au <a target="_blank" href="http://citilab.eu">Citilab</a> par le groupe de recherche <a href="http://edutec.citilab.eu" target="_blank">Edutec</a>, avec l'aide du groupe de programmation <a href="http://smalltalk.cat" target="_blank">Smalltalk.cat</a> et de collaborateurs tels que Jorge Gómez, qui conduit le projet éducatif hardware et software <a target="_blank" href="http://miscela.es">Miscela</a>.</p>
+                    </header>
+                    <section>
+                        <h2>Marina Conde</h2>
+                        <img class="avatar" src="img/marina.png"/>
+                        <p>Marina Conde a obtenu son diplôme de bachelier en sciences informatique à la Technical University of Catalonia (UPC) en 2009, et a obtenu son diplôme d'ingénieur en informatique en 2012 de la même université.</p>
+                        <p>Lorsqu'elle travaillait à <a target="_blank" href="http://citilab.eu">Citilab</a>, elle a développé son premier travail de fin d'étude, qui consistait en le développement d'un framework pour travailler avec des cartes <a target="_blank" href="http://arduino.cc">Arduino</a> depuis l'environnement Smalltalk <a target="_blank" href="http://pharo-project.org">Pharo</a>. Plus tard, elle a utilisé ce projet comme base sur laquelle S4A a été écrit.</p>
+                    </section>
+                    <section>
+                        <h2>Víctor Casado</h2>
+                        <img class="avatar" src="img/victor.png"/>
+                        <p>Víctor a choisi d'étudier les sciences informatiques à la Autonomous University of Barcelona (UAB), mais après deux années il a changé pour la Castelldefels School of Technology (EPSC) pour suivre une formation technique en télécommunication.</p>
+                        <p>Alors qu'il était là-bas, l'opportunité de rentrer au <a target="_blank" href="http://citilab.eu">Citilab</a> via un stage s'est offerte à lui. Il y a développé S4A, comme travail de fin d'étude.</p>
+                    </section>
+                    <section>
+                        <h2>Joan Güell</h2>
+                        <img class="avatar" src="img/joan.png"/>
+                        <p>Joan est un biologiste qui, à ses débuts, a travaillé dans le domaine de l'écologie. Le besoin d'analyser les informations générées et les données collectées l'a conduit vers une approche informatique. Il s'inscrit à son premier cours de programmation en 1975, alors que les ordinateurs étaient encore programmés avec des cartes perforées.</p>
+                        <p>Son travail principal à <a target="_blank" href="http://citilab.eu">Citilab</a> était en lien avec l'apprentissage dans deux directions : enseigner la programmation avec <a target="_blank" href="http://scratch.mit.edu">Scratch</a>, en particulier aux enfants, et enseigner des compétences informatiques aux jeunes citoyens adultes.</p>
+                    </section>
+                    <section>
+                        <h2>Jose García</h2>
+                        <img class="avatar" src="img/jose.png"/>
+                        <p>Jose a fait des études en ingénierie avancée en télécommunications, mais il a commencé a travailler dans une firme de publication avant de terminer ses études. Durant ce temps dans cette compagnie, il a travaillé sur la programmation de diverses applications.</p>
+                        <p>À <a target="_blank" href="http://citilab.eu">Citilab</a>, il a découvert <a target="_blank" href="http://scratch.mit.edu">Scratch</a> et <a target="_blank" href="http://world.st">Smalltalk</a>, prenant à nouveau part au travail de programmation. Plus tard, il rejoint différents projets dont le but était de rapprocher les utilisateurs et la programmation. Il dirige maintenant l'équipe de recherche en technologie de l'éducation <a href="http://edutec.citilab.eu" target="_blank">Edutec</a>.</p>
+                    </section>
+                    <section>
+                        <h2>Bernat Romagosa</h2>
+                        <img class="avatar" src="img/bernat.png"/>
+                        <p>En 2009, Bernat a obtenu un diplôme d'ingénieur technique en sciences informatique de la Open University of Catalonia (UOC). Il a appris <a target="_blank" href="http://world.st">Smalltalk</a> grâce au cours donné par Jordi Delgado à <a target="_blank" href="http://citilab.eu">Citilab</a> en 2008, où il a été plus tard engagé pour construire une école de programmation en ligne.</p>
+                        <p>Depuis lors, il a été impliqué dans plusieurs projets de programmation à <a target="_blank" href="http://citilab.eu">Citilab</a>, dont un système de gestion de connaissances sociales et plusieurs applications éducatives différentes.</p>
+                    </section>
+                    <section>
+                        <h2>Jordi Delgado</h2>
+                        <img class="avatar" src="img/jordi.png"/>
+                        <p>Jordi est chargé de cours au Software Department de la Technical University of Catalonia (Universitat Politècnica de Catalunya). Il appartient au groupe de recherche LARCA et enseigne à la Barcelona School of Informatics.</p>
+                        <p>Il passe la plupart de son temps à divulguer, diffuser et programmer en <a target="_blank" href="http://world.st">Smalltalk</a>, un langage de programmation étonnant que, vous savez, tout le monde devrait utiliser. Il est membre du conseil d'administration du <a target="_blank" href="http://esug.org">European Smalltalk Users Group</a> (ESUG) et dirige le groupe local <a target="_blank" href="http://smalltalk.cat">Smalltalk.cat</a>.</p>
+                    </section>
+
+                </article>
+
+                <aside>
+                    <h3>Smalltalk</h3>
+                    <img class="balloon" src="img/balloon.png"/>
+                    <p><a target="_blank" href="http://scratch.mit.edu">Scratch</a> était développé en Smalltalk <a target="_blank" href="http://squeak.org">Squeak</a> par le MIT. Étant nous-mêmes des programmeurs <a target="_blank" href="http://world.st">Smalltalk</a>, nous avons été capables de modifier ses sources pour parvenir à interagir avec des cartes <a target="_blank" href="http://arduino.cc">Arduino</a>.</p>
+                </aside>
+
+                <!-- COMMUNITY -->
+
+                <article id="community">
+                    <header>
+                        <h1>Communauté</h1>
+                        <p>Pour toute question et réponse, utilisez la liste de diffusion de la communauté. Vous pouvez vous inscrire en envoyant un e-mail à :</p>
+                        <p><a target="_blank" href="mailto:s4a-community+subscribe@googlegroups.com">s4a-community+subscribe@googlegroups.com</a></p>
+                        <p>Une fois inscrit, vous pouvez atteindre la liste via :</p>
+                        <p><a target="_blank" href="mailto:s4a-community@googlegroups.com">s4a-community@googlegroups.com</a></p>
+                        <p>Et vous pouvez vous inscrire, contribuer et parcourir le forum de la liste de diffusion à :</p>
+                        <p><a target="_blank" href="http://groups.google.com/group/s4a-community">Site web de la liste de diffusion</a></p>
+                    </header>
+                </article>
+
+                <!-- CONTACT -->
+
+                <article id="contact">
+                    <header>
+                        <h1>Nous contacter</h1>
+                        <p>Vous pouvez nous atteindre à <a href="mailto:scratch@citilab.eu" target="_blank">scratch@citilab.eu</a> pour signaler des bugs ou pour toute suggestion que vous pourriez avoir.</p>
+                    </header>
+                </article>
+
+
+                <!-- SECTION -->
+                <!--
+                    <article id="">
+                    <header>
+                    <h1></h1>
+                    <p></p>
+                    </header>
+                    <section>
+                    <h2></h2>
+                    <p></p>
+                    </section>
+                    <section>
+                    <h2></h2>
+                    <p></p>
+                    </section>
+                    </article>
+
+                    <aside>
+                    <h3></h3>
+                    <p></p>
+                    </aside>
+                -->
+
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+
+        <div class="donate">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="JF86UUC8CMDRQ">
+                <input type="image" src="img/donate-en.png" border="0" name="submit" alt="Donate via PayPal.">
+                <img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
+            </form>
+        </div>
+
+        <div class="footer-container">
+            <footer class="wrapper">
+                <a target="_blank" href="http://citilab.eu"><img src="img/citilab.png" class="logo"/></a>
+                <h3>Copyright &copy; 2015 <a target="_blank" href="http://citilab.eu">Citilab</a></h3>
+                <p>S4A est un logiciel libre distribué sous une licence <a href="http://opensource.org/licenses/MIT" target="_blank"><strong>MIT</strong></a></p>
+            </footer>
+        </div>
+
+        <script src="js/main.js"></script>
+        <script src="js/vendor/portamento.js"></script>
+
+        <script>
+$(document).ready(function() {
+    $('#menu-container').portamento({gap: 0});
+});
+        </script>
+
+        <script>
+var _gaq=[['_setAccount','UA-44320961-1'],['_trackPageview']];
+(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src='//www.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+
+</body>
+</html>
